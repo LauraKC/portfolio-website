@@ -1,13 +1,17 @@
 import * as React from "react"
 
-const Nav = () => {
+const NavLink = ({ path, children }) => {
   const location = window.location.pathname
+  return <a className={location === path ? "active" : ""} href={path}>{children}</a>
+}
+
+const Nav = () => {
   return (
     <nav>
-      <a className={location === '/' ? "active" : ""} href="/">Home</a>
-      <a className={location === '/portfolio' ? "active" : ""} href="/portfolio">Portfolio</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <NavLink path="/">Home</NavLink>
+      <NavLink path="/portfolio">Portfolio</NavLink>
+      <NavLink path="/about">About</NavLink>
+      <NavLink path="/contact">Contact</NavLink>
     </nav>
   )
 }
