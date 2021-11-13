@@ -1,11 +1,11 @@
-import * as React from "react"
-import Nav from '../components/nav'
+import React from "react"
+import Nav from "../components/nav"
 
 const NameBanner = () => (
   <div className='name-banner'>
     <div className='lets-talk'>
       <div className='grey-circle'></div>
-      <h3>Let's talk</h3>
+      <h3>{"Let's talk"}</h3>
     </div>
     <h2>Laura Cutler</h2>
   </div>

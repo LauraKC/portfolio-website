@@ -1,11 +1,11 @@
-import * as React from "react"
-import classNames from 'classnames'
-import { Link } from 'gatsby';
+import React from "react"
+import classNames from "classnames"
+import { Link } from "gatsby"
 
 const NavLink = ({ path, children }) => {
   const location = window.location.pathname
   return (
-    <Link className={classNames('navlink', { active: location === path })} to={path} >
+    <Link className={classNames("navlink", { active: location === path })} to={path} >
       {children}
     </Link>
   )

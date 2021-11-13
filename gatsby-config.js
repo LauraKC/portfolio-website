@@ -4,4 +4,4 @@ module.exports = {
     title: "Laura's portfolio",
   },
   plugins: [],
-};
+}
