@@ -1,13 +1,13 @@
 import React from "react"
 import Nav from "../components/nav"
 
-const PortfolioPage = () => (
+const AboutPage = () => (
   <>
     <Nav/>
     <h1>
-      {"portfolio page!"}
+      {"about page!"}
     </h1>
   </>
 )
 
-export default PortfolioPage
+export default AboutPage
