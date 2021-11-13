@@ -1,5 +1,5 @@
 :root {
-    --off-white: #E2DDE8; 
+    --off-white: #E2DDE8;
     --dash-purple: #B48EE8;
     --yellow: #D4AF37;
     --navy-text: #1C304A;
@@ -126,7 +126,7 @@ h3 {
         transform: translateX(150px);
     }
 }
-  
+
 nav {
     padding-top: 60px;
     display: flex;
@@ -136,18 +136,18 @@ nav {
 
 }
 
-nav a {
+.navlink {
     padding-left: 30px;
     padding-right: 30px;
     color: var(--off-white);
     text-decoration: none;
 }
 
-nav a.active {
+.navlink.active {
     color: white;
 }
 
-nav a.active::after {
+.navlink.active::after {
     margin-top: 10px;
     display: block;
     content: "";
@@ -170,7 +170,7 @@ nav a.active::after {
     font-family: Cooper Black;
     color: var(--navy-text);
     font-size: 28px;
-    
+
     animation-name: fly-in-and-spin;
     animation-duration: 2s;
 }

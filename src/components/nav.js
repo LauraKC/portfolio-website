@@ -1,8 +1,14 @@
 import * as React from "react"
+import classNames from 'classnames'
+import { Link } from 'gatsby';
 
 const NavLink = ({ path, children }) => {
   const location = window.location.pathname
-  return <a className={location === path ? "active" : ""} href={path}>{children}</a>
+  return (
+    <Link className={classNames('navlink', { active: location === path })} to={path} >
+      {children}
+    </Link>
+  )
 }
 
 const Nav = () => {
