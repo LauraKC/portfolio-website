@@ -46,6 +46,6 @@
 
 @keyframes text-slide-4 {
   100% {
-    transform: translateX(15vw);
+    transform: translateX(10vw);
   }
 }
