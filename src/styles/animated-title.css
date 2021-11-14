@@ -1,0 +1,51 @@
+.animated-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.animated-title h1 {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+.animated-title h1:nth-child(1){
+  animation-name: text-slide-1;
+}
+
+.animated-title h1:nth-child(2){
+  animation-name: text-slide-2;
+}
+
+.animated-title h1:nth-child(3){
+  animation-name: text-slide-3;
+}
+
+.animated-title h1:nth-child(4){
+  animation-name: text-slide-4;
+}
+
+@keyframes text-slide-1 {
+  100% {
+    transform: translateX(-5vw);
+  }
+}
+
+@keyframes text-slide-2 {
+  100% {
+    transform: translateX(5vw);
+  }
+}
+
+@keyframes text-slide-3 {
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes text-slide-4 {
+  100% {
+    transform: translateX(15vw);
+  }
+}

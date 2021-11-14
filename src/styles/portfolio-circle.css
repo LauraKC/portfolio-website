@@ -1,0 +1,24 @@
+.portfolio-circle {
+  position: absolute;
+  right: 10vw;
+  top: 40vh;
+  background-color: var(--yellow);
+  width: 20vw;
+  height: 20vw;
+  line-height: 20vw;
+  border-radius: 100%;
+  text-align: center;
+  font-family: Cooper Black;
+  color: var(--navy-text);
+  font-size: 3vw;
+
+  animation-name: fly-in-and-spin;
+  animation-duration: 2s;
+}
+
+
+@keyframes fly-in-and-spin {
+  0% {
+    transform: translateX(40vw) translateY(-50vh) rotate(720deg);
+  }
+}

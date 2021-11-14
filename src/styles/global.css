@@ -1,0 +1,42 @@
+:root {
+  --off-white: #E2DDE8;
+  --dash-purple: #B48EE8;
+  --yellow: #D4AF37;
+  --navy-text: #1C304A;
+}
+
+html, body {
+  margin: 0;
+  font-family: Graphik;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #1C304A;
+}
+
+h1, h2, h3 {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+}
+h1, h2 {
+  font-family: Cooper Black;
+}
+h1 {
+  font-size: 7vw;
+  color: white;
+}
+h2 {
+  font-size: 3vw;
+  color: var(--off-white);
+}
+h3 {
+  font-size: 2vw;
+  font-family: Graphik;
+  color: var(--off-white);
+}
+
+
+

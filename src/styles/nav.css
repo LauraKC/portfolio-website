@@ -1,0 +1,29 @@
+
+nav {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navlink {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: var(--off-white);
+  text-decoration: none;
+}
+
+.navlink.active {
+  color: white;
+}
+
+.navlink.active::after {
+  margin-top: 10px;
+  display: block;
+  content: "";
+  width: inherit;
+  height: 5px;
+  background-color: var(--dash-purple);
+  border-radius: 3px;
+}
+

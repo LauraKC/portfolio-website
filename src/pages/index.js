@@ -1,29 +1,28 @@
 import React from "react"
 import Nav from "../components/nav"
+import AnimatedTitle from "../components/animated-title"
+import "../styles/index.css"
+import "../styles/portfolio-circle.css"
 
 const NameBanner = () => (
   <div className='name-banner'>
-    <div className='lets-talk'>
-      <div className='grey-circle'></div>
-      <h3>{"Let's talk"}</h3>
-    </div>
-    <h2>Laura Cutler</h2>
+    <h2>{"Let's talk"}</h2>
+    <h2>{"Laura Cutler"}</h2>
   </div>
+)
+
+const AnimatedCircle = () => (
+  <div className="portfolio-circle" a href="#portfolio">Portfolio</div>
 )
 
 const IndexPage = () => (
   <>
     <Nav />
     <div className="grid-container">
-      <NameBanner />
-      <div className="animated-title">
-        <h1>Creating</h1>
-        <h1>remarkable</h1>
-        <h1>digital</h1>
-        <h1>experiences</h1>
-      </div>
+      <NameBanner/>
+      <AnimatedTitle/>
     </div>
-    <div className="portfolio-circle" a href="#portfolio">Portfolio</div>
+    <AnimatedCircle/>
   </>
 )
 

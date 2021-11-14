@@ -1,6 +1,7 @@
 import React from "react"
 import classNames from "classnames"
 import { Link } from "gatsby"
+import "../styles/nav.css"
 
 const NavLink = ({ path, children }) => {
   const location = window.location.pathname
