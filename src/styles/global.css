@@ -40,5 +40,9 @@ h3 {
   color: var(--off-white);
 }
 
+a {
+  text-decoration: none;
+}
+
 
 

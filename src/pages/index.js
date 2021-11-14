@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import Nav from "../components/nav"
 import AnimatedTitle from "../components/animated-title"
 import "../styles/index.css"
@@ -6,7 +8,7 @@ import "../styles/portfolio-circle.css"
 
 const NameBanner = () => (
   <div className='name-banner'>
-    <h2>{"Let's talk"}</h2>
+    <Link to="/contact"><h2>{"Let's talk"}</h2></Link>
     <h2>{"Laura Cutler"}</h2>
   </div>
 )
