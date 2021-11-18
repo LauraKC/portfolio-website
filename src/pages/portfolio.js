@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 const PortfolioPage = () => (
   <Layout>
     <h1>
-      {"portfolio page!"}
+      {"🚧 Under construction 🚧"}
     </h1>
   </Layout>
 )
