@@ -1,13 +1,12 @@
 import React from "react"
-import Nav from "../components/nav"
+import Layout from "../components/layout"
 
 const ContactPage = () => (
-  <>
-    <Nav/>
+  <Layout>
     <h1>
       {"contact page!"}
     </h1>
-  </>
+  </Layout>
 )
 
 export default ContactPage

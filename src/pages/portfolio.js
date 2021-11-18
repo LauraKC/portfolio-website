@@ -1,13 +1,12 @@
 import React from "react"
-import Nav from "../components/nav"
+import Layout from "../components/layout"
 
 const PortfolioPage = () => (
-  <>
-    <Nav/>
+  <Layout>
     <h1>
       {"portfolio page!"}
     </h1>
-  </>
+  </Layout>
 )
 
 export default PortfolioPage

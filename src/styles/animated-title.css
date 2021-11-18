@@ -1,6 +1,7 @@
 .animated-title {
   display: flex;
   flex-direction: column;
+  padding-left: 5vw;
 }
 
 .animated-title h1 {

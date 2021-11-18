@@ -64,4 +64,15 @@ a {
   background: var(--dash-purple);
 }
 
+.grey-circle {
+  display: block;
+  background-color: var(--off-white);
+  border-radius: 100%;
+  width: 5vw;
+  height: 5vw;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+
 

@@ -1,13 +1,12 @@
 import React from "react"
-import Nav from "../components/nav"
+import Layout from "../components/layout"
 
 const AboutPage = () => (
-  <>
-    <Nav/>
+  <Layout>
     <h1>
       {"about page!"}
     </h1>
-  </>
+  </Layout>
 )
 
 export default AboutPage
