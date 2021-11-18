@@ -44,5 +44,24 @@ a {
   text-decoration: none;
 }
 
+.purple-underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.purple-underline::after {
+  content: '';
+
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+
+  height: 5px;
+  width: 95%;
+  border-radius: 3px;
+  background: var(--dash-purple);
+}
 
 
