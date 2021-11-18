@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 import Nav from "../components/nav"
 import "../styles/layout.css"
 
-const Layout = ({children}) => (
+const Layout = ({location, children}) => (
   <div className="layout-grid-container">
-    <Nav />
+    <Nav currentLocation={location}/>
     <NameBanner/>
     <div className="page-content">
       {children}

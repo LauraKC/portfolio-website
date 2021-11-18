@@ -2,11 +2,13 @@ import React from "react"
 import classNames from "classnames"
 import { Link } from "gatsby"
 import "../styles/nav.css"
+import { useLocation } from "@reach/router"
 
 const NavLink = ({ path, children }) => {
-  const location = window.location.pathname
+  const location = useLocation()
+  const currentPath = stripRightSlash(location.pathname)
   return (
-    <Link className={classNames("navlink", { active: location === path })} to={path} >
+    <Link className={classNames("navlink", { active: currentPath === path })} to={path} >
       {children}
     </Link>
   )
@@ -22,5 +24,7 @@ const Nav = () => {
     </nav>
   )
 }
+
+const stripRightSlash = str => str.replace(/^(.+)\/$/, "")
 
 export default Nav
