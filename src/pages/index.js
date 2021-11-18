@@ -5,12 +5,10 @@ import "../styles/index.css"
 import "../styles/portfolio-circle.css"
 
 const IndexPage = () => (
-  <>
-    <Layout>
-      <AnimatedTitle/>
-      <AnimatedCircle/>
-    </Layout>
-  </>
+  <Layout>
+    <AnimatedTitle/>
+    <AnimatedCircle/>
+  </Layout>
 )
 
 const AnimatedCircle = () => (
