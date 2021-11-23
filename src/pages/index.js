@@ -1,12 +1,14 @@
 import React from "react"
 import AnimatedTitle from "../components/animated-title"
 import Layout from "../components/layout"
-import { portfolioCircle } from "../styles/portfolio-circle.module.css"
+import { container, portfolioCircle } from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <AnimatedTitle/>
-    <AnimatedCircle/>
+    <div className={container} >
+      <AnimatedTitle/>
+      <AnimatedCircle/>
+    </div>
   </Layout>
 )
 

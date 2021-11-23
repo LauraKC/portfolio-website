@@ -1,7 +1,15 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .portfolio-circle {
   position: absolute;
   right: 10%;
-  top: 50px;
+  top: 25%;
   background-color: var(--yellow);
   width: 20vw;
   height: 20vw;
@@ -19,6 +27,6 @@
 
 @keyframes fly-in-and-spin {
   0% {
-    transform: translateX(40vw) translateY(-50vh) rotate(720deg);
+    transform: translateX(200%) translateY(-100%) rotate(720deg);
   }
 }
