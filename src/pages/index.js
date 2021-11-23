@@ -1,8 +1,7 @@
 import React from "react"
 import AnimatedTitle from "../components/animated-title"
 import Layout from "../components/layout"
-import "../styles/index.css"
-import "../styles/portfolio-circle.css"
+import { portfolioCircle } from "../styles/portfolio-circle.module.css"
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +11,7 @@ const IndexPage = () => (
 )
 
 const AnimatedCircle = () => (
-  <div className="portfolio-circle" a href="#portfolio">Portfolio</div>
+  <div className={portfolioCircle}>Portfolio</div>
 )
 
 export default IndexPage

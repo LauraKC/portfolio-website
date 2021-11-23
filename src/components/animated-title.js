@@ -1,8 +1,8 @@
 import React from "react"
-import "../styles/animated-title.css"
+import { animatedTitle } from "./animated-title.module.css"
 
 const AnimatedTitle = () => (
-  <div className="animated-title">
+  <div className={animatedTitle}>
     <h1><span className="purple-underline">C</span>reating</h1>
     <h1>remarkable</h1>
     <h1>digital</h1>

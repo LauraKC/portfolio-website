@@ -1,14 +1,16 @@
 import React from "react"
-import classNames from "classnames"
 import { Link } from "gatsby"
-import "../styles/nav.css"
+import { navStyle, navLink, navLinkActive } from "./nav.module.css"
 import { useLocation } from "@reach/router"
 
 const NavLink = ({ path, children }) => {
   const location = useLocation()
   const currentPath = stripRightSlash(location.pathname)
   return (
-    <Link className={classNames("navlink", { active: currentPath === path })} to={path} >
+    <Link
+      className={currentPath === path ? navLinkActive : navLink }
+      to={path}
+    >
       {children}
     </Link>
   )
@@ -16,7 +18,7 @@ const NavLink = ({ path, children }) => {
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={navStyle}>
       <NavLink path="/">Home</NavLink>
       <NavLink path="/portfolio">Portfolio</NavLink>
       <NavLink path="/about">About</NavLink>
