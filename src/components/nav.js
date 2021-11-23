@@ -5,10 +5,10 @@ import { useLocation } from "@reach/router"
 
 const NavLink = ({ path, children }) => {
   const location = useLocation()
-  const currentPath = stripRightSlash(location.pathname)
+  const currentPath = location.pathname
   return (
     <Link
-      className={currentPath === path ? navLinkActive : navLink }
+      className={matches(path, currentPath) ? navLinkActive : navLink }
       to={path}
     >
       {children}
@@ -27,6 +27,16 @@ const Nav = () => {
   )
 }
 
-const stripRightSlash = str => str.replace(/^(.+)\/$/, "")
+const matches = (path, currentPath) => {
+  const tokens = p => p.split("/").filter(isTruthy)
+  return arraysEqual(tokens(path), tokens(currentPath))
+}
+const arraysEqual = (xs, ys) => (
+  xs.length === ys.length
+  && zipWith(strictEqual, xs, ys).every(isTruthy)
+)
+const zipWith = (f, xs, ys) => xs.map((x, i) => f(x, ys[i]))
+const strictEqual = (x, y) => x === y
+const isTruthy = x => Boolean(x)
 
 export default Nav
