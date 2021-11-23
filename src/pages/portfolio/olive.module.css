@@ -1,0 +1,10 @@
+.header-container {
+  height: 100vh;
+  background-color: var(--olive-pale);
+}
+
+.curved-heading {
+  font-family: "Cooper Black";
+  fill: white;
+  font-size: 40%;
+}
