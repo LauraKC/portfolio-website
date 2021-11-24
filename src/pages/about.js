@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import LauraPhoto from "../images/laura.jpg"
 
 const message1 = `
 I'm a Canadian UX designer currently living in Amstedam.
@@ -19,8 +20,15 @@ const AboutPage = () => (
       <Ws/><Ws/><Ws/><span className="purple-underline">M</span>e
     </h1>
     <div>
-      <p>{message1}</p>
-      <p>{message2}</p>
+      <img
+        width="30%"
+        style={{float: "left", paddingLeft: "5%", paddingRight: "5%"}}
+        src={LauraPhoto}
+      />
+      <div style={{paddingRight: "5%"}}>
+        <p>{message1}</p>
+        <p>{message2}</p>
+      </div>
     </div>
   </Layout>
 )
