@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import AnimatedTitle from "../components/animated-title"
 import Layout from "../components/layout"
@@ -13,7 +14,7 @@ const IndexPage = () => (
 )
 
 const AnimatedCircle = () => (
-  <div className={portfolioCircle}>Portfolio</div>
+  <Link to="/portfolio" className={portfolioCircle}>Portfolio</Link>
 )
 
 export default IndexPage
