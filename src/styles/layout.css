@@ -2,7 +2,8 @@
   display: grid;
   grid-template-rows: 50px 40px 1fr;
   grid-template-columns: 10vw 1fr;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background-color: #1C304A;
 }
 
@@ -14,7 +15,7 @@
   transform: rotate(-180deg);
   justify-content: space-around;
   grid-column: 1;
-  grid-row: 1 / 4;
+  grid-row: 3 / 4;
 }
 
 nav {
