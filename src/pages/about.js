@@ -13,6 +13,8 @@ With a passion for mental health and well-being, and a strong interest in
 immersive designs and AR/VR/XR.
 `
 
+const pStyle = { fontSize: "2.2vw" }
+
 const AboutPage = () => (
   <Layout>
     <h1 style={{paddingBottom: "10px"}}>
@@ -26,8 +28,8 @@ const AboutPage = () => (
         src={LauraPhoto}
       />
       <div style={{paddingRight: "5%"}}>
-        <p>{message1}</p>
-        <p>{message2}</p>
+        <p style={pStyle}>{message1}</p>
+        <p style={pStyle}>{message2}</p>
       </div>
     </div>
   </Layout>
