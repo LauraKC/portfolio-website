@@ -23,11 +23,16 @@ const AboutPage = () => (
     </h1>
     <div>
       <img
-        width="30%"
-        style={{float: "left", paddingLeft: "5%", paddingRight: "5%"}}
+        style={{
+          width:"30%",
+          float: "left",
+          marginLeft: "5%",
+          marginRight: "5%",
+          borderRadius: "5%"
+        }}
         src={LauraPhoto}
       />
-      <div style={{paddingRight: "5%"}}>
+      <div style={{marginRight: "5%"}}>
         <p style={pStyle}>{message1}</p>
         <p style={pStyle}>{message2}</p>
       </div>
