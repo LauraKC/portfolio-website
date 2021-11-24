@@ -13,7 +13,7 @@ With a passion for mental health and well-being, and a strong interest in
 immersive designs and AR/VR/XR.
 `
 
-const pStyle = { fontSize: "2.2vw" }
+const pStyle = { fontSize: "2.1vw" }
 
 const AboutPage = () => (
   <Layout>
