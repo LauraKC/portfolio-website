@@ -1,4 +1,5 @@
 import React from "react"
+import Quote from "../../components/quote"
 import dashboardMobileImage from "../../images/olive/dashboard-mobile.png"
 import mobileWebsiteImage from "../../images/olive/iphone-welcome.png"
 import treeImage from "../../images/olive/tree.svg"
@@ -56,6 +57,117 @@ const OlivePage = () => (
       <img src={treeImage} />
       <h1>The Challenge</h1>
       <p>Mental health is a <b>unique journey</b> for everyone. While some people need cognitive behavioural therapy sessions, others need a long walk, or journalling prompts. That’s why it is so important to provide a <b>variety of tailored techniques</b> for users so that they can get the help they need exactly when they need it.</p>
+      <h1>The Problem Statement</h1>
+      <p>Individuals <b>need ways</b> to engage with helpful mental health resources <b>because</b> they need motivation to complete their mental health activities.</p>
+      <h1>Competitive Analysis</h1>
+      <p><b>Takeaways</b></p>
+      <ul>
+        <li>There is a gap in educational content.</li>
+        <li>People need to be motivated to continue to use mental health apps.</li>
+        <li>Often mental health apps find one scientifically proven method and base the whole app around it. Since mental health is a very personal journey, having an app that offers multiple tools in one could be helpful.</li>
+      </ul>
+      <p>Read the full competitive analysis.</p>
+      <h1>User Interviews</h1>
+      <p>Read Interview Script // Read full User Research Analysis.</p>
+      <p><b>Top Insights from my User Research:</b></p>
+      <ul>
+        <li>Personalization is key when it comes to mental health because everyone’s mental health needs are unique.</li>
+        <li>Providing easier and quick assistance to mental health help through trusted resources is needed.</li>
+        <li>Credible scientific information is preferred.</li>
+        <li><b>Motivation is an obstacle when trying to improve mental health</b>, people require notifications, progress trackers, and check-ins for support.</li>
+        <li>When people start realizing/believing they have a mental health issue, they stop blaming themselves for oversimplifications like 'being lazy' and they can begin to heal.</li>
+        <li>Individuals experiencing mental health issues feel guilty, shameful, and 'silly' when trying to explain their situation to others.</li>
+        <li>Many users think of meditation as being heavily associated with good mental health but a lot of users don't find meditation actually helps them with their mental health.</li>
+        <li>It is hard to find safe spaces to connect with others experiencing similar issues.</li>
+        <li><b>It is important to provide actionable steps to relieve mental health symptoms.</b></li>
+        <li>Mental health is so encompassing that activities such as finding recipes, raising your income level, and going on walks are all seen as activities to improve one's mental health.</li>
+      </ul>
+      <p>Based on these findings, the biggest challenge for users is finding the motivation to improve their mental health and finding unique activities that help them personally.</p>
+      <Quote text="I believe motivation to do for mental health activities is challenging." author="Anita (27)" />
+      <Quote text="I feel really motivated by cheers and progress tracking." author="Kelsey (29)" />
+      <Quote text="Talking about actionable steps that I can take to relieve stress is more helpful than talking about the event that is causing me stress." author="Jason (26)" />
+      <Quote text="I enjoy learning about the science behind mental health." author="Kelsey (29)" />
+      <h1>User Personas</h1>
+      <p>In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently.</p>
+      <h1>Mental Models</h1>
+      <p>I created mental models so that I could identify the ways a persona could accomplish a set of tasks or a larger goal by mapping their state of mind throughout a process.</p>
+      <h1>User Journey Maps</h1>
+      <p>To visualize what my users’ journey through the Olive app could be like, I created user journey maps by defining realistic user scenarios and some key goals my personas have based on research insights.</p>
+      <h1>User Flows</h1>
+      <p>These flows were created to make sure I was understanding the interactions between my users and the Olive app when they attempt to complete tasks using the core features.</p>
+      <p>Review full User Flows.</p>
+      <p>
+        User Flow #1
+        Entry Point: Open Application.
+        Success Criteria: Read the information about the area of interest.
+      </p>
+      <p>
+        User Flow #2
+        Entry Point: Open Application.
+        Success Criteria: Activity is completed and progress is indicated.
+      </p>
+      <p>
+        User Flow #3
+        Entry Point: Open Application.
+        Success Criteria: Success message from app that David has input his health information.
+      </p>
+      <h1>Sitemap</h1>
+      <p>I used Draw.io to create a sitemap in order to provide a view of Olive’s information architecture to better understand the navigation and features of the app.</p>
+      <p>View full Card Sorting exercise.</p>
+      <h1>{"Wireframes & Prototypes"}</h1>
+      <p>After creating the functionality of the onboarding and core features, I translated my low-fidelity wireframes into mid-fidelity wireframes using Figma. The goal of these mid-fidelity prototypes was to convey the function and specifics of the user interface so that I could get feedback from potential users on pain points and goal completion.</p>
+      <p>Olive’s mobile prototype and desktop prototype that were used in usability testing.</p>
+      <h1>Usability Test Plan</h1>
+      <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
+      <p>Read the full Usability Test Plan (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+      <h1>Usability Test Script</h1>
+      <p>Read full Usability Test Script (PDF).</p>
+      <h1>Affinity Map</h1>
+      <p>After conducting user interviews, I went through the responses and noted anything regarding participants’ thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights.</p>
+      <p>Review the full Affinity Map (PDF).</p>
+      <Quote text="I prefer this app over anything else I've tried." author="Participant 4" />
+      <Quote text="Onboarding is way too long and wordy." author="Participant 5" />
+      <Quote text="Tracker should have different scales." author="Participant 6" />
+      <Quote text="The dashboard is overwhelming the suggested content should be hidden." author="Participant 3" />
+      <h1>Rainbow Spreadsheet</h1>
+      <h1>Metric Results</h1>
+      <p><b>Learnability Results</b></p>
+      <p>The success rate for this app was very high since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
+      </p>
+      <p><b>Efficiency Results</b></p>
+      <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants’ comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
+      </p>
+      <p><b>Satisfaction Results</b></p>
+      <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this feature should be re-designed to be more satisfying for the users.
+      </p>
+      <h1>Reporting Findings</h1>
+      <p>All participants were able to complete all the tasks with little to no assistance. Using the System Usability Scale (SUS) to measure the participant’s overall impressions of usability and experience of the Olive app, participants rated Olive on average 87.5% for usability and experience. The main challenges and errors experienced by participants are listed below. These were the top 5 issues and the possible changes that could be made.</p>
+      <h1>Design Iterations</h1>
+      <h1>Design Language System</h1>
+      <p>I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene.</p>
+      <p>View full Design Language System.</p>
+      <h1>Peer Review</h1>
+      <p>I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn’t missing anything.</p>
+      <p>View all the great Peer Feedback I received.</p>
+      <h1>Final Prototype</h1>
+      <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
+      <h1>Retrospective</h1>
+      <p>My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically.</p>
+      <p>My biggest challenge was having to decide which solutions to use, which solutions could be future features, and which solutions weren’t right for this particular application. I wanted to ensure that the main user goals of having an easy-to-use and motivational tool were always the focus but also that the brand values of being healthy, supportive, and serene were always accounted for.</p>
+      <p>One possible solution that didn’t make the cut was a scheduling feature. During user interviews, some users had stated that:</p>
+      <p><i>“I believe the best motivation is a mixture of structure and flexibility.” ~ Anita (27)</i></p>
+      <p><i>“I feel better when I structure time to experience my emotions so that I can restart fresh the next day.” ~ Jason (26)</i></p>
+      <p><i>“I believe alarms and reminders are really helpful motivators.” ~ Anita (27)</i></p>
+      <p>This led me to believe a scheduling function to schedule time for their mental health could be a helpful solution to motivate the user to do some mental health activities that would improve their mental health. However, most people already have calendars and to-do lists and they don’t need yet another place to check what they are supposed to do today. In fact, having this extra schedule could create even more anxiety for them. So I decided I would create structure through notifications and reminders that would be sent at certain times in the day but would also allow for flexibility.</p>
+      <p>As a result, I am proud of the app's serene look and feel, as well as the dashboard's supportive and motivational nature. I chose to make the users' mental health goal the most prominent item on the dashboard so that they would feel motivated to keep improving their mental health one day at a time.</p>
+      <p>Moving forward, I’d like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive.</p>
+      <h1>What I learned from this project?</h1>
+      <p>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</p>
+      <p>It is super important to be really prepared when doing usability testing.</p>
+      <p>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</p>
+      <p>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</p>
+      <p>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</p>
+      <p>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</p>
     </div>
   </>
 )
