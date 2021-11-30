@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Quote from "../../components/quote"
 import dashboardMobileImage from "../../images/olive/dashboard-mobile.png"
 import mobileWebsiteImage from "../../images/olive/iphone-welcome.png"
@@ -13,6 +14,20 @@ import {
 const OlivePage = () => (
   <>
     <div className={headerContainer}>
+      <Link
+        style={{
+          position: "fixed",
+          left: 10,
+          top: 10,
+          transform: "rotate(180deg)",
+          color: "black",
+          fontSize: "4vw"
+
+        }}
+        to="/portfolio"
+      >
+        {"➜"}
+      </Link>
       <h1>Olive Mental Health!</h1>
       <h2>Your Mental Health Guide</h2>
       <p style={{textAlign: "center"}}>
