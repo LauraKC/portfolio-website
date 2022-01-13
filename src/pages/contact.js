@@ -7,18 +7,7 @@ const ContactPage = () => (
     <h1><span className="purple-underline">C</span>ontact</h1>
     <div className={contactDetails}>
       <p>Want me on your team?</p>
-      <p>{"I'm currently available for hire in the Americas. Do I sound like a good fit for your team? Send me a note and let's talk. You can also find me on LinkedIn or email me directly."}</p>
-      <p>
-        <b>Location: </b>Currently Canada.
-        Open to relocation.
-      </p>
-      <p>
-        <b>Other Professional Hangouts: </b>
-        <a href="https://www.linkedin.com/in/lauracutler/">LinkedIn</a>
-      </p>
-      <p>
-        Resume (PDF)
-      </p>
+      <p>I’m currently available for hire in North America. Do I sound like a good fit for your team? Send me a note and let’s talk. You can also find me on <a href="https://www.linkedin.com/in/lauracutler/">LinkedIn</a> or <a href="mailto:laura.cutler.ux@gmail">email me</a> directly.</p>
     </div>
   </Layout>
 )

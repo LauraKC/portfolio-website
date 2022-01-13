@@ -66,6 +66,16 @@ const AboutPage = () => (
           <p style={pStyle}>{"If you can't find me at my computer, I'm either in flipping through the air at my aerial silks class, enjoying a great meal, or hanging out with friends."}</p>
         </div>
       </div>
+      <div>
+        <h2>Let's Connect</h2>
+        <p>Get in touch for opportunities or just say hi!</p>
+        <linkedin_button type="button">
+          <a href="https://www.linkedin.com/in/lauracutler/"><img src="linkedin_button.png" /></a>
+        </linkedin_button>
+        <email_button type="button">
+        <a href="mailto:laura.cutler.ux@gmail"><img src="email_button.png" /></a>
+        </email_button>
+      </div>
     </div>
   </Layout>
 )
