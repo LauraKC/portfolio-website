@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import LauraPhoto from "../images/laura.jpg"
 import AerialPhoto from "../images/aerial.png"
+import EmailButtonPhoto from "../images/email_button.png"
+import LinkedInButtonPhoto from "../images/linkedin_button.png"
 
 const message1 = `
 I'm a Canadian UX designer, who recently made the change from Marketing into User Experience.
@@ -70,10 +72,10 @@ const AboutPage = () => (
         <h2>Let's Connect</h2>
         <p>Get in touch for opportunities or just say hi!</p>
         <linkedin_button type="button">
-          <a href="https://www.linkedin.com/in/lauracutler/"><img src="linkedin_button.png" /></a>
+          <a href="https://www.linkedin.com/in/lauracutler/"><img src={LinkedInButtonPhoto} /></a>
         </linkedin_button>
         <email_button type="button">
-        <a href="mailto:laura.cutler.ux@gmail"><img src="email_button.png" /></a>
+        <a href="mailto:laura.cutler.ux@gmail"><img src={}} /></a>
         </email_button>
       </div>
     </div>
