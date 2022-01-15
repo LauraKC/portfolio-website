@@ -75,7 +75,7 @@ const AboutPage = () => (
           <a href="https://www.linkedin.com/in/lauracutler/"><img src={LinkedInButtonPhoto} /></a>
         </linkedin_button>
         <email_button type="button">
-        <a href="mailto:laura.cutler.ux@gmail"><img src={}} /></a>
+        <a href="mailto:laura.cutler.ux@gmail"><img src={EmailButtonPhoto} /></a>
         </email_button>
       </div>
     </div>

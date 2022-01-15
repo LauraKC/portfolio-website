@@ -4,6 +4,19 @@ import Quote from "../../components/quote"
 import dashboardMobileImage from "../../images/olive/dashboard-mobile.png"
 import mobileWebsiteImage from "../../images/olive/iphone-welcome.png"
 import treeImage from "../../images/olive/tree.svg"
+import ellapersona from "../../images/olive/ella-persona.png"
+import davidpersona from "../../images/olive/david-persona.png"
+import ellamentalmodel from "../../images/olive/ella-mental-model.png"
+import davidmentalmodel from "../../images/olive/david-mental-model.png"
+import ellauserjourney from "../../images/olive/ella-user-journey.png"
+import daviduserjourney from "../../images/olive/david-user-journey.png"
+import userflow1 from "../../images/olive/olive-userflow1.svg"
+import userflow2 from "../../images/olive/oliveuserflow2.svg"
+import userflow3 from "../../images/olive/oliveuserflow3.svg"
+import sitemap from "../../images/olive/olive-sitemap.svg"
+import usabilityparticipants from "../../images/olive/usability-participants.png"
+import rainbowspreadsheet from "../../images/olive/rainbow-speadsheet.png"
+import metricresults from "../../images/olive/metrics-results.png"
 import {
   headerContainer,
   contentContainer,
@@ -81,9 +94,9 @@ const OlivePage = () => (
         <li>People need to be motivated to continue to use mental health apps.</li>
         <li>Often mental health apps find one scientifically proven method and base the whole app around it. Since mental health is a very personal journey, having an app that offers multiple tools in one could be helpful.</li>
       </ul>
-      <p>Read the full competitive analysis.</p>
+      <p>Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">competitive analysis.</a></p>
       <h1>User Interviews</h1>
-      <p>Read Interview Script // Read full User Research Analysis.</p>
+      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> // Read full <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis.</a></p>
       <p><b>Top Insights from my User Research:</b></p>
       <ul>
         <li>Personalization is key when it comes to mental health because everyone’s mental health needs are unique.</li>
@@ -104,66 +117,75 @@ const OlivePage = () => (
       <Quote text="I enjoy learning about the science behind mental health." author="Kelsey (29)" />
       <h1>User Personas</h1>
       <p>In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently.</p>
+      <img src={ellapersona} /><img src={davidpersona} />
       <h1>Mental Models</h1>
       <p>I created mental models so that I could identify the ways a persona could accomplish a set of tasks or a larger goal by mapping their state of mind throughout a process.</p>
+      <img src={ellamentalmodel} /><img src={davidmentalmodel} />
       <h1>User Journey Maps</h1>
       <p>To visualize what my users’ journey through the Olive app could be like, I created user journey maps by defining realistic user scenarios and some key goals my personas have based on research insights.</p>
+      <img src={ellauserjourney} /><img src={daviduserjourney} />
       <h1>User Flows</h1>
       <p>These flows were created to make sure I was understanding the interactions between my users and the Olive app when they attempt to complete tasks using the core features.</p>
-      <p>Review full User Flows.</p>
       <p>
         User Flow #1
         Entry Point: Open Application.
         Success Criteria: Read the information about the area of interest.
       </p>
+      <img src={userflow1} />
       <p>
         User Flow #2
         Entry Point: Open Application.
         Success Criteria: Activity is completed and progress is indicated.
       </p>
+      <img src={userflow2} />
       <p>
         User Flow #3
         Entry Point: Open Application.
         Success Criteria: Success message from app that David has input his health information.
       </p>
+      <img src={userflow3} />
       <h1>Sitemap</h1>
-      <p>I used Draw.io to create a sitemap in order to provide a view of Olive’s information architecture to better understand the navigation and features of the app.</p>
-      <p>View full Card Sorting exercise.</p>
+      <p>I used Draw.io to create a sitemap in order to provide a view of Olive’s information architecture to better understand the navigation and features of the app.</p> 
+      <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing">Card Sorting (PDF)</a> exercise.</p>
+      <img src={sitemap} />
       <h1>{"Wireframes & Prototypes"}</h1>
       <p>After creating the functionality of the onboarding and core features, I translated my low-fidelity wireframes into mid-fidelity wireframes using Figma. The goal of these mid-fidelity prototypes was to convey the function and specifics of the user interface so that I could get feedback from potential users on pain points and goal completion.</p>
       <p>Olive’s mobile prototype and desktop prototype that were used in usability testing.</p>
+      <img className="image-left" src={usabilityparticipants} />
       <h1>Usability Test Plan</h1>
       <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
-      <p>Read the full Usability Test Plan (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+      <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing">Usability Test Plan (PDF)</a> which includes goals, test objectives, methods, participants, and metrics.</p>
       <h1>Usability Test Script</h1>
-      <p>Read full Usability Test Script (PDF).</p>
+      <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing">Usability Test Script (PDF).</a></p>
       <h1>Affinity Map</h1>
       <p>After conducting user interviews, I went through the responses and noted anything regarding participants’ thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights.</p>
-      <p>Review the full Affinity Map (PDF).</p>
+      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map (PDF).</a></p>
       <Quote text="I prefer this app over anything else I've tried." author="Participant 4" />
       <Quote text="Onboarding is way too long and wordy." author="Participant 5" />
       <Quote text="Tracker should have different scales." author="Participant 6" />
       <Quote text="The dashboard is overwhelming the suggested content should be hidden." author="Participant 3" />
       <h1>Rainbow Spreadsheet</h1>
+      <img src={rainbowspreadsheet} />
       <h1>Metric Results</h1>
+      <img src={metricresults} />
       <p><b>Learnability Results</b></p>
-      <p>The success rate for this app was very high since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
+      <p>The <b>success rate</b> for this app was <b>very high</b> since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
       </p>
       <p><b>Efficiency Results</b></p>
-      <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants’ comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
+      <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants’ comments on the onboarding process made the <b>onboarding process something I want to re-work</b> in order to ensure efficient use of the app and enjoyability.
       </p>
       <p><b>Satisfaction Results</b></p>
-      <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this feature should be re-designed to be more satisfying for the users.
+      <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this <b>tracking feature should be re-designed to be more satisfying for the users</b>.
       </p>
       <h1>Reporting Findings</h1>
-      <p>All participants were able to complete all the tasks with little to no assistance. Using the System Usability Scale (SUS) to measure the participant’s overall impressions of usability and experience of the Olive app, participants rated Olive on average 87.5% for usability and experience. The main challenges and errors experienced by participants are listed below. These were the top 5 issues and the possible changes that could be made.</p>
+      <p>All participants were able to complete all the tasks with little to no assistance. Using the System Usability Scale (SUS) to measure the participant’s overall impressions of usability and experience of the Olive app, participants rated Olive on average 87.5% for usability and experience. The main challenges and errors experienced by participants are listed below.</p>
       <h1>Design Iterations</h1>
       <h1>Design Language System</h1>
       <p>I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene.</p>
-      <p>View full Design Language System.</p>
+      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System (PDF).</a></p>
       <h1>Peer Review</h1>
       <p>I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn’t missing anything.</p>
-      <p>View all the great Peer Feedback I received.</p>
+      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing">Peer Feedback</a> I received.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <h1>Retrospective</h1>
