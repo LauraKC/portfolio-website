@@ -15,7 +15,7 @@ import userflow2 from "../../images/olive/oliveuserflow2.svg"
 import userflow3 from "../../images/olive/oliveuserflow3.svg"
 import sitemap from "../../images/olive/olive-sitemap.svg"
 import usabilityparticipants from "../../images/olive/usability-participants.png"
-import rainbowspreadsheet from "../../images/olive/rainbow-speadsheet.png"
+import rainbowspreadsheet from "../../images/olive/rainbow-spreadsheet.png"
 import metricresults from "../../images/olive/metrics-results.png"
 import {
   headerContainer,
