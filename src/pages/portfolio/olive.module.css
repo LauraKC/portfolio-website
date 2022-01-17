@@ -96,3 +96,23 @@
   color: white;
   font-size: 4vw;
 }
+
+.quote1 {
+  width: 80%;
+  transform: translateX(30%);
+}
+
+.quote2 {
+  width: 80%;
+  transform: translateX(-5%);
+}
+
+.quote3 {
+  width: 80%;
+  transform: translateX(-10%);
+}
+
+.quote4 {
+  width: 80%;
+  transform: translateX(20%);
+}

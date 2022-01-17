@@ -1,5 +1,4 @@
 .quote-container {
-  width: 80%;
   position: relative;
 }
 .quote-container::before {

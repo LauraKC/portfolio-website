@@ -23,7 +23,11 @@ import {
   contentContainer,
   goalSection,
   bulletList,
-  noBulletList
+  noBulletList,
+  quote1,
+  quote2,
+  quote3,
+  quote4,
 } from "./olive.module.css"
 
 
@@ -140,10 +144,26 @@ const OlivePage = () => (
         <li>{"Mental health is so encompassing that activities such as finding recipes, raising your income level, and going on walks are all seen as activities to improve one's mental health."}</li>
       </ul>
       <p>Based on these findings, the biggest challenge for users is finding the motivation to improve their mental health and finding unique activities that help them personally.</p>
-      <Quote text="I believe motivation to do for mental health activities is challenging." author="Anita (27)" />
-      <Quote text="I feel really motivated by cheers and progress tracking." author="Kelsey (29)" />
-      <Quote text="Talking about actionable steps that I can take to relieve stress is more helpful than talking about the event that is causing me stress." author="Jason (26)" />
-      <Quote text="I enjoy learning about the science behind mental health." author="Kelsey (29)" />
+      <Quote
+        text="I believe motivation to do for mental health activities is challenging."
+        author="Anita (27)"
+        className={quote1}
+      />
+      <Quote
+        text="I feel really motivated by cheers and progress tracking."
+        author="Kelsey (29)"
+        className={quote2}
+      />
+      <Quote
+        text="Talking about actionable steps that I can take to relieve stress is more helpful than talking about the event that is causing me stress."
+        author="Jason (26)"
+        className={quote3}
+      />
+      <Quote
+        text="I enjoy learning about the science behind mental health."
+        author="Kelsey (29)"
+        className={quote4}
+      />
       <h1>User Personas</h1>
       <p>{"In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently."}</p>
       <img width="100%" src={ellaPersonaImage}></img>
@@ -203,10 +223,26 @@ const OlivePage = () => (
       <h1>Affinity Map</h1>
       <p>{"After conducting user interviews, I went through the responses and noted anything regarding participants' thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights."}</p>
       <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map (PDF).</a></p>
-      <Quote text="I prefer this app over anything else I've tried." author="Participant 4" />
-      <Quote text="Onboarding is way too long and wordy." author="Participant 5" />
-      <Quote text="Tracker should have different scales." author="Participant 6" />
-      <Quote text="The dashboard is overwhelming the suggested content should be hidden." author="Participant 3" />
+      <Quote
+        text="I prefer this app over anything else I've tried."
+        author="Participant 4"
+        className={quote4}
+      />
+      <Quote
+        text="Onboarding is way too long and wordy."
+        author="Participant 5"
+        className={quote3}
+      />
+      <Quote
+        text="Tracker should have different scales."
+        author="Participant 6"
+        className={quote2}
+      />
+      <Quote
+        text="The dashboard is overwhelming the suggested content should be hidden."
+        author="Participant 3"
+        className={quote1}
+      />
       <h1>Rainbow Spreadsheet</h1>
       <img width="100%" src={rainbowSpreadsheetImage}></img>
       <h1>Metric Results</h1>
