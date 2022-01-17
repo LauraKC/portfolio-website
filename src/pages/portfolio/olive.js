@@ -17,6 +17,18 @@ import usabilityParticipantsImage from "../../images/olive/usability-participant
 import rainbowSpreadsheetImage from "../../images/olive/rainbow-spreadsheet.png"
 import metricsResultsImage from "../../images/olive/metrics-results.png"
 import parkImage from "../../images/olive/park.svg"
+import iteration1a from "../../images/olive/iteration1a.svg"
+import iteration1b from "../../images/olive/iteration1b.svg"
+import iteration1c from "../../images/olive/iteration1c.svg"
+import iteration2a from "../../images/olive/iteration2a.svg"
+import iteration2b from "../../images/olive/iteration2b.svg"
+import iteration2c from "../../images/olive/iteration2c.svg"
+import iteration3a from "../../images/olive/iteration3a.svg"
+import iteration3b from "../../images/olive/iteration3b.svg"
+import iteration3c from "../../images/olive/iteration3c.svg"
+import iteration4a from "../../images/olive/iteration4a.svg"
+import iteration4b from "../../images/olive/iteration4b.svg"
+import iteration4c from "../../images/olive/iteration4c.svg"
 import {
   pageContainer,
   headerContainer,
@@ -269,6 +281,46 @@ const OlivePage = () => (
       <p>{"All participants were able to complete all the tasks with little to no assistance. Using the System Usability Scale (SUS) to measure the participant's overall impressions of usability and experience of the Olive app, participants rated Olive on average 87.5% for usability and experience. The main challenges and errors experienced by participants are listed below. These were the top 5 issues and the possible changes that could be made."}</p>
 
       <h1>Design Iterations</h1>
+      <img src={iteration1a} />
+      <img src={iteration1b} />
+      <img src={iteration1c} />
+      <p><b>Issue:</b></p>
+      <p>The first big UX iteration came from the usability testing. The participants were confused by the tracking page scales.</p>
+      <p><b>Change:</b></p>
+      <p>From this I re-designed the tracking page to better accommodate tracking item scales. Including moment to moment scales that will be updated throughout the day on the dashboard as quick tracking items.</p>
+      <p><b>Value:</b></p>
+      <p>This change meant that users were able to more easily use the tracking feature throughout the day.</p>
+      <Quote text="The tracking page is WAY too long. There is too much scrolling." author="Participant 5" />
+      <img src={iteration2a} />
+      <img src={iteration2b} />
+      <img src={iteration2c} />
+      <p><b>Issue:</b></p>
+      <p>Usability testing showed us that participants were frustrated witht he length of Onboarding.</p>
+      <p><b>Change:</b></p>
+      <p>I re-designed onboarding from an 8 screen swipe/click-through tutorial to a 2 screen click-through tutorial with progressive onboarding for particular parts of the app that require a bit more explaination.</p>
+      <p><b>Value:</b></p>
+      <p>This change allows the user to get through the initial onboarding quickly and have help when they first come across a new aspect.</p>
+      <Quote text="The set up for the account was too many screens and I lost track of what I was answer." author="Participant 1" />
+      <img src={iteration3a} />
+      <img src={iteration3b} />
+      <img src={iteration3c} />
+      <p><b>Issue:</b></p>
+      <p>Usability testing uncovered that some participants found the Dashboard overwhelming.</p>
+      <p><b>Change:</b></p>
+      <p>To iterate on the dashboard I have added more white space and stronger hierarchy to ensure design is calming and not as overwhelming. Another big aspect to this iteration was hidding the suggested content so they can be collapsed.</p>
+      <p><b>Value:</b></p>
+      <p>This change resulted in a more calming dashboard, less overwhelming dashboard screen.</p>
+      <Quote text="I'm overwhelmed by the amount of info on the dashboard." author="Participant 3 and 4" />
+      <img src={iteration4a} />
+      <img src={iteration4b} />
+      <img src={iteration4c} />
+      <p><b>Issue:</b></p>
+      <p>Through usability testing I learned that the term 'Education' was confusing to participants.</p>
+      <p><b>Change:</b></p>
+      <p>I did some competitive analysis to discover common names for this item and then did some preference testing to ensure it was a clear name. The final result was updating 'Education' to 'Resources'.</p>
+      <p><b>Value:</b></p>
+      <p>This change created a clearer understanding of what could be expected on this screen.</p>
+      <Quote text="I'm unsure what 'Education' means." author="Participant 5" />
       <h1>Design Language System</h1>
       <p>{"I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene."}</p>
       <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System (PDF).</a></p>
