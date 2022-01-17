@@ -6,8 +6,8 @@ const ContactPage = () => (
   <Layout>
     <h1><span className="purple-underline">C</span>ontact</h1>
     <div className={contactDetails}>
-      <a href="https://www.linkedin.com/in/lauracutler/"><h2>LinkedIn</h2></a>
-      <a><h2>Dribble</h2></a>
+      <p>Want me on your team?</p>
+      <p>I’m currently available for hire in North America. Do I sound like a good fit for your team? Send me a note and let’s talk. You can also find me on <a href="https://www.linkedin.com/in/lauracutler/">LinkedIn</a> or <a href="mailto:laura.cutler.ux@gmail">email me</a> directly.</p>
     </div>
   </Layout>
 )
