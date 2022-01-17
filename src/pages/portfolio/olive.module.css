@@ -12,7 +12,7 @@
 }
 
 .header-container > h1 {
-  padding-top: 100px;
+  padding-top: 15vw;
 }
 
 .header-container > h2 {
@@ -27,26 +27,30 @@
 }
 
 .content-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10vw;
+}
+
+:root {
+  --h1-font-size: 3vw;
+  --p-font-size: 2vw;
 }
 
 .content-container p {
   font-family: Graphik;
   color: black;
-  font-size: 1.5vw;
+  font-size: var(--p-font-size);
 }
 
-.content-container  ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-size: 1.5vw;
+.content-container a {
+  color: black;
+  text-decoration: underline;
 }
 
 .content-container h1 {
   color: black;
+  padding-top: 3vw;
   font-size: 3vw;
 }
 
@@ -56,6 +60,18 @@
   font-size: 2vw;
 }
 
+
+.bullet-list {
+  list-style-type: disc;
+  font-size: var(--p-font-size);
+}
+
+.no-bullet-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: var(--p-font-size);
+}
 
 
 
