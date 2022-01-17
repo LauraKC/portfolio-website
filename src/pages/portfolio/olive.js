@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Carousel from "../../components/carousel"
 import Quote from "../../components/quote"
 import UserFlow from "../../components/user-flow"
 import dashboardMobileImage from "../../images/olive/dashboard-mobile.png"
@@ -281,9 +282,11 @@ const OlivePage = () => (
       <p>{"All participants were able to complete all the tasks with little to no assistance. Using the System Usability Scale (SUS) to measure the participant's overall impressions of usability and experience of the Olive app, participants rated Olive on average 87.5% for usability and experience. The main challenges and errors experienced by participants are listed below. These were the top 5 issues and the possible changes that could be made."}</p>
 
       <h1>Design Iterations</h1>
-      <img src={iteration1a} />
-      <img src={iteration1b} />
-      <img src={iteration1c} />
+      <Carousel>
+        <img height={"500px"} src={iteration1a} />
+        <img height={"500px"} src={iteration1b} />
+        <img height={"500px"} src={iteration1c} />
+      </Carousel>
       <p><b>Issue:</b></p>
       <p>The first big UX iteration came from the usability testing. The participants were confused by the tracking page scales.</p>
       <p><b>Change:</b></p>
@@ -291,9 +294,11 @@ const OlivePage = () => (
       <p><b>Value:</b></p>
       <p>This change meant that users were able to more easily use the tracking feature throughout the day.</p>
       <Quote text="The tracking page is WAY too long. There is too much scrolling." author="Participant 5" />
-      <img src={iteration2a} />
-      <img src={iteration2b} />
-      <img src={iteration2c} />
+      <Carousel>
+        <img height={"500px"} src={iteration2a} />
+        <img height={"500px"} src={iteration2b} />
+        <img height={"500px"} src={iteration2c} />
+      </Carousel>
       <p><b>Issue:</b></p>
       <p>Usability testing showed us that participants were frustrated witht he length of Onboarding.</p>
       <p><b>Change:</b></p>
@@ -301,9 +306,11 @@ const OlivePage = () => (
       <p><b>Value:</b></p>
       <p>This change allows the user to get through the initial onboarding quickly and have help when they first come across a new aspect.</p>
       <Quote text="The set up for the account was too many screens and I lost track of what I was answer." author="Participant 1" />
-      <img src={iteration3a} />
-      <img src={iteration3b} />
-      <img src={iteration3c} />
+      <Carousel>
+        <img height={"500px"} src={iteration3a} />
+        <img height={"500px"} src={iteration3b} />
+        <img height={"500px"} src={iteration3c} />
+      </Carousel>
       <p><b>Issue:</b></p>
       <p>Usability testing uncovered that some participants found the Dashboard overwhelming.</p>
       <p><b>Change:</b></p>
@@ -311,13 +318,15 @@ const OlivePage = () => (
       <p><b>Value:</b></p>
       <p>This change resulted in a more calming dashboard, less overwhelming dashboard screen.</p>
       <Quote text="I'm overwhelmed by the amount of info on the dashboard." author="Participant 3 and 4" />
-      <img src={iteration4a} />
-      <img src={iteration4b} />
-      <img src={iteration4c} />
+      <Carousel>
+        <img height={"500px"} src={iteration4a} />
+        <img height={"500px"} src={iteration4b} />
+        <img height={"500px"} src={iteration4c} />
+      </Carousel>
       <p><b>Issue:</b></p>
-      <p>Through usability testing I learned that the term 'Education' was confusing to participants.</p>
+      <p>{"Through usability testing I learned that the term 'Education' was confusing to participants."}</p>
       <p><b>Change:</b></p>
-      <p>I did some competitive analysis to discover common names for this item and then did some preference testing to ensure it was a clear name. The final result was updating 'Education' to 'Resources'.</p>
+      <p>{"I did some competitive analysis to discover common names for this item and then did some preference testing to ensure it was a clear name. The final result was updating 'Education' to 'Resources'."}</p>
       <p><b>Value:</b></p>
       <p>This change created a clearer understanding of what could be expected on this screen.</p>
       <Quote text="I'm unsure what 'Education' means." author="Participant 5" />
