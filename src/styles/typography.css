@@ -3,3 +3,7 @@
   src: url("../fonts/COOPBL.woff");
 }
 
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/GraphikRegular.otf");
+}

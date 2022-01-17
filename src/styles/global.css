@@ -5,7 +5,7 @@
   --dash-purple: #B48EE8;
   --yellow: #D4AF37;
   --navy-text: #1C304A;
-  --olive-pale: #D2DBC9
+  --olive-pale: #D2DBC9;
 }
 
 html, body {
@@ -42,7 +42,7 @@ h3 {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Graphik;
   color: var(--off-white);
   font-size: 1.5vw;
 }
