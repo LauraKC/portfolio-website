@@ -1,24 +1,19 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
+import CircleType from "circletype"
 
-const CurvedText = ({text, textClassName}) => (
-  <svg viewBox="0 0 100 100">
-    <path
-      id="curve"
-      d="M 10 20 Q 50 10 90 20"
-      fill="transparent"
-    />
-    <text
-      className={textClassName}
-    >
-      <textPath
-        xlinkHref="#curve"
-        textAnchor='middle'
-        startOffset="50%"
-      >
-        {text}
-      </textPath>
-    </text>
-  </svg>
-)
+
+const CurvedText = ({text}) => {
+  const ref = useRef()
+  useEffect(() => {
+    const ct = new CircleType(ref.current)
+    ct.radius(ct.element.offsetWidth / 1.5)
+  }, [ref.current])
+  return (
+    <h1 ref={ref}>
+      {text}
+    </h1>
+  )
+
+}
 
 export default CurvedText

@@ -43,6 +43,7 @@ import {
   quote4,
   flexColumns
 } from "./olive.module.css"
+import CurvedText from "../../components/curved-text"
 
 
 const OlivePage = () => (
@@ -61,7 +62,7 @@ const OlivePage = () => (
       >
         {"➜"}
       </Link>
-      <h1>Olive Mental Health!</h1>
+      <CurvedText text="Olive Mental Health!"/>
       <h2>Your Mental Health Guide</h2>
       <p>
         Olive believes in being a healthy, supportive, and peaceful environment
