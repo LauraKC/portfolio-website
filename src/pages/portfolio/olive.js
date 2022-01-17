@@ -128,16 +128,16 @@ const OlivePage = () => (
       <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> {"// Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis.</a></p>
       <p><b>Top Insights from my User Research:</b></p>
       <ul className={bulletList}>
-        <li>Personalization is key when it comes to mental health because everyone’s mental health needs are unique.</li>
+        <li>{"Personalization is key when it comes to mental health because everyone's mental health needs are unique."}</li>
         <li>Providing easier and quick assistance to mental health help through trusted resources is needed.</li>
         <li>Credible scientific information is preferred.</li>
         <li><b>Motivation is an obstacle when trying to improve mental health</b>, people require notifications, progress trackers, and check-ins for support.</li>
-        <li>When people start realizing/believing they have a mental health issue, they stop blaming themselves for oversimplifications like 'being lazy' and they can begin to heal.</li>
-        <li>Individuals experiencing mental health issues feel guilty, shameful, and 'silly' when trying to explain their situation to others.</li>
-        <li>Many users think of meditation as being heavily associated with good mental health but a lot of users don't find meditation actually helps them with their mental health.</li>
+        <li>{"When people start realizing/believing they have a mental health issue, they stop blaming themselves for oversimplifications like 'being lazy' and they can begin to heal."}</li>
+        <li>{"Individuals experiencing mental health issues feel guilty, shameful, and 'silly' when trying to explain their situation to others."}</li>
+        <li>{"Many users think of meditation as being heavily associated with good mental health but a lot of users don't find meditation actually helps them with their mental health."}</li>
         <li>It is hard to find safe spaces to connect with others experiencing similar issues.</li>
         <li><b>It is important to provide actionable steps to relieve mental health symptoms.</b></li>
-        <li>Mental health is so encompassing that activities such as finding recipes, raising your income level, and going on walks are all seen as activities to improve one's mental health.</li>
+        <li>{"Mental health is so encompassing that activities such as finding recipes, raising your income level, and going on walks are all seen as activities to improve one's mental health."}</li>
       </ul>
       <p>Based on these findings, the biggest challenge for users is finding the motivation to improve their mental health and finding unique activities that help them personally.</p>
       <Quote text="I believe motivation to do for mental health activities is challenging." author="Anita (27)" />
