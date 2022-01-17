@@ -5,6 +5,10 @@
 }
 
 .animated-title h1 {
+  font-size: var(--h1-font-size);
+  font-family: var(--theme-h-font-family);
+  color: var(--theme-h-font-color);
+
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-delay: 0.25s;

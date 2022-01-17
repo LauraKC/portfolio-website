@@ -1,29 +1,34 @@
+.page-container h1,
+.page-container h2 {
+  font-family: var(--theme-h-font-family);
+}
+.page-container p {
+  font-family: var(--theme-p-font-family);
+  font-size: var(--p-font-size);
+}
+
 .header-container {
   height: 100%;
   padding-bottom: 50px;
   background-color: var(--olive-pale);
-}
-
-.header-container > h1,
-.header-container > h2,
-.header-container > p {
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
-.header-container > h1 {
+.header-container h1 {
+  font-size: 8vw;
   padding-top: 15vw;
 }
 
-.header-container > h2 {
-  padding-top: 100px;
+.header-container h2 {
+  font-size: 5vw;
+  padding-top: 10vw;
 }
 
-.header-container > p {
-  font-family: Graphik;
+.header-container p {
   margin-left: 20%;
   margin-right: 20%;
-  font-size: 3vw;
+  font-size: var(--h3-font-size);
 }
 
 .content-container {
@@ -32,15 +37,11 @@
   margin-top: 10vw;
 }
 
-:root {
-  --h1-font-size: 3vw;
-  --p-font-size: 2vw;
-}
 
 .content-container p {
-  font-family: Graphik;
+  font-family: var(--theme-p-font-family);
   color: black;
-  font-size: var(--p-font-size);
+  font-size: var(--portfolio-p-font-size);
 }
 
 .content-container a {
@@ -51,26 +52,26 @@
 .content-container h1 {
   color: black;
   padding-top: 3vw;
-  font-size: 3vw;
+  font-size: var(--portfolio-h1-font-size);
 }
 
 .content-container h2 {
   font-family: "Cooper Black";
   color: black;
-  font-size: 2vw;
+  font-size: var(--portfolio-h2-font-size);
 }
 
 
 .bullet-list {
   list-style-type: disc;
-  font-size: var(--p-font-size);
+  font-size: var(--portfolio-p-font-size);
 }
 
 .no-bullet-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-size: var(--p-font-size);
+  font-size: var(--portfolio-p-font-size);
 }
 
 

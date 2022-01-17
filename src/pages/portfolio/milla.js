@@ -75,27 +75,26 @@ const MillaPage = () => (
           <li>User Testing</li>
           <li>Design Language Systems</li>
         </ul>
-        </div>
-        <img className="image-left" src={challengeimage} />
+      </div>
+      <img className="image-left" src={challengeimage} />
       <h1>The Challenge</h1>
       <p>To create a mobile app based on the brief provided by CareerFoundry.
       </p>
       <h1>The Problem Statement</h1>
-      <p>The problem provided by CareerFoundry was 'How might we design a mobile app that empowers people to learn new vocabulary?'
-      </p>
+      <p>{"The problem provided by CareerFoundry was 'How might we design a mobile app that empowers people to learn new vocabulary?'"}</p>
       <h1>Understanding the Problem</h1>
       <p>
       Users need/want to be immersed in the language before they get to their travel destinations, so they can start preparing to have conversations.
       </p>
       <p>There are many ways to learn a new language. For those that are travellers or expats who are looking to learn a new language often the goal is to be able to have a conversation not to be fluent in the language. Most language learning experts agree that the top 7 things you need to do are:
         <ol>
-            <li>Learn the right words</li>
-            <li>Hear the language continuously spoken</li>
-            <li>Speak to native speakers</li>
-            <li>Use spacial repetition and mnemonics</li>
-            <li>Embrace mistakes</li>
-            <li>Create SMART goals/motivation</li>
-            <li>Learn accents/intonation</li>
+          <li>Learn the right words</li>
+          <li>Hear the language continuously spoken</li>
+          <li>Speak to native speakers</li>
+          <li>Use spacial repetition and mnemonics</li>
+          <li>Embrace mistakes</li>
+          <li>Create SMART goals/motivation</li>
+          <li>Learn accents/intonation</li>
         </ol>
       </p>
       <h1>Competitive Analysis</h1>
@@ -110,8 +109,8 @@ const MillaPage = () => (
       <p>Read full <a href="https://drive.google.com/file/d/14yg-2-FO-7VL4wyd1VFpZ2A_OyY64TD8/view?usp=sharing">User Interview Process and Analysis</a>(PDF).</p>
       <p><b>Top Insights from my User Interviews:</b></p>
       <ul>
-          <li>Users feel they learn languages faster when they are immersed</li>
-          <li>Motivation to learn a language is necessary</li>
+        <li>Users feel they learn languages faster when they are immersed</li>
+        <li>Motivation to learn a language is necessary</li>
       </ul>
       <p>When completing my User Interviews I found it challenging to take notes and be an engaged listener. I quickly realized that to solve this it was easier to record my participants so I could listen and take notes after the interview.
       </p>
@@ -123,26 +122,26 @@ const MillaPage = () => (
       <h1>Persona Challenges</h1>
       <p>These are quotes from user interviews that informed the challenges that Jesse faces when finding ways to be immersed in the language.</p>
       <ol>
-          <li>The first challenge is understanding structures of sentences and explanations of word use. Because there isn't always clear information on these items during his learning process often he has to navigate away from his learning to look up things.</li>
+        <li>{"The first challenge is understanding structures of sentences and explanations of word use. Because there isn't always clear information on these items during his learning process often he has to navigate away from his learning to look up things."}</li>
       </ol>
       <Quote text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."/>
       <ol>
-          <li>Secondly, feeling comfortable speaking the language.</li>
+        <li>Secondly, feeling comfortable speaking the language.</li>
       </ol>
       <Quote text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."/>
       <ol>
-          <li>Difficulty finding examples where he can listen to local speech.</li>
+        <li>Difficulty finding examples where he can listen to local speech.</li>
       </ol>
       <Quote text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."/>
       <ol>
-          <li>Jesse is busy with arranging things for his move. He needs an app that can help him learn Dutch easily and in a flexible way, at times that are convenient to him.</li>
+        <li>Jesse is busy with arranging things for his move. He needs an app that can help him learn Dutch easily and in a flexible way, at times that are convenient to him.</li>
       </ol>
       <Quote text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."/>
       <h1>The Problem Statement</h1>
       <p>Jesse <b>needs a way</b> to be immersed in the language <b>because</b> constant exposure to the language is the most effective way to learn.</p>
       <p><b>We will know this to be true when</b> Jesse is able to respond immediately to conversational questions asked in the target language.</p>
       <h1>Hypothesis Statement</h1>
-      <p><b>We believe that by</b> having an audio focused language app that is personalized for the user, <b>for Jesse</b>, we will achieve having improvement of Jesse's comprehension of the target language and progression through the app. Thus achieving 20% more engagement and use of the app.</p>
+      <p><b>{"We believe that by"}</b>{" having an audio focused language app that is personalized for the user, "}<b>{"for Jesse"}</b>{", we will achieve having improvement of Jesse's comprehension of the target language and progression through the app. Thus achieving 20% more engagement and use of the app."}</p>
       <p>And of course <b>Jesse will accomplish</b> his goal of being able to have a conversation with a local when he is in the Netherlands.</p>
       <h1>The Problem Statement</h1>
       <p>Jesse <b>needs a way</b> to be immersed in the language <b>because</b> constant exposure to the language is the most effective way to learn.</p>
@@ -154,8 +153,8 @@ const MillaPage = () => (
       <p><b>As</b> Jesse (a soon to be expat), <b>I want</b> streamlined lessons <b>so that</b> I am able to learn in a flexible way, at times that are convenient to me.</p>
       <p><b>As</b> Jesse (a soon to be expat), <b>I want</b> to be immersed in the language <b>so that</b> I am able to learn more quickly and efficiently.</p>
       <h1>Job Stories</h1>
-      <p><b>When</b> I come across an example of complex language being used in a way I don't understand, <b>I want</b> to see multiple examples and have a clear explanation <b>so that</b> I can fully understand when the words would be used in different contexts.</p>
-      <p><b>When</b> I am listening to my target language, <b>I want</b> to hear native speakers' voices, <b>so that</b> I can become more comfortable with the spoken language.</p>
+      <p><b>When</b>{" I come across an example of complex language being used in a way I don't understand, "}<b>I want</b> to see multiple examples and have a clear explanation <b>so that</b> I can fully understand when the words would be used in different contexts.</p>
+      <p><b>When</b>{" I am listening to my target language, "}<b>I want</b>{" to hear native speakers' voices, "}<b>so that</b> I can become more comfortable with the spoken language.</p>
       <p><b>When</b> I am listening to a conversation in my target language, <b>I want</b> to be asked questions about the conversation, <b>so that</b> I stay engaged with the material.</p>
       <p><b>When</b> I am waiting in line for lunch, <b>I want</b> an effective streamlined lesson, <b>so that</b> I can learn at times that are convenient to me.</p>
       <p><b>When</b> I use the app, <b>I want</b> it to be personalized for my interests, <b>so that</b> I can stay engaged with the material.</p>
@@ -185,7 +184,7 @@ const MillaPage = () => (
       <h1>Prototype</h1>
       <p>From my low-fidelity wireframes, I created a mid-fidelity prototype in Marvel, so that I could have my usability testers interact with a working version of MILLA.</p>
       <h1>Early Prototypes Iterations</h1>
-      <p>At first the lessons would finish and go straight back to the lessons page. The abruptness of the change left users confused and feeling like the lesson was incomplete. Having added a success screen after the lesson, not only allowed for a smoother transition for the user but also allowed for some gamification aspects to be shown and a place to motivate the user, and help them embrace mistakes (they're going to happen!) with exciting images and congratulatory wording.</p>
+      <p>{"At first the lessons would finish and go straight back to the lessons page. The abruptness of the change left users confused and feeling like the lesson was incomplete. Having added a success screen after the lesson, not only allowed for a smoother transition for the user but also allowed for some gamification aspects to be shown and a place to motivate the user, and help them embrace mistakes (they're going to happen!) with exciting images and congratulatory wording."}</p>
       <p>Another big issue was updating the navigation. At first I just used text as I was showing a low-fidelity prototype to reduce feedback on design however, the text ended up being a problem as it was too small to read. I updated the navigation to have icons and all users were instantly able to understand those better.</p>
       <img className="image-left" src={iteration1} />
       <img className="image-right" src={iteration2} />
@@ -193,8 +192,8 @@ const MillaPage = () => (
       <p>To test the MILLA prototype I created a usability test plan that asked 4 users that were either currently expats or frequent travellers to complete the following 4 direct tasks.</p>
       <p>Read the full <a href="https://drive.google.com/file/d/1UibnHX7BjybTPz-591oKU-_B0CfJTGu9/view?usp=sharing">Usability Test Plan</a>(PDF) which includes scope, schedule, metrics, script, and participant notes.</p>
       <h1>Usability Test Report</h1>
-      <p>I created a usability test report using the Jakob Nielsen's rating scale:</p>
-      <p>0 = I don't agree that this is a usability problem at all</p>
+      <p>{"I created a usability test report using the Jakob Nielsen's rating scale:"}</p>
+      <p>{"0 = I don't agree that this is a usability problem at all"}</p>
       <p>1 = Cosmetic problem only: need not be fixed unless extra time is available on project.</p>
       <p>2 = Minor usability problem: fixing this should be given low priority.</p>
       <p>3 = Major usability problem: important to fix and should be given high priority.</p>
@@ -202,41 +201,41 @@ const MillaPage = () => (
       <img src={testreport} />
       <h1>Design Iterations</h1>
       <p>Using my usability testing report I made some iterations to my designs by taking the most severe issues and finding solutions to the problems.</p>
-      <p><b>Observation #1:</b></p> 
-      <p>Most users thought that onboarding looked interactive but it is actually images of what the features will look like. I also received feedback that the personalization explanation wasn't clear.</p>
-      <p><b>Improvements:</b></p> 
+      <p><b>Observation #1:</b></p>
+      <p>{"Most users thought that onboarding looked interactive but it is actually images of what the features will look like. I also received feedback that the personalization explanation wasn't clear."}</p>
+      <p><b>Improvements:</b></p>
       <p>I greyed out the video so it seemed less interactive and more representative of the types of content they can expect in the app, as well I updated the explaination of personalization.</p>
-      <p><b>Value:</b></p> 
+      <p><b>Value:</b></p>
       <p>Users were less confused and able to easily understand what the application will include.</p>
       <Quote text="Was a little confused by camera and video because was wondering if it would be a demonstration not just an image."/>
       <h3>Before</h3><h3>After</h3>
       <img className="image-left" src={designiteration1b} />
       <img className="image-right" src={designiteration1a} />
-      <p><b>Observation #2:</b></p> 
-      <p>Most users were confused by the navigation (camera, circle button, audio) on the explore screen. Users were also concerned that the item wasn't being added to their lesson and would use different methods to check.</p>
-      <p><b>Improvements:</b></p> 
-      <p>I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added.</p>
-      <p><b>Value:</b></p> 
+      <p><b>Observation #2:</b></p>
+      <p>{"Most users were confused by the navigation (camera, circle button, audio) on the explore screen. Users were also concerned that the item wasn't being added to their lesson and would use different methods to check."}</p>
+      <p><b>Improvements:</b></p>
+      <p>{"I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added."}</p>
+      <p><b>Value:</b></p>
       <p>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
       <Quote text="I thought the button in the middle was to take the picture but then I thought that's what the camera would be so maybe the camera is a library?"/>
       <h3>Before</h3><h3>After</h3>
       <img className="image-left" src={designiteration2b} />
       <img className="image-right" src={designiteration2a} />
-      <p><b>Observation #3:</b></p> 
+      <p><b>Observation #3:</b></p>
       <p>Some users were unsure how to close the grammar box once it was open.</p>
-      <p><b>Improvements:</b></p> 
-      <p>I re-designed this by greying out the background so users would know that they can click anywhere out of the grammar box to close it. I decided against an 'X' because I didn't want the user to be limited to clicking only one spot on the screen to close the box.</p>
-      <p><b>Value:</b></p> 
+      <p><b>Improvements:</b></p>
+      <p>{"I re-designed this by greying out the background so users would know that they can click anywhere out of the grammar box to close it. I decided against an 'X' because I didn't want the user to be limited to clicking only one spot on the screen to close the box."}</p>
+      <p><b>Value:</b></p>
       <p>The interaction is easier for users to understand but also the focus is now fully on the popup box which makes this information easier for the users to see.</p>
       <Quote text="I am confused how to close the box, I'll just keep clicking around until it goes away."/>
       <h3>Before</h3><h3>After</h3>
       <img className="image-left" src={designiteration3b} />
       <img className="image-right" src={designiteration3a} />
-      <p><b>Observation #4:</b></p> 
+      <p><b>Observation #4:</b></p>
       <p>All users were confused by the terms that were used in this feature. One user was also unsure if they would ever user the feature as it was presented.</p>
-      <p><b>Improvements:</b></p> 
-      <p>Based on usability testing this iteration included changing most of the terms! 'Canvas' became 'Make Connections' to clarify to the users what would happen in the space. To make it extra clear how to use this space I added description text to explain how to use this feature. To make the notes feature easier to use I included it in the lessons as this is the point when most users would want to make a note about something they have just learned. That way they don't have to try and remember it after their lesson or exit out of the lesson just to make a note. Of course they can always review their notes by going into the notes page.</p>
-      <p><b>Value:</b></p> 
+      <p><b>Improvements:</b></p>
+      <p>{"Based on usability testing this iteration included changing most of the terms! 'Canvas' became 'Make Connections' to clarify to the users what would happen in the space. To make it extra clear how to use this space I added description text to explain how to use this feature. To make the notes feature easier to use I included it in the lessons as this is the point when most users would want to make a note about something they have just learned. That way they don't have to try and remember it after their lesson or exit out of the lesson just to make a note. Of course they can always review their notes by going into the notes page."}</p>
+      <p><b>Value:</b></p>
       <p>This re-design makes the feature easier for the user to access as well as making this feature more easily understood by the user.</p>
       <Quote text="I don't think I would use the notes function. If I'm exploring the app before doing a lesson, I wouldn't have anything to add yet and I would hesitate to ever use this feature."/>
       <h3>Before</h3><h3>After</h3>
@@ -246,7 +245,7 @@ const MillaPage = () => (
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <a href="https://marvelapp.com/prototype/14e28chj/screen/78699185"><img src={prototype} /></a>
       <h1>Summary</h1>
-      <p>MILLA solves the problem of 'how might we design a mobile app that empowers people to learn new vocabulary' by providing travellers and expats with a way to be immersed in a new language and gain exposure to the language. Through exploring their surroundings, listening to various audio clips and completing many different types of language lessons.</p>
+      <p>{"MILLA solves the problem of 'how might we design a mobile app that empowers people to learn new vocabulary' by providing travellers and expats with a way to be immersed in a new language and gain exposure to the language. Through exploring their surroundings, listening to various audio clips and completing many different types of language lessons."}</p>
       <p>The next iterations I would like to take are to continue improving on the notes feature, include a MILLA assistant feature (a chat bot that users could interact with throughout the app to ask questions and enhance their understanding of the language) and of course I would like to create a design system and high-fidelity prototype to test with users.</p>
       <p>My hope is that when users are using MILLA that they feel empowered to keep learning and practicing new languages so that they can feel more comfortable speaking to native speakers.</p>
       <img className="image-left" src={retrospectiveimage} />
@@ -255,7 +254,7 @@ const MillaPage = () => (
       <p>I am most proud of the explore feature as I feel that the usability iterations made were the most helpful. As well, I think this particular feature can be really helpful for putting sentences together on your own. </p>
       <p>My biggest challenge with this project was trying to create something that was different from the products already on the market. Although, MILLA has a similar structure to other language learning apps I think I was able to accomplish a unique aspect by focusing on immersing the user as much as possible into the language they are learning.</p>
       <p>I really enjoyed analyzing user interviews. I found it really interesting that although they all had different language learning stories and goals they all felt similarily about their language learning processes.</p>
-      <p>I learned that UX copy is super important and can be the difference between a clear, easy to understand feature and a confusing feature that won't be utilized by the user.</p>
+      <p>{"I learned that UX copy is super important and can be the difference between a clear, easy to understand feature and a confusing feature that won't be utilized by the user."}</p>
     </div>
   </>
 )

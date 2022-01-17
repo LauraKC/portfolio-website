@@ -18,6 +18,7 @@ import rainbowSpreadsheetImage from "../../images/olive/rainbow-spreadsheet.png"
 import metricsResultsImage from "../../images/olive/metrics-results.png"
 import parkImage from "../../images/olive/park.svg"
 import {
+  pageContainer,
   headerContainer,
   contentContainer,
   goalSection,
@@ -27,7 +28,7 @@ import {
 
 
 const OlivePage = () => (
-  <>
+  <div className={pageContainer}>
     <div className={headerContainer}>
       <Link
         style={{
@@ -36,8 +37,7 @@ const OlivePage = () => (
           top: 10,
           transform: "rotate(180deg)",
           color: "black",
-          fontSize: "4vw"
-
+          fontSize: "var(--back-button-size)"
         }}
         to="/portfolio"
       >
@@ -45,7 +45,7 @@ const OlivePage = () => (
       </Link>
       <h1>Olive Mental Health!</h1>
       <h2>Your Mental Health Guide</h2>
-      <p style={{textAlign: "center"}}>
+      <p>
         Olive believes in being a healthy, supportive, and peaceful environment
         that allows users to complete <b>mental health activities, track health
         information</b>, and <b>read articles</b> to <b>improve</b> their
@@ -184,7 +184,7 @@ const OlivePage = () => (
           <p>{"Olive's mobile prototype and desktop prototype that were used in usability testing."}</p>
         </div>
         <div style={{display: "flex", flex: "50%", justifyContent: "center"}}>
-          <img style={{width: "80%", transform: "rotate(10deg)"}} src={wireframePrototypeImage}></img>
+          <img style={{width: "80%", objectFit: "scale-down", transform: "rotate(10deg)"}} src={wireframePrototypeImage}></img>
         </div>
       </div>
       <div style={{display: "flex"}}>
@@ -268,9 +268,8 @@ const OlivePage = () => (
           <p>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</p>
         </div>
       </div>
-
     </div>
-  </>
+  </div>
 )
 
 export default OlivePage

@@ -18,7 +18,7 @@
   text-align: center;
   font-family: Cooper Black;
   color: var(--navy-text);
-  font-size: 3vw;
+  font-size: 3.5vw;
 
   animation-name: fly-in-and-spin;
   animation-duration: 2s;
