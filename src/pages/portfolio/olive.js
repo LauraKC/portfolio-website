@@ -41,6 +41,7 @@ import {
   quote2,
   quote3,
   quote4,
+  flexColumns
 } from "./olive.module.css"
 
 
@@ -260,18 +261,18 @@ const OlivePage = () => (
       <img width="100%" src={rainbowSpreadsheetImage}></img>
       <h1>Metric Results</h1>
       <img width="100%" src={metricsResultsImage}></img>
-      <div style={{display: "flex", gap: "2vw"}}>
-        <div style={{flex: "50%"}}>
+      <div className={flexColumns}>
+        <div>
           <p><b>Learnability Results</b></p>
           <p>The success rate for this app was very high since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
           </p>
         </div>
-        <div style={{flex: "50%"}}>
+        <div>
           <p><b>Efficiency Results</b></p>
           <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants’ comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
           </p>
         </div>
-        <div style={{flex: "50%"}}>
+        <div>
           <p><b>Satisfaction Results</b></p>
           <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this feature should be re-designed to be more satisfying for the users.
           </p>

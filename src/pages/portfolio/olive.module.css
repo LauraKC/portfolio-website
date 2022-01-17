@@ -116,3 +116,23 @@
   width: 80%;
   transform: translateX(20%);
 }
+
+
+@media (orientation:landscape) {
+  .flex-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+
+  .flex-columns > * {
+    flex: 50%
+  }
+}
+
+@media (orientation:portrait) {
+  .flex-columns {
+    display: flex;
+    flex-direction: column;
+  }
+}
