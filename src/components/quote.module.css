@@ -1,0 +1,29 @@
+.quote-container {
+  width: 80%;
+  position: relative;
+}
+.quote-container::before {
+  content: "“";
+  font-family: "Cooper Black";
+  font-size: 4vw;
+  position: relative;
+  left: -3%
+}
+.quote-container::after {
+  content: "”";
+  font-family: "Cooper Black";
+  position: relative;
+  font-size: 4vw;
+  top: -80%;
+  left: 103%;
+}
+
+.quote-line {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.author-line {
+  margin: 0;
+  text-align: right;
+}
