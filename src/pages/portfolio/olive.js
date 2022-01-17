@@ -353,7 +353,7 @@ const OlivePage = () => (
       <p>{"Moving forward, I'd like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive."}</p>
       <div style={{display: "flex"}}>
         <div style={{flex: "50%"}}>
-          <img style={{objectFit: "cover"}} width="100%" height="100%" src={parkImage}></img>
+          <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
         </div>
         <div style={{flex: "50%"}}>
           <h1>What I learned from this project?</h1>
