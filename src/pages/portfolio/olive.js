@@ -236,7 +236,7 @@ const OlivePage = () => (
 
       <h1>Affinity Map</h1>
       <p>{"After conducting user interviews, I went through the responses and noted anything regarding participants' thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights."}</p>
-      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map (PDF).</a></p>
+      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map</a> (PDF).</p>
       <Quote
         text="I prefer this app over anything else I've tried."
         author="Participant 4"
