@@ -230,7 +230,7 @@ const OlivePage = () => (
           <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
           <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing">Usability Test Plan (PDF)</a> which includes goals, test objectives, methods, participants, and metrics.</p>
           <h1>Usability Test Script</h1>
-          <p><a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing">Read full Usability Test Script (PDF).</a></p>
+          <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing">Usability Test Script (PDF).</a></p>
         </div>
       </div>
 
