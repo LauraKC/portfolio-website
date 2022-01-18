@@ -333,7 +333,7 @@ const OlivePage = () => (
       <Quote text="I'm unsure what 'Education' means." author="Participant 5" />
       <h1>Design Language System</h1>
       <p>{"I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene."}</p>
-      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System (PDF).</a></p>
+      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System</a> (PDF).</p>
       <h1>Peer Review</h1>
       <p>{"I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn't missing anything."}</p>
       <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing">Peer Feedback</a> I (PDF) received.</p>
