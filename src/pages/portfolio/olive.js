@@ -269,7 +269,7 @@ const OlivePage = () => (
         </div>
         <div>
           <p><b>Efficiency Results</b></p>
-          <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants’ comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
+          <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants' comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
           </p>
         </div>
         <div>
