@@ -143,7 +143,7 @@ const OlivePage = () => (
         </a>
       </p>
       <h1>User Interviews</h1>
-      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> {"// Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis.</a></p>
+      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis</a> (PDF).</p>
       <p><b>Top Insights from my User Research:</b></p>
       <ul className={bulletList}>
         <li>{"Personalization is key when it comes to mental health because everyone's mental health needs are unique."}</li>
