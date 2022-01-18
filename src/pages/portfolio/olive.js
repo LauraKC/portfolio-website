@@ -139,8 +139,7 @@ const OlivePage = () => (
       </ul>
       <br/>
       <p>
-        <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">
-          Read the full competitive analysis.
+        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">competitive analysis.
         </a>
       </p>
       <h1>User Interviews</h1>
