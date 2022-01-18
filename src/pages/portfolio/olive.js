@@ -139,8 +139,8 @@ const OlivePage = () => (
       </ul>
       <br/>
       <p>
-        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">competitive analysis.
-        </a>
+        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">competitive analysis
+        </a> (PDF).
       </p>
       <h1>User Interviews</h1>
       <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis</a> (PDF).</p>
