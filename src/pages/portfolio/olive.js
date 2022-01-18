@@ -208,7 +208,7 @@ const OlivePage = () => (
         imageSrc={userFlowImage3}
       />
       <h1>Sitemap</h1>
-      <p>I used Draw.io to create a sitemap in order to provide a view of Olive’s information architecture to better understand the navigation and features of the app.</p>
+      <p>I used Draw.io to create a sitemap in order to provide a view of Olive's information architecture to better understand the navigation and features of the app.</p>
       <p><a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing">View full Card Sorting exercise.</a></p>
       <img width="100%" src={sitemapImage}></img>
       <div style={{display: "flex"}}>
