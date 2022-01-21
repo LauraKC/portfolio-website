@@ -336,7 +336,7 @@ const OlivePage = () => (
       <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System</a> (PDF).</p>
       <h1>Peer Review</h1>
       <p>{"I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn't missing anything."}</p>
-      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing">Peer Feedback</a> I (PDF) received.</p>
+      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing">Peer Feedback</a> (PDF) I received.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
