@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import ProfilePhoto from "../images/profile.jpg"
 import AerialPhoto from "../images/aerial.png"
-import EmailButtonPhoto from "../images/email_button.png"
-import LinkedInButtonPhoto from "../images/linkedin_button.png"
+import EmailButtonPhoto from "../images/email_button_w.png"
+import LinkedInButtonPhoto from "../images/linkedin_button_w.png"
 
 const message1 = `
 I'm a Canadian UX designer, who recently made the change from Marketing into User Experience.
