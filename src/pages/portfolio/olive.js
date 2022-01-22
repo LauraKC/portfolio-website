@@ -9,6 +9,9 @@ import treeImage from "../../images/olive/tree.svg"
 import ellaPersonaImage from "../../images/olive/ella-persona.png"
 import ellaMentalModelImage from "../../images/olive/ella-mental-model.png"
 import ellaUserJourneyImage from "../../images/olive/ella-user-journey.png"
+import davidPersonaImage from "../../images/olive/david-persona.png"
+import davidMentalModelImage from "../../images/olive/david-mental-model.png"
+import davidUserJourneyImage from "../../images/olive/david-user-journey.png"
 import userFlowImage1 from "../../images/olive/olive-userflow1.svg"
 import userFlowImage2 from "../../images/olive/olive-userflow2.svg"
 import userFlowImage3 from "../../images/olive/olive-userflow3.svg"
@@ -181,12 +184,15 @@ const OlivePage = () => (
       <h1>User Personas</h1>
       <p>{"In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently."}</p>
       <img width="100%" src={ellaPersonaImage}></img>
+      <img width="100%" src={davidPersonaImage}></img>
       <h1>Mental Models</h1>
       <p>I created mental models so that I could identify the ways a persona could accomplish a set of tasks or a larger goal by mapping their state of mind throughout a process.</p>
       <img width="100%" src={ellaMentalModelImage}></img>
+      <img width="100%" src={davidMentalModelImage}></img>
       <h1>User Journey Maps</h1>
       <p>{"To visualize what my users' journey through the Olive app could be like, I created user journey maps by defining realistic user scenarios and some key goals my personas have based on research insights."}</p>
       <img width="100%" src={ellaUserJourneyImage}></img>
+      <img width="100%" src={davidUserJourneyImage}></img>
       <h1>User Flows</h1>
       <p>These flows were created to make sure I was understanding the interactions between my users and the Olive app when they attempt to complete tasks using the core features.</p>
       <UserFlow
