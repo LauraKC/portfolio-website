@@ -183,16 +183,22 @@ const OlivePage = () => (
       />
       <h1>User Personas</h1>
       <p>{"In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently."}</p>
-      <img width="100%" src={ellaPersonaImage}></img>
-      <img width="100%" src={davidPersonaImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaPersonaImage} />
+        <img width="100%" src={davidPersonaImage} />
+      </Carousel>
       <h1>Mental Models</h1>
       <p>I created mental models so that I could identify the ways a persona could accomplish a set of tasks or a larger goal by mapping their state of mind throughout a process.</p>
-      <img width="100%" src={ellaMentalModelImage}></img>
-      <img width="100%" src={davidMentalModelImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaMentalModelImage} />
+        <img width="100%" src={davidMentalModelImage} />
+      </Carousel>
       <h1>User Journey Maps</h1>
       <p>{"To visualize what my users' journey through the Olive app could be like, I created user journey maps by defining realistic user scenarios and some key goals my personas have based on research insights."}</p>
-      <img width="100%" src={ellaUserJourneyImage}></img>
-      <img width="100%" src={davidUserJourneyImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaUserJourneyImage} />
+        <img width="100%" src={davidUserJourneyImage} />
+      </Carousel>
       <h1>User Flows</h1>
       <p>These flows were created to make sure I was understanding the interactions between my users and the Olive app when they attempt to complete tasks using the core features.</p>
       <UserFlow
