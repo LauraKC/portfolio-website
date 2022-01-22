@@ -352,7 +352,7 @@ const OlivePage = () => (
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
-        <img style={{width: "30vw"}} src={iphoneWelcomeImage}></img>
+        <a href={"https://www.figma.com/proto/LapnRo5ANl4E46FZQWuIqZ/Olive-Final?node-id=1%3A5709&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A5709"}><img style={{width: "30vw"}} src={iphoneWelcomeImage}></img></a>
       </div>
       <h1>Retrospective</h1>
       <p>{"My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically."}</p>
