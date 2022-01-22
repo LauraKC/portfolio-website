@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import LauraPhoto from "../images/laura.jpg"
+import ProfilePhoto from "../images/profile.jpg"
 import AerialPhoto from "../images/aerial.png"
 import EmailButtonPhoto from "../images/email_button.png"
 import LinkedInButtonPhoto from "../images/linkedin_button.png"
@@ -28,7 +28,7 @@ const AboutPage = () => (
               marginRight: "5%",
               borderRadius: "5%"
             }}
-            src={LauraPhoto}
+            src={ProfilePhoto}
           />
           <p>{message1}</p>
           <p>{"I'm currently available for full-time work and networking in the Americas."}</p>
