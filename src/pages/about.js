@@ -4,6 +4,7 @@ import ProfilePhoto from "../images/profile.jpg"
 import AerialPhoto from "../images/aerial.png"
 import EmailButtonPhoto from "../images/email_button_w.png"
 import LinkedInButtonPhoto from "../images/linkedin_button_w.png"
+import ContactMe from "../components/contact-me"
 
 const message1 = `
 I'm a Canadian UX designer, who recently made the change from Marketing into User Experience.
@@ -16,7 +17,7 @@ const AboutPage = () => (
       About<br/>
       <Ws/><Ws/><Ws/><span className="purple-underline">M</span>e
     </h1>
-    <div style={{padding: "0 5vw 0 5vw"}}>
+    <div style={{padding: "0 5vw 10vh 5vw"}}>
       <div style={{
         marginBottom: "50px",
       }}>
@@ -51,16 +52,7 @@ const AboutPage = () => (
           <p>{"If you can't find me at my computer, I'm either in flipping through the air at my aerial silks class, enjoying a great meal, or hanging out with friends."}</p>
         </div>
       </div>
-      <div>
-        <h2>{"Let's Connect"}</h2>
-        <p>Get in touch for opportunities or just say hi!</p>
-        <linkedin_button type="button">
-          <a href="https://www.linkedin.com/in/lauracutler/"><img src={LinkedInButtonPhoto} /></a>
-        </linkedin_button>
-        <email_button type="button">
-          <a href="mailto:laura.cutler.ux@gmail"><img src={EmailButtonPhoto} /></a>
-        </email_button>
-      </div>
+      <ContactMe />
     </div>
   </Layout>
 )
