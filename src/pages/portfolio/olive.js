@@ -227,7 +227,17 @@ const OlivePage = () => (
         <div style={{flex: "50%"}}>
           <h1>{"Wireframes & Prototypes"}</h1>
           <p>{"After creating the functionality of the onboarding and core features, I translated my low-fidelity wireframes into mid-fidelity wireframes using Figma. The goal of these mid-fidelity prototypes was to convey the function and specifics of the user interface so that I could get feedback from potential users on pain points and goal completion."}</p>
-          <p>{"Olive's mobile prototype and desktop prototype that were used in usability testing."}</p>
+          <p>
+            {"Olive's "}
+            <a href="https://www.figma.com/proto/pA4ZILmvYD4vmiINe0Vl8j/Olive-Mental-Health-App?node-id=101%3A2643&scaling=min-zoom&page-id=101%3A1191&starting-point-node-id=101%3A2643">
+              mobile prototype
+            </a>
+            {" and "}
+            <a href="https://www.figma.com/proto/pA4ZILmvYD4vmiINe0Vl8j/Olive-Mental-Health-App?node-id=101%3A13933&scaling=scale-down-width&page-id=101%3A1192&starting-point-node-id=101%3A14472">
+              desktop prototype
+            </a>
+            {" that were used in usability testing."}
+          </p>
         </div>
         <div style={{display: "flex", flex: "50%", justifyContent: "center"}}>
           <img style={{width: "80%", objectFit: "scale-down", transform: "rotate(10deg)"}} src={wireframePrototypeImage}></img>
