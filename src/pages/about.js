@@ -2,8 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import ProfilePhoto from "../images/profile.jpg"
 import AerialPhoto from "../images/aerial.png"
-import EmailButtonPhoto from "../images/email_button_w.png"
-import LinkedInButtonPhoto from "../images/linkedin_button_w.png"
 import ContactMe from "../components/contact-me"
 
 const message1 = `

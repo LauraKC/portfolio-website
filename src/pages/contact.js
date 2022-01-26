@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import { contactDetails } from "./contact.module.css"
-import { myEmail, myLinkedin } from "../constants"
 import ContactMe from "../components/contact-me"
 
 const ContactPage = () => (
