@@ -9,6 +9,7 @@ const IndexPage = () => (
     <div className={container} >
       <AnimatedTitle/>
       <AnimatedCircle/>
+      <p>{"Driven to help people lead happier, healthier lives through creating simple, intuitive user experiences. Passionate about mental health & well-being, and new technologies in AR/VR/XR."}</p>
     </div>
   </Layout>
 )

@@ -9,6 +9,9 @@ import treeImage from "../../images/olive/tree.svg"
 import ellaPersonaImage from "../../images/olive/ella-persona.png"
 import ellaMentalModelImage from "../../images/olive/ella-mental-model.png"
 import ellaUserJourneyImage from "../../images/olive/ella-user-journey.png"
+import davidPersonaImage from "../../images/olive/david-persona.png"
+import davidMentalModelImage from "../../images/olive/david-mental-model.png"
+import davidUserJourneyImage from "../../images/olive/david-user-journey.png"
 import userFlowImage1 from "../../images/olive/olive-userflow1.svg"
 import userFlowImage2 from "../../images/olive/olive-userflow2.svg"
 import userFlowImage3 from "../../images/olive/olive-userflow3.svg"
@@ -180,13 +183,22 @@ const OlivePage = () => (
       />
       <h1>User Personas</h1>
       <p>{"In order to step into my users' shoes and see the product from their point of view, I analyzed the results of the user interviews and created personas to see the product from the user's point of view so I could have a greater chance of fulfilling their needs efficiently."}</p>
-      <img width="100%" src={ellaPersonaImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaPersonaImage} />
+        <img width="100%" src={davidPersonaImage} />
+      </Carousel>
       <h1>Mental Models</h1>
       <p>I created mental models so that I could identify the ways a persona could accomplish a set of tasks or a larger goal by mapping their state of mind throughout a process.</p>
-      <img width="100%" src={ellaMentalModelImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaMentalModelImage} />
+        <img width="100%" src={davidMentalModelImage} />
+      </Carousel>
       <h1>User Journey Maps</h1>
       <p>{"To visualize what my users' journey through the Olive app could be like, I created user journey maps by defining realistic user scenarios and some key goals my personas have based on research insights."}</p>
-      <img width="100%" src={ellaUserJourneyImage}></img>
+      <Carousel>
+        <img width="100%" src={ellaUserJourneyImage} />
+        <img width="100%" src={davidUserJourneyImage} />
+      </Carousel>
       <h1>User Flows</h1>
       <p>These flows were created to make sure I was understanding the interactions between my users and the Olive app when they attempt to complete tasks using the core features.</p>
       <UserFlow
@@ -340,7 +352,7 @@ const OlivePage = () => (
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
-        <img style={{width: "30vw"}} src={iphoneWelcomeImage}></img>
+        <a href={"https://www.figma.com/proto/LapnRo5ANl4E46FZQWuIqZ/Olive-Final?node-id=1%3A5709&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A5709"}><img style={{width: "30vw"}} src={iphoneWelcomeImage}></img></a>
       </div>
       <h1>Retrospective</h1>
       <p>{"My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically."}</p>

@@ -5,6 +5,7 @@ import Layout from "../../components/layout"
 import "../../styles/portfolio.css"
 import iphoneImage from  "../../images/olive/iphone-welcome.png"
 import treeImage from  "../../images/olive/tree.svg"
+import ContactMe from "../../components/contact-me"
 
 
 const PortfolioPage = () => (
@@ -14,10 +15,11 @@ const PortfolioPage = () => (
         <span className='purple-underline'>P</span>ortfolio
       </h1>
 
-      <div className="project-buttons-container">
+      <div className="project-buttons-container" style={{paddingBottom: "50px"}}>
         <OilveCard/>
         <MillaCard/>
       </div>
+      <ContactMe />
     </div>
   </Layout>
 )
