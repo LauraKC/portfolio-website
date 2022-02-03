@@ -26,9 +26,10 @@ import {
   contentContainer,
   goalSection
 } from "./olive.module.css"
+import CurvedText from "../../components/curved-text"
 
 const MillaPage = () => (
-  <>
+  <div className={pageContainer}>
     <div className={headerContainer}>
       <Link
         style={{
@@ -38,13 +39,12 @@ const MillaPage = () => (
           transform: "rotate(180deg)",
           color: "black",
           fontSize: "4vw"
-
         }}
         to="/portfolio"
       >
         {"➜"}
       </Link>
-      <h1>MILLA</h1>
+      <CurvedText text="MILLA"/>
       <h2><b>M</b>y <b>I</b>mmersive <b>L</b>anguage <b>L</b>earning <b>A</b>ssistant app</h2>
       <p style={{textAlign: "center"}}>
         MILLA is designed to empower travellers and expats to learn new languages.
@@ -58,28 +58,43 @@ const MillaPage = () => (
         <p>
         To create an empowering mobile app for travellers and expats who are looking to <b>learn a new language.</b>
         </p>
-        <h2>My Role</h2>
-        <ul><li>UX Researcher</li><li>UX Designer</li></ul>
-        <h2>Tools</h2>
-        <ul>
-          <li>{"Pen & Paper"}</li>
-          <li>Marvel</li>
-        </ul>
-        <h2>Methods</h2>
-        <ul>
-          <li>Competitive Analysis</li>
-          <li>User Interviews</li>
-          <li>Proto - Persona</li>
-          <li>User Flows</li>
-          <li>{"Wireframing & Prototyping"}</li>
-          <li>User Testing</li>
-          <li>Design Language Systems</li>
-        </ul>
+        <div style={{display: "flex", padding: "2vw 0px 6vw"}}>
+          <div style={{flex: "50%"}}>
+            <h2 style={{paddingBottom: "1vw"}}>My Role</h2>
+            <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
+              <li>UX Researcher</li>
+              <li>UX Designer</li>
+            </ul>
+            <h2 style={{paddingBottom: "1vw"}}>Tools</h2>
+            <ul className={noBulletList}>
+              <li>{"Pen & Paper"}</li>
+              <li>Marvel</li>
+            </ul>
+          </div>
+          <div style={{flex: "50%"}}>
+            <h2 style={{paddingBottom: "1vw"}}>Methods</h2>
+            <ul className={noBulletList}>
+              <li>Competitive Analysis</li>
+              <li>User Interviews</li>
+              <li>Proto - Persona</li>
+              <li>User Flows</li>
+              <li>{"Wireframing & Prototyping"}</li>
+              <li>User Testing</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <img className="image-left" src={challengeimage} />
-      <h1>The Challenge</h1>
-      <p>To create a mobile app based on the brief provided by CareerFoundry.
-      </p>
+      <div style={{display: "flex", marginTop: "5%"}}>
+        <div style={{flex: "50%"}}>
+          <img style={{width: "100%", transform: "translateX(-20%)"}} src={challengeimage} />
+        </div>
+        <div style={{flex: "50%"}}>
+          <h1>The Challenge</h1>
+           <p>
+             To create a mobile app based on the brief provided by CareerFoundry.
+          </p>
+        </div>
+      </div>
       <h1>The Problem Statement</h1>
       <p>{"The problem provided by CareerFoundry was 'How might we design a mobile app that empowers people to learn new vocabulary?'"}</p>
       <h1>Understanding the Problem</h1>
@@ -100,22 +115,31 @@ const MillaPage = () => (
       <h1>Competitive Analysis</h1>
       <p>It was important to conduct a competitive analysis to understand what products are already on the market, what they are doing right, and what pain points users are experiencing still. I made the decision to choose competitors that focus on conversational language learning as that was the main user goal for MILLA.</p>
       <p><b>Takeaways</b></p>
-      <ul>
+      <ul className={bulletList}>
         <li>A lot of apps focus on one particular technique i.e. Memrise focuses on flashcards.</li>
         <li>Not a lot of apps allow for the user to be immersed in the language.</li>
       </ul>
-      <p>Read the full <a href="https://drive.google.com/file/d/1iKaMlSIUKE6QL5bVjf-TkTCk6UC-VIkI/view?usp=sharing">Competitive Analysis</a>(PDF).</p>
+      <p>
+        Read the full <a href="https://drive.google.com/file/d/1iKaMlSIUKE6QL5bVjf-TkTCk6UC-VIkI/view?usp=sharing">Competitive Analysis</a>(PDF).</p>
       <h1>User Interviews</h1>
       <p>Read full <a href="https://drive.google.com/file/d/14yg-2-FO-7VL4wyd1VFpZ2A_OyY64TD8/view?usp=sharing">User Interview Process and Analysis</a>(PDF).</p>
       <p><b>Top Insights from my User Interviews:</b></p>
-      <ul>
+      <ul className={bulletList}>
         <li>Users feel they learn languages faster when they are immersed</li>
         <li>Motivation to learn a language is necessary</li>
       </ul>
       <p>When completing my User Interviews I found it challenging to take notes and be an engaged listener. I quickly realized that to solve this it was easier to record my participants so I could listen and take notes after the interview.
       </p>
-      <Quote text="Once you are immersed in the language, it is a lot easier to learn." author="Participant 1 (27)" />
-      <Quote text="It is easier to learn a language if there is some direct outcome I'm working towards." author="Participant 4 (27)" />
+      <Quote 
+        text="Once you are immersed in the language, it is a lot easier to learn." 
+        author="Participant 1 (27)" 
+        className={quote1}
+      />
+      <Quote 
+        text="It is easier to learn a language if there is some direct outcome I'm working towards." 
+        author="Participant 4 (27)" 
+        className={quote2}
+      />
       <h1>Proto-Persona</h1>
       <p>To understand my users point of view better, I analyzed the results of the user interviews and created a proto-persona to see the product from their eyes. This allowed me to create a product that fulfilled the users needs.</p>
       <img className="image-right" src={protopersona} />
@@ -124,19 +148,27 @@ const MillaPage = () => (
       <ol>
         <li>{"The first challenge is understanding structures of sentences and explanations of word use. Because there isn't always clear information on these items during his learning process often he has to navigate away from his learning to look up things."}</li>
       </ol>
-      <Quote text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."/>
+      <Quote 
+        text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."
+      />
       <ol>
         <li>Secondly, feeling comfortable speaking the language.</li>
       </ol>
-      <Quote text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."/>
+      <Quote 
+        text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."
+      />
       <ol>
         <li>Difficulty finding examples where he can listen to local speech.</li>
       </ol>
-      <Quote text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."/>
+      <Quote 
+        text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."
+      />
       <ol>
         <li>Jesse is busy with arranging things for his move. He needs an app that can help him learn Dutch easily and in a flexible way, at times that are convenient to him.</li>
       </ol>
-      <Quote text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."/>
+      <Quote 
+        text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."
+      />
       <h1>The Problem Statement</h1>
       <p>Jesse <b>needs a way</b> to be immersed in the language <b>because</b> constant exposure to the language is the most effective way to learn.</p>
       <p><b>We will know this to be true when</b> Jesse is able to respond immediately to conversational questions asked in the target language.</p>
@@ -161,24 +193,22 @@ const MillaPage = () => (
       <h1>User Flows</h1>
       <p>MILLA is focused on immersing the user through audio lessons, video clips of locals and the users ability to explore things around them. Personalization is also a key feature of the app as this will help the user engage with the content.</p>
       <p>These flows were created with draw.io to make sure I understood the interaction between the users and MILLA when they attempt to complete core tasks.</p>
-      <p>
-        <b>User Flow #1</b>
-        <b>User Goal:</b> To complete a personalized lesson with complex grammar.
-        <b>Entry Point:</b> Open application.
-        <b>Success Criteria:</b> User completes lesson and understands the complex grammar when it comes up again.
-      </p>
-      <img src={userflow1} />
-      <p>
-        <b>User Flow #2</b>
-        <b>User Goal:</b> To add an item to Library and Lessons.
-        <b>Entry Point:</b> Menu.
-        <b>Success Criteria:</b> Item captured (image, or phrase) is added to the library and to lessons for user to review in upcoming lessons.
-      </p>
-      <img src={userflow2} />
+      <UserFlow
+        number="1"
+        entryPoint="Open Application."
+        successCriteria="User completes lesson and understands the complex grammar when it comes up again."
+        imageSrc={userflow1}
+      />
+      <UserFlow
+        number="2"
+        entryPoint="Menu."
+        successCriteria="Item captured (image, or phrase) is added to the library and to lessons for user to review in upcoming lessons."
+        imageSrc={userflow2}
+      />
       <h1>Wireframes</h1>
       <p>Wireframing is an important step because it allowed me to visualize how the features will look. The goal here was to create quick sketches to get the point across without spending too much time on the UI elements.</p>
       <p>The biggest challenge I had when creating these sketches was making sure the interaction was clear. I made sure to use arrows and coloured dots to indicate click marks.</p>
-      <img src={wireframe} />
+      <img width="100%" src={wireframe} />
       <p>The early prototypes of MILLA included a splash screen, welcome page and onboarding screens that highlighted some of the important features of the app. The user is then directed to a screen where they could choose to sign up if they had not used the app before or login if they already had an account. For first time users once they signed in they were prompted with 4 personalization questions, which adds in the engagement and relevancy of the content that is presented to the user.</p>
       <p>The user is then brought to the list of lessons page, which is also the home screen. From here users can navigate to their profile, the explore page or the notes page. The profile page allows them to change their preferences and personalizations. The explore feature allows them to take picture of objects around them, see the translation and listen to the pronunciation of those objects. The notes feature allows the user to create and save free form notes. As for the lessons, they are based mostly around audio clips. Since users wanted more detailed explanations of grammar, the app allows for a grammar drop down when users are going through the material.</p>
       <h1>Prototype</h1>
@@ -256,7 +286,7 @@ const MillaPage = () => (
       <p>I really enjoyed analyzing user interviews. I found it really interesting that although they all had different language learning stories and goals they all felt similarily about their language learning processes.</p>
       <p>{"I learned that UX copy is super important and can be the difference between a clear, easy to understand feature and a confusing feature that won't be utilized by the user."}</p>
     </div>
-  </>
+  </div>
 )
 
 export default MillaPage
