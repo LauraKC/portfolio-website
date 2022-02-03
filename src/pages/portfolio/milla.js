@@ -152,7 +152,7 @@ const MillaPage = () => (
         className={quote2}
       />
       <h1>Proto-Persona</h1>
-      <p>To understand my users point of view better, I analyzed the results of the user interviews and created a proto-persona to see the product from their eyes. This allowed me to create a product that fulfilled the users needs.</p>
+      <p>To understand my users' points of view better, I analyzed the results of the user interviews and created a proto-persona to see the product from their eyes. This allowed me to create a product that fulfilled the users needs.</p>
       <img width="100%" src={protopersona} />
       <h1>Persona Challenges</h1>
       <p>These are quotes from user interviews that informed the challenges that Jesse faces when finding ways to be immersed in the language.</p>
