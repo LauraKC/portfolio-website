@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../../components/layout"
 import "../../styles/portfolio.css"
 import iphoneImage from  "../../images/olive/iphone-welcome.png"
+import millaiphoneImage from  "../../images/milla/milla_convo_screen.png"
 import treeImage from  "../../images/olive/tree.svg"
 import ContactMe from "../../components/contact-me"
 
@@ -18,6 +19,7 @@ const PortfolioPage = () => (
       <div className="project-buttons-container" style={{paddingBottom: "50px"}}>
         <OilveCard/>
         <MillaCard/>
+        <ComingSoonCard/>
       </div>
       <ContactMe />
     </div>
@@ -36,9 +38,18 @@ const OilveCard = () => (
 )
 
 const MillaCard = () => (
-  <Link className={classNames("project-button", "project-button-milla")}>
-    <h1>Milla</h1>
-    <h2>Coming Soon</h2>
+  <Link  
+    to='/portfolio/milla'
+    className={classNames("project-button", "project-button-milla")}
+  >
+    <h1>MILLA</h1>
+    <img className='milla-iphone-image' height="60%" src={millaiphoneImage}/>
+  </Link>
+)
+
+const ComingSoonCard = () => (
+  <Link className={classNames("project-button", "project-button-comingsoon")}>
+    <h1>Coming Soon</h1>
   </Link>
 )
 

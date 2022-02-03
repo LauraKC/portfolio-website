@@ -39,10 +39,18 @@
 }
 
 .project-button-milla {
-  background-color: #B48EE8;
+  background-color: #008BBA;
 }
 
 .project-button-milla h1, .project-button-milla h2 {
+  color: white;
+}
+
+.project-button-comingsoon {
+  background-color: #B48EE8;
+}
+
+.project-button-comingsoon h1, .project-button-comingsoon h2 {
   color: #1C304A;
 }
 
