@@ -3,6 +3,7 @@ import React from "react"
 import AnimatedTitle from "../components/animated-title"
 import Layout from "../components/layout"
 import { container, portfolioCircle } from "./index.module.css"
+import ContactMe from "../components/contact-me"
 
 const IndexPage = () => (
   <Layout>
@@ -10,6 +11,7 @@ const IndexPage = () => (
       <AnimatedTitle/>
       <AnimatedCircle/>
       <p>{"Driven to help people lead happier, healthier lives through creating simple, intuitive user experiences. Passionate about mental health & well-being, and new technologies in AR/VR/XR."}</p>
+      <ContactMe />
     </div>
   </Layout>
 )
