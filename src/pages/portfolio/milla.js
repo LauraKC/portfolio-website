@@ -51,7 +51,7 @@ const MillaPage = () => (
           top: 10,
           transform: "rotate(180deg)",
           color: "black",
-          fontSize: "4vw"
+          fontSize: "var(--back-button-size)"
         }}
         to="/portfolio"
       >
