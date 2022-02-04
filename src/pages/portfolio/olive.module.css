@@ -3,12 +3,6 @@
   font-family: var(--theme-h-font-family);
 }
 
-.page-container ol,
-.page-container p {
-  font-family: var(--theme-p-font-family);
-  font-size: var(--p-font-size);
-}
-
 .header-container {
   height: 100%;
   padding-bottom: 50px;
@@ -40,6 +34,7 @@
 }
 
 
+.content-container ol,
 .content-container p {
   font-family: var(--theme-p-font-family);
   color: black;

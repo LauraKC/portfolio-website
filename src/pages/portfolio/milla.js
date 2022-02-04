@@ -110,16 +110,16 @@ const MillaPage = () => (
       Users need/want to be immersed in the language before they get to their travel destinations, so they can start preparing to have conversations.
       </p>
       <p>There are many ways to learn a new language. For those that are travellers or expats who are looking to learn a new language often the goal is to be able to have a conversation not to be fluent in the language. Most language learning experts agree that the top 7 things you need to do are:
-        <ol>
-          <li>Learn the right words</li>
-          <li>Hear the language continuously spoken</li>
-          <li>Speak to native speakers</li>
-          <li>Use spacial repetition and mnemonics</li>
-          <li>Embrace mistakes</li>
-          <li>Create SMART goals/motivation</li>
-          <li>Learn accents/intonation</li>
-        </ol>
       </p>
+      <ol>
+        <li>Learn the right words</li>
+        <li>Hear the language continuously spoken</li>
+        <li>Speak to native speakers</li>
+        <li>Use spacial repetition and mnemonics</li>
+        <li>Embrace mistakes</li>
+        <li>Create SMART goals/motivation</li>
+        <li>Learn accents/intonation</li>
+      </ol>
       <h1>Competitive Analysis</h1>
       <p>It was important to conduct a competitive analysis to understand what products are already on the market, what they are doing right, and what pain points users are experiencing still. I made the decision to choose competitors that focus on conversational language learning as that was the main user goal for MILLA.</p>
       <p><b>Takeaways</b></p>
