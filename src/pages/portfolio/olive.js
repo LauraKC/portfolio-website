@@ -328,7 +328,7 @@ const OlivePage = () => (
       <p>I re-designed onboarding from an 8 screen swipe/click-through tutorial to a 2 screen click-through tutorial with progressive onboarding for particular parts of the app that require a bit more explaination.</p>
       <p><b>Value:</b></p>
       <p>This change allows the user to get through the initial onboarding quickly and have help when they first come across a new aspect.</p>
-      <Quote text="The set up for the account was too many screens and I lost track of what I was answer." author="Participant 1" />
+      <Quote text="The set up for the account was too many screens and I lost track of what I was answering." author="Participant 1" />
       <Carousel>
         <img height={"500px"} src={iteration3a} />
         <img height={"500px"} src={iteration3b} />
@@ -337,7 +337,7 @@ const OlivePage = () => (
       <p><b>Issue:</b></p>
       <p>Usability testing uncovered that some participants found the Dashboard overwhelming.</p>
       <p><b>Change:</b></p>
-      <p>To iterate on the dashboard I have added more white space and stronger hierarchy to ensure design is calming and not as overwhelming. Another big aspect to this iteration was hidding the suggested content so they can be collapsed.</p>
+      <p>To iterate on the dashboard I have added more white space and stronger hierarchy to ensure the design is calming and not as overwhelming. Another big aspect of this iteration was hiding the suggested content so they can be collapsed.</p>
       <p><b>Value:</b></p>
       <p>This change resulted in a more calming dashboard, less overwhelming dashboard screen.</p>
       <Quote text="I'm overwhelmed by the amount of info on the dashboard." author="Participant 3 and 4" />
@@ -347,7 +347,7 @@ const OlivePage = () => (
         <img height={"500px"} src={iteration4c} />
       </Carousel>
       <p><b>Issue:</b></p>
-      <p>{"Through usability testing I learned that the term 'Education' was confusing to participants."}</p>
+      <p>{"Through usability testing, I learned that the term 'Education' was confusing to participants."}</p>
       <p><b>Change:</b></p>
       <p>{"I did some competitive analysis to discover common names for this item and then did some preference testing to ensure it was a clear name. The final result was updating 'Education' to 'Resources'."}</p>
       <p><b>Value:</b></p>
