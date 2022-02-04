@@ -45,13 +45,19 @@ import {
   quote3,
   quote4,
   flexColumns
-} from "./olive.module.css"
+} from "./portfolio-page.module.css"
 import CurvedText from "../../components/curved-text"
 
 
 const OlivePage = () => (
   <div className={pageContainer}>
-    <div className={headerContainer}>
+    <div
+      className={headerContainer}
+      style={{
+        backgroundColor: "var(--olive-pale)",
+        color: "white"
+      }}
+    >
       <Link
         style={{
           position: "fixed",

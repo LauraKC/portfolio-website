@@ -23,6 +23,7 @@ import designiteration4a from "../../images/milla/milla_design_iteration_4a.png"
 import retrospectiveimage from "../../images/milla/undraw_Conversation_re_c26v.png"
 import prototype from "../../images/milla/milla_prototype.png"
 import {
+  headerContainer,
   pageContainer,
   contentContainer,
   goalSection,
@@ -30,13 +31,19 @@ import {
   noBulletList,
   quote1,
   quote2,
-} from "./olive.module.css"
-import { split, headerContainer } from "./milla.module.css"
+  flexColumns,
+} from "./portfolio-page.module.css"
 import CurvedText from "../../components/curved-text"
 
 const MillaPage = () => (
   <div className={pageContainer}>
-    <div className={headerContainer}>
+    <div
+      className={headerContainer}
+      style={{
+        backgroundColor: "var(--milla-blue)",
+        color: "white",
+      }}
+    >
       <Link
         style={{
           position: "fixed",
@@ -242,7 +249,7 @@ const MillaPage = () => (
       <h1>Design Iterations</h1>
       <p>Using my usability testing report I made some iterations to my designs by taking the most severe issues and finding solutions to the problems.</p>
       <p><b>Observation #1:</b></p>
-      <div className={split}>
+      <div className={flexColumns}>
         <div>
           <h3>Before</h3>
           <img width="100%" src={designiteration1b} />
@@ -262,7 +269,7 @@ const MillaPage = () => (
       <p><b>Value:</b></p>
       <p style={{paddingBottom: "5vw"}}>Users were less confused and able to easily understand what the application will include.</p>
       <p><b>Observation #2:</b></p>
-      <div className={split}>
+      <div className={flexColumns}>
         <div>
           <h3>Before</h3>
           <img width="100%" src={designiteration2b} />
@@ -283,7 +290,7 @@ const MillaPage = () => (
       <p style={{paddingBottom: "5vw"}}>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
 
       <p><b>Observation #3:</b></p>
-      <div className={split}>
+      <div className={flexColumns}>
         <div>
           <h3>Before</h3>
           <img width="100%" src={designiteration3b} />
@@ -303,7 +310,7 @@ const MillaPage = () => (
       <p><b>Value:</b></p>
       <p style={{paddingBottom: "5vw"}}>The interaction is easier for users to understand but also the focus is now fully on the popup box which makes this information easier for the users to see.</p>
       <p><b>Observation #4:</b></p>
-      <div className={split}>
+      <div className={flexColumns}>
         <div>
           <h3>Before</h3>
           <img width="100%" src={designiteration4b} />

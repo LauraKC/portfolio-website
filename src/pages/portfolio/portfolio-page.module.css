@@ -6,8 +6,6 @@
 .header-container {
   height: 100%;
   padding-bottom: 50px;
-  background-color: var(--olive-pale);
-  color: white;
   text-align: center;
 }
 
@@ -112,7 +110,7 @@
   .flex-columns {
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 5%;
   }
 
   .flex-columns > * {
