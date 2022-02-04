@@ -8,7 +8,9 @@ const ContactPage = () => (
     <h1><span className="purple-underline">C</span>ontact me</h1>
     <div className={contactDetails}>
       <h3>Want me on your team?</h3>
-      <p>I'm currently open to User Experience Research and User Experience Design opportunities. Just say hi!</p>
+      <p>
+        {"I'm currently open to User Experience Research and User Experience Design opportunities."}
+      </p>
       <ContactMe />
     </div>
   </Layout>

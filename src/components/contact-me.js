@@ -7,7 +7,8 @@ import { myEmail, myLinkedin, myResume} from "../constants"
 const containerStyle = {
   display: "flex",
   flexDirection: "column",
-  alignItems: "center"
+  alignItems: "center",
+  width: "100%",
 }
 const imageContainerStyle = {
   display: "flex",
