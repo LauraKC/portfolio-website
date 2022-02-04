@@ -2,20 +2,24 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Nav from "../components/nav"
-import "../styles/layout.css"
+import {
+  layoutGridContainer,
+  pageContent,
+  nameBanner
+} from "./layout.module.css"
 
 const Layout = ({location, children}) => (
-  <div className="layout-grid-container">
+  <div className={layoutGridContainer}>
     <Nav currentLocation={location}/>
     <NameBanner/>
-    <div className="page-content">
+    <div className={pageContent}>
       {children}
     </div>
   </div>
 )
 
 const NameBanner = () => (
-  <div className='name-banner'>
+  <div className={nameBanner}>
     <Link to="/contact"><h2>{"Let's talk"}</h2></Link>
     <h2>{"Laura Cutler"}</h2>
   </div>
