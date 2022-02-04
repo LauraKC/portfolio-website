@@ -2,6 +2,8 @@
 .page-container h2 {
   font-family: var(--theme-h-font-family);
 }
+
+.page-container ol,
 .page-container p {
   font-family: var(--theme-p-font-family);
   font-size: var(--p-font-size);

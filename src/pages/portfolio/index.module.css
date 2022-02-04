@@ -40,7 +40,7 @@
 }
 
 .project-button-milla {
-  background-color: #008BBA;
+  background-color: var(--milla-blue);
 }
 
 .project-button-milla h1, .project-button-milla h2 {

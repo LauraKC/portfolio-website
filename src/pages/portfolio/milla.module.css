@@ -14,3 +14,27 @@
     flex-direction: column;
   }
 }
+
+.header-container {
+  height: 100%;
+  padding-bottom: 50px;
+  background-color: var(--milla-blue);
+  color: white;
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 8vw;
+  padding-top: 15vw;
+}
+
+.header-container h2 {
+  font-size: 5vw;
+  padding-top: 10vw;
+}
+
+.header-container p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: var(--h3-font-size);
+}

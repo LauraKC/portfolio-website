@@ -24,18 +24,14 @@ import retrospectiveimage from "../../images/milla/undraw_Conversation_re_c26v.p
 import prototype from "../../images/milla/milla_prototype.png"
 import {
   pageContainer,
-  headerContainer,
   contentContainer,
   goalSection,
   bulletList,
   noBulletList,
   quote1,
   quote2,
-  quote3,
-  quote4,
-  flexColumns
 } from "./olive.module.css"
-import { split } from "./milla.module.css"
+import { split, headerContainer } from "./milla.module.css"
 import CurvedText from "../../components/curved-text"
 
 const MillaPage = () => (
@@ -153,39 +149,36 @@ const MillaPage = () => (
         className={quote2}
       />
       <h1>Proto-Persona</h1>
-      <p>To understand my users' points of view better, I analyzed the results of the user interviews and created a proto-persona to see the product from their eyes. This allowed me to create a product that fulfilled the users needs.</p>
+      <p>
+        {"To understand my users' points of view better, I analyzed the results of the user interviews and created a proto-persona to see the product from their eyes. This allowed me to create a product that fulfilled the users needs."}
+      </p>
       <img width="100%" src={protopersona} />
       <h1>Persona Challenges</h1>
       <p>These are quotes from user interviews that informed the challenges that Jesse faces when finding ways to be immersed in the language.</p>
       <ol>
         <li>{"The first challenge is understanding structures of sentences and explanations of word use. Because there isn't always clear information on these items during his learning process often he has to navigate away from his learning to look up things."}
         </li>
-      </ol>
-      <Quote
-        text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."
-        author="Participant 1 (27)"
-      />
-      <ol>
+        <Quote
+          text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."
+          author="Participant 1 (27)"
+        />
         <li>Secondly, feeling comfortable speaking the language.</li>
-      </ol>
-      <Quote
-        text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."
-        author="Participant 4 (27)"
-      />
-      <ol>
+        <Quote
+          text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."
+          author="Participant 4 (27)"
+        />
         <li>Difficulty finding examples where he can listen to local speech.</li>
-      </ol>
-      <Quote
-        text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."
-        author="Participant 2 (33)"
-      />
-      <ol>
+        <Quote
+          text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."
+          author="Participant 2 (33)"
+        />
         <li>Jesse is busy with arranging things for his move. He needs an app that can help him learn Dutch easily and in a flexible way, at times that are convenient to him.</li>
+        <Quote
+          text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."
+          author="Participant 3 (25)"
+        />
       </ol>
-      <Quote
-        text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."
-        author="Participant 3 (25)"
-      />
+
       <h1>The Problem Statement</h1>
       <p>Jesse <b>needs a way</b> to be immersed in the language <b>because</b> constant exposure to the language is the most effective way to learn.</p>
       <p><b>We will know this to be true when</b> Jesse is able to respond immediately to conversational questions asked in the target language.</p>
@@ -288,7 +281,7 @@ const MillaPage = () => (
       <p>{"I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added."}</p>
       <p><b>Value:</b></p>
       <p style={{paddingBottom: "5vw"}}>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
-      
+
       <p><b>Observation #3:</b></p>
       <div className={split}>
         <div>

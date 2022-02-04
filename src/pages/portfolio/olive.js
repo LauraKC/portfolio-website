@@ -220,7 +220,9 @@ const OlivePage = () => (
         imageSrc={userFlowImage3}
       />
       <h1>Sitemap</h1>
-      <p>I used Draw.io to create a sitemap in order to provide a view of Olive's information architecture to better understand the navigation and features of the app.</p>
+      <p>
+        {"I used Draw.io to create a sitemap in order to provide a view of Olive's information architecture to better understand the navigation and features of the app."}
+      </p>
       <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing">Card Sorting</a>  (PDF) exercise.</p>
       <img width="100%" src={sitemapImage}></img>
       <div style={{display: "flex"}}>
@@ -291,7 +293,8 @@ const OlivePage = () => (
         </div>
         <div>
           <p><b>Efficiency Results</b></p>
-          <p>On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants' comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability.
+          <p>
+            {"On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants' comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability."}
           </p>
         </div>
         <div>
