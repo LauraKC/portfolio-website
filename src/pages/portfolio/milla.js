@@ -35,6 +35,7 @@ import {
   quote4,
   flexColumns
 } from "./olive.module.css"
+import { split } from "./milla.module.css"
 import CurvedText from "../../components/curved-text"
 
 const MillaPage = () => (
@@ -99,7 +100,7 @@ const MillaPage = () => (
         </div>
         <div style={{flex: "50%"}}>
           <h1>The Challenge</h1>
-           <p>
+          <p>
              To create a mobile app based on the brief provided by CareerFoundry.
           </p>
           <h1>The Problem Statement</h1>
@@ -141,14 +142,14 @@ const MillaPage = () => (
       </ul>
       <p>When completing my User Interviews I found it challenging to take notes and be an engaged listener. I quickly realized that to solve this it was easier to record my participants so I could listen and take notes after the interview.
       </p>
-      <Quote 
-        text="Once you are immersed in the language, it is a lot easier to learn." 
-        author="Participant 1 (27)" 
+      <Quote
+        text="Once you are immersed in the language, it is a lot easier to learn."
+        author="Participant 1 (27)"
         className={quote1}
       />
-      <Quote 
-        text="It is easier to learn a language if there is some direct outcome I'm working towards." 
-        author="Participant 4 (27)" 
+      <Quote
+        text="It is easier to learn a language if there is some direct outcome I'm working towards."
+        author="Participant 4 (27)"
         className={quote2}
       />
       <h1>Proto-Persona</h1>
@@ -160,28 +161,28 @@ const MillaPage = () => (
         <li>{"The first challenge is understanding structures of sentences and explanations of word use. Because there isn't always clear information on these items during his learning process often he has to navigate away from his learning to look up things."}
         </li>
       </ol>
-      <Quote 
+      <Quote
         text="I seek out explanations on why certain words are used. Not just direct translations but explanations around how words are used."
         author="Participant 1 (27)"
       />
       <ol>
         <li>Secondly, feeling comfortable speaking the language.</li>
       </ol>
-      <Quote 
+      <Quote
         text="When speaking to a native speaker I feel nervous and mostly that…it's probably very obvious that I don't speak the language."
         author="Participant 4 (27)"
       />
       <ol>
         <li>Difficulty finding examples where he can listen to local speech.</li>
       </ol>
-      <Quote 
+      <Quote
         text="An app that has voices of real people saying phrases would be helpful so that you can get used to how words actually sound in a local accent rather than an AI's pronunciation."
         author="Participant 2 (33)"
       />
       <ol>
         <li>Jesse is busy with arranging things for his move. He needs an app that can help him learn Dutch easily and in a flexible way, at times that are convenient to him.</li>
       </ol>
-      <Quote 
+      <Quote
         text=" I study in short sessions that I can squeeze in around the other things I have to do in a day."
         author="Participant 3 (25)"
       />
@@ -232,8 +233,8 @@ const MillaPage = () => (
       <h1>Early Prototypes Iterations</h1>
       <p>{"At first the lessons would finish and go straight back to the lessons page. The abruptness of the change left users confused and feeling like the lesson was incomplete. Having added a success screen after the lesson, not only allowed for a smoother transition for the user but also allowed for some gamification aspects to be shown and a place to motivate the user, and help them embrace mistakes (they're going to happen!) with exciting images and congratulatory wording."}</p>
       <p>Another big issue was updating the navigation. At first I just used text as I was showing a low-fidelity prototype to reduce feedback on design however, the text ended up being a problem as it was too small to read. I updated the navigation to have icons and all users were instantly able to understand those better.</p>
-        <img className="image-left" width="50%" src={iteration1} />
-        <img className="image-right" width="50%" src={iteration2} />
+      <img className="image-left" width="50%" src={iteration1} />
+      <img className="image-right" width="50%" src={iteration2} />
       <h1>{"Usability Test Plan & Script"}</h1>
       <p>To test the MILLA prototype I created a usability test plan that asked 4 users that were either currently expats or frequent travellers to complete the following 4 direct tasks.</p>
       <p>Read the full <a href="https://drive.google.com/file/d/1UibnHX7BjybTPz-591oKU-_B0CfJTGu9/view?usp=sharing">Usability Test Plan</a>(PDF) which includes scope, schedule, metrics, script, and participant notes.</p>
@@ -253,20 +254,27 @@ const MillaPage = () => (
       <p>I greyed out the video so it seemed less interactive and more representative of the types of content they can expect in the app, as well I updated the explaination of personalization.</p>
       <p><b>Value:</b></p>
       <p>Users were less confused and able to easily understand what the application will include.</p>
-      <Quote 
+      <Quote
         text="Was a little confused by camera and video because was wondering if it would be a demonstration not just an image."
         author="Rachel (32)"
       />
-      <h3 className="image-left">Before</h3><h3>After</h3>
-      <img className="image-left" width="50%" src={designiteration1b} />
-      <img className="image-right" width="50%" src={designiteration1a} />
+      <div className={split}>
+        <div>
+          <h3>Before</h3>
+          <img width="100%" src={designiteration1b} />
+        </div>
+        <div>
+          <h3>After</h3>
+          <img width="100%" src={designiteration1a} />
+        </div>
+      </div>
       <p><b>Observation #2:</b></p>
       <p>{"Most users were confused by the navigation (camera, circle button, audio) on the explore screen. Users were also concerned that the item wasn't being added to their lesson and would use different methods to check."}</p>
       <p><b>Improvements:</b></p>
       <p>{"I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added."}</p>
       <p><b>Value:</b></p>
       <p>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
-      <Quote 
+      <Quote
         text="I thought the button in the middle was to take the picture but then I thought that's what the camera would be so maybe the camera is a library?"
         author="Darwin (27)"
       />
@@ -279,7 +287,7 @@ const MillaPage = () => (
       <p>{"I re-designed this by greying out the background so users would know that they can click anywhere out of the grammar box to close it. I decided against an 'X' because I didn't want the user to be limited to clicking only one spot on the screen to close the box."}</p>
       <p><b>Value:</b></p>
       <p>The interaction is easier for users to understand but also the focus is now fully on the popup box which makes this information easier for the users to see.</p>
-      <Quote 
+      <Quote
         text="I am confused how to close the box, I'll just keep clicking around until it goes away."
         author="Andrew (25)"
       />
@@ -292,13 +300,13 @@ const MillaPage = () => (
       <p>{"Based on usability testing this iteration included changing most of the terms! 'Canvas' became 'Make Connections' to clarify to the users what would happen in the space. To make it extra clear how to use this space I added description text to explain how to use this feature. To make the notes feature easier to use I included it in the lessons as this is the point when most users would want to make a note about something they have just learned. That way they don't have to try and remember it after their lesson or exit out of the lesson just to make a note. Of course they can always review their notes by going into the notes page."}</p>
       <p><b>Value:</b></p>
       <p>This re-design makes the feature easier for the user to access as well as making this feature more easily understood by the user.</p>
-      <Quote 
+      <Quote
         text="I don't think I would use the notes function. If I'm exploring the app before doing a lesson, I wouldn't have anything to add yet and I would hesitate to ever use this feature."
         author="Rachel (32)"
       />
       <h3>Before</h3><h3>After</h3>
-        <img className="image-left" src={designiteration4b} />
-        <img className="image-right" src={designiteration4a} />
+      <img className="image-left" src={designiteration4b} />
+      <img className="image-right" src={designiteration4a} />
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <a href="https://marvelapp.com/prototype/14e28chj/screen/78699185" width="100%" className="image-center"><img src={prototype} /></a>

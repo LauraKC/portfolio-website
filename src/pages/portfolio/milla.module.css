@@ -1,0 +1,16 @@
+
+.split {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.split > * {
+  flex: 50%
+}
+
+@media (orientation: portrait) {
+  .split {
+    flex-direction: column;
+  }
+}
