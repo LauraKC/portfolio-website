@@ -18,8 +18,6 @@ const Layout = ({location, children}) => (
     </div>
     <NameBanner/>
   </>
-
-
 )
 
 const NameBanner = () => (
