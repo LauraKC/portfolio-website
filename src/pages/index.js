@@ -3,7 +3,6 @@ import React from "react"
 import AnimatedTitle from "../components/animated-title"
 import Layout from "../components/layout"
 import { container, portfolioCircle } from "./index.module.css"
-import ContactMe from "../components/contact-me"
 
 const IndexPage = () => (
   <Layout>

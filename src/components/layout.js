@@ -3,19 +3,23 @@ import { Link } from "gatsby"
 
 import Nav from "../components/nav"
 import {
-  layoutGridContainer,
+  layoutContainer,
   pageContent,
   nameBanner
 } from "./layout.module.css"
 
 const Layout = ({location, children}) => (
-  <div className={layoutGridContainer}>
-    <Nav currentLocation={location}/>
-    <NameBanner/>
-    <div className={pageContent}>
-      {children}
+  <>
+    <div className={layoutContainer}>
+      <Nav currentLocation={location}/>
+      <div className={pageContent}>
+        {children}
+      </div>
     </div>
-  </div>
+    <NameBanner/>
+  </>
+
+
 )
 
 const NameBanner = () => (

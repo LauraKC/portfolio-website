@@ -15,7 +15,7 @@ const AboutPage = () => (
       About<br/>
       <Ws/><Ws/><Ws/><span className="purple-underline">M</span>e
     </h1>
-    <div style={{padding: "0 5vw 10vh 5vw"}}>
+    <div>
       <div style={{
         marginBottom: "50px",
       }}>

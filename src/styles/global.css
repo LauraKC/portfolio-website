@@ -20,6 +20,7 @@
   --theme-nav-link-active-color: white;
 
   /* font sizes */
+  --nav-link-font-size: 2vw;
   --h1-font-size: 7vw;
   --h2-font-size: 3vw;
   --h3-font-size: 2vw;
@@ -32,6 +33,7 @@
 
 @media screen and (max-width: 700px) {
   :root {
+    --nav-link-font-size: 14px;
     --h1-font-size: 44px;
     --h2-font-size: 24px;
     --h3-font-size: 16px;
