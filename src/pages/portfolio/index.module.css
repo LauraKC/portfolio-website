@@ -9,10 +9,11 @@
 
 
 .project-buttons-container {
-  padding-top: 50px;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-button-olive {
@@ -39,11 +40,19 @@
 }
 
 .project-button-milla {
-  background-color: #B48EE8;
+  background-color: var(--milla-blue);
 }
 
 .project-button-milla h1, .project-button-milla h2 {
-  color: #1C304A;
+  color: white;
+}
+
+.project-button-comingsoon {
+  background-color: #B48EE8;
+}
+
+.project-button-comingsoon h1, .project-button-comingsoon h2 {
+  color: white;
 }
 
 
@@ -58,6 +67,7 @@
   }
   .project-buttons-container {
     flex-direction: row;
+    gap: 20px;
   }
 }
 

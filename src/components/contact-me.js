@@ -1,12 +1,14 @@
 import React from "react"
 import LinkedInButtonPhoto from "../images/linkedin_button_w.png"
 import EmailButtonPhoto from "../images/email_button_w.png"
-import { myEmail, myLinkedin} from "../constants"
+import ResumeButtonPhoto from "../images/resume_button_w.png"
+import { myEmail, myLinkedin, myResume} from "../constants"
 
 const containerStyle = {
   display: "flex",
   flexDirection: "column",
-  alignItems: "center"
+  alignItems: "center",
+  width: "100%",
 }
 const imageContainerStyle = {
   display: "flex",
@@ -24,6 +26,9 @@ const ContactMe = () => (
       </a>
       <a href={"mailto:" + myEmail}>
         <img src={EmailButtonPhoto} />
+      </a>
+      <a href={myResume}>
+        <img src={ResumeButtonPhoto} />
       </a>
     </div>
   </div>
