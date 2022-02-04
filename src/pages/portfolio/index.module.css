@@ -9,10 +9,11 @@
 
 
 .project-buttons-container {
-  padding-top: 50px;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-button-olive {
@@ -66,6 +67,7 @@
   }
   .project-buttons-container {
     flex-direction: row;
+    gap: 20px;
   }
 }
 
