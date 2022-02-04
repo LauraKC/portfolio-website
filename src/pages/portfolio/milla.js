@@ -331,7 +331,9 @@ const MillaPage = () => (
       <p style={{paddingBottom: "5vw"}}>This re-design makes the feature easier for the user to access as well as making this feature more easily understood by the user.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
-      <a href="https://marvelapp.com/prototype/14e28chj/screen/78699185" width="100%" className="image-center"><img src={prototype} /></a>
+      <div style={{display: "flex", justifyContent: "center"}}>
+        <a href={"https://marvelapp.com/prototype/14e28chj/screen/78699185"}><img style={{width: "30vw"}} src={prototype}></img></a>
+      </div>
       <h1>Summary</h1>
       <p>{"MILLA solves the problem of 'how might we design a mobile app that empowers people to learn new vocabulary' by providing travellers and expats with a way to be immersed in a new language and gain exposure to the language. Through exploring their surroundings, listening to various audio clips and completing many different types of language lessons."}</p>
       <p>The next iterations I would like to take are to continue improving on the notes feature, include a MILLA assistant feature (a chat bot that users could interact with throughout the app to ask questions and enhance their understanding of the language) and of course I would like to create a design system and high-fidelity prototype to test with users.</p>
