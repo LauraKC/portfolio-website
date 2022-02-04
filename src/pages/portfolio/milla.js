@@ -249,15 +249,6 @@ const MillaPage = () => (
       <h1>Design Iterations</h1>
       <p>Using my usability testing report I made some iterations to my designs by taking the most severe issues and finding solutions to the problems.</p>
       <p><b>Observation #1:</b></p>
-      <p>{"Most users thought that onboarding looked interactive but it is actually images of what the features will look like. I also received feedback that the personalization explanation wasn't clear."}</p>
-      <p><b>Improvements:</b></p>
-      <p>I greyed out the video so it seemed less interactive and more representative of the types of content they can expect in the app, as well I updated the explaination of personalization.</p>
-      <p><b>Value:</b></p>
-      <p>Users were less confused and able to easily understand what the application will include.</p>
-      <Quote
-        text="Was a little confused by camera and video because was wondering if it would be a demonstration not just an image."
-        author="Rachel (32)"
-      />
       <div className={split}>
         <div>
           <h3>Before</h3>
@@ -268,45 +259,76 @@ const MillaPage = () => (
           <img width="100%" src={designiteration1a} />
         </div>
       </div>
-      <p><b>Observation #2:</b></p>
-      <p>{"Most users were confused by the navigation (camera, circle button, audio) on the explore screen. Users were also concerned that the item wasn't being added to their lesson and would use different methods to check."}</p>
+      <p>{"Most users thought that onboarding looked interactive but it is actually images of what the features will look like. I also received feedback that the personalization explanation wasn't clear."}</p>
+      <Quote
+        text="I was a little confused by the camera and video because I was wondering if it would be a demonstration not just an image."
+        author="Rachel (32)"
+      />
       <p><b>Improvements:</b></p>
-      <p>{"I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added."}</p>
+      <p>I greyed out the video so it seemed less interactive and more representative of the types of content they can expect in the app, as well I updated the explanation of personalization.</p>
       <p><b>Value:</b></p>
-      <p>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
+      <p style={{paddingBottom: "5vw"}}>Users were less confused and able to easily understand what the application will include.</p>
+      <p><b>Observation #2:</b></p>
+      <div className={split}>
+        <div>
+          <h3>Before</h3>
+          <img width="100%" src={designiteration2b} />
+        </div>
+        <div>
+          <h3>After</h3>
+          <img width="100%" src={designiteration2a} />
+        </div>
+      </div>
+      <p>{"Most users were confused by the navigation (camera, circle button, audio) on the explore screen. Users were also concerned that the item wasn't being added to their lesson and would use different methods to check."}</p>
       <Quote
         text="I thought the button in the middle was to take the picture but then I thought that's what the camera would be so maybe the camera is a library?"
         author="Darwin (27)"
       />
-      <h3>Before</h3><h3>After</h3>
-      <img className="image-left" width="50%" src={designiteration2b} />
-      <img className="image-right" width="50%" src={designiteration2a} />
-      <p><b>Observation #3:</b></p>
-      <p>Some users were unsure how to close the grammar box once it was open.</p>
       <p><b>Improvements:</b></p>
-      <p>{"I re-designed this by greying out the background so users would know that they can click anywhere out of the grammar box to close it. I decided against an 'X' because I didn't want the user to be limited to clicking only one spot on the screen to close the box."}</p>
+      <p>{"I re-designed the buttons to what is heavily recognized and understood in the iPhone camera app, which is the swipe to switch modes. I also, changed the users involvement in adding the item to the lesson by automatically adding the item and providing a popup letting them know that the item has been added. That way they don't have to worry about their involvement in making sure the item has been added."}</p>
       <p><b>Value:</b></p>
-      <p>The interaction is easier for users to understand but also the focus is now fully on the popup box which makes this information easier for the users to see.</p>
+      <p style={{paddingBottom: "5vw"}}>Users are more easily able to use the explore function. The buttons are more clear and the app will add the item to their lessons easily.</p>
+      
+      <p><b>Observation #3:</b></p>
+      <div className={split}>
+        <div>
+          <h3>Before</h3>
+          <img width="100%" src={designiteration3b} />
+        </div>
+        <div>
+          <h3>After</h3>
+          <img width="100%" src={designiteration3a} />
+        </div>
+      </div>
+      <p>Some users were unsure how to close the grammar box once it was open.</p>
       <Quote
         text="I am confused how to close the box, I'll just keep clicking around until it goes away."
         author="Andrew (25)"
       />
-      <h3>Before</h3><h3>After</h3>
-      <img className="image-left" width="50%" src={designiteration3b} />
-      <img className="image-right" width="50%" src={designiteration3a} />
-      <p><b>Observation #4:</b></p>
-      <p>All users were confused by the terms that were used in this feature. One user was also unsure if they would ever user the feature as it was presented.</p>
       <p><b>Improvements:</b></p>
-      <p>{"Based on usability testing this iteration included changing most of the terms! 'Canvas' became 'Make Connections' to clarify to the users what would happen in the space. To make it extra clear how to use this space I added description text to explain how to use this feature. To make the notes feature easier to use I included it in the lessons as this is the point when most users would want to make a note about something they have just learned. That way they don't have to try and remember it after their lesson or exit out of the lesson just to make a note. Of course they can always review their notes by going into the notes page."}</p>
+      <p>{"I re-designed this by greying out the background so users would know that they can click anywhere out of the grammar box to close it. I decided against an 'X' because I didn't want the user to be limited to clicking only one spot on the screen to close the box."}</p>
       <p><b>Value:</b></p>
-      <p>This re-design makes the feature easier for the user to access as well as making this feature more easily understood by the user.</p>
+      <p style={{paddingBottom: "5vw"}}>The interaction is easier for users to understand but also the focus is now fully on the popup box which makes this information easier for the users to see.</p>
+      <p><b>Observation #4:</b></p>
+      <div className={split}>
+        <div>
+          <h3>Before</h3>
+          <img width="100%" src={designiteration4b} />
+        </div>
+        <div>
+          <h3>After</h3>
+          <img width="100%" src={designiteration4a} />
+        </div>
+      </div>
+      <p>All users were confused by the terms that were used in this feature. One user was also unsure if they would ever user the feature as it was presented.</p>
       <Quote
         text="I don't think I would use the notes function. If I'm exploring the app before doing a lesson, I wouldn't have anything to add yet and I would hesitate to ever use this feature."
         author="Rachel (32)"
       />
-      <h3>Before</h3><h3>After</h3>
-      <img className="image-left" src={designiteration4b} />
-      <img className="image-right" src={designiteration4a} />
+      <p><b>Improvements:</b></p>
+      <p>{"Based on usability testing this iteration included changing most of the terms! 'Canvas' became 'Make Connections' to clarify to the users what would happen in the space. To make it extra clear how to use this space I added description text to explain how to use this feature. To make the notes feature easier to use I included it in the lessons as this is the point when most users would want to make a note about something they have just learned. That way they don't have to try and remember it after their lesson or exit out of the lesson just to make a note. Of course they can always review their notes by going into the notes page."}</p>
+      <p><b>Value:</b></p>
+      <p style={{paddingBottom: "5vw"}}>This re-design makes the feature easier for the user to access as well as making this feature more easily understood by the user.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <a href="https://marvelapp.com/prototype/14e28chj/screen/78699185" width="100%" className="image-center"><img src={prototype} /></a>
