@@ -103,14 +103,18 @@ const OlivePage = () => (
               <li>UI Designer</li>
             </ul>
             <h2 style={{paddingBottom: "1vw"}} >Tools</h2>
-            <ul className={noBulletList}>
+            <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
               <li>Balsamiq</li>
               <li>Figma</li>
               <li>Adobe XD</li>
             </ul>
+            <h2 style={{paddingBottom: "1vw"}}>Duration</h2>
+            <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
+              <li>{"6 months"}</li>
+            </ul>
           </div>
           <div style={{flex: "50%"}}>
-            <h2 style={{paddingBottom: "1vw"}}>Methods</h2>
+            <h2 style={{paddingBottom: "1vw"}}>What I did</h2>
             <ul className={noBulletList}>
               <li>Competitive Analysis</li>
               <li>User Interviews</li>
