@@ -375,26 +375,28 @@ const OlivePage = () => (
       </div>
       <h1>Retrospective</h1>
       <p>{"My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically."}</p>
-      <p>{"My biggest challenge was having to decide which solutions to use, which solutions could be future features, and which solutions weren't right for this particular application. I wanted to ensure that the main user goals of having an easy-to-use and motivational tool were always the focus but also that the brand values of being healthy, supportive, and serene were always accounted for."}</p>
+      <p><b>{"My biggest challenge"}</b>{" was having to decide which solutions to use, which solutions could be future features, and which solutions weren't right for this particular application. I wanted to ensure that the main user goals of having an easy-to-use and motivational tool were always the focus but also that the brand values of being healthy, supportive, and serene were always accounted for."}</p>
       <p>{"One possible solution that didn't make the cut was a scheduling feature. During user interviews, some users had stated that:"}</p>
       <p><i>“I believe the best motivation is a mixture of structure and flexibility.” ~ Anita (27)</i></p>
       <p><i>“I feel better when I structure time to experience my emotions so that I can restart fresh the next day.” ~ Jason (26)</i></p>
       <p><i>“I believe alarms and reminders are really helpful motivators.” ~ Anita (27)</i></p>
       <p>{"This led me to believe a scheduling function to schedule time for their mental health could be a helpful solution to motivate the user to do some mental health activities that would improve their mental health. However, most people already have calendars and to-do lists and they don't need yet another place to check what they are supposed to do today. In fact, having this extra schedule could create even more anxiety for them. So I decided I would create structure through notifications and reminders that would be sent at certain times in the day but would also allow for flexibility."}</p>
       <p>{"As a result, I am proud of the app's serene look and feel, as well as the dashboard's supportive and motivational nature. I chose to make the users' mental health goal the most prominent item on the dashboard so that they would feel motivated to keep improving their mental health one day at a time."}</p>
-      <p>{"Moving forward, I'd like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive."}</p>
+      <p><b>{"Moving forward"}</b>{", I'd like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive."}</p>
       <div style={{display: "flex"}}>
         <div style={{flex: "50%"}}>
           <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
         </div>
         <div style={{flex: "50%"}}>
-          <h1>What I learned from this project?</h1>
-          <p>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</p>
-          <p>It is super important to be really prepared when doing usability testing.</p>
-          <p>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</p>
-          <p>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</p>
-          <p>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</p>
-          <p>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</p>
+          <h1>What I learned from this project</h1>
+          <ul>
+            <li>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</li>
+            <li>It is super important to be really prepared when doing usability testing.</li>
+            <li>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</li>
+            <li>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</li>
+            <li>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</li>
+            <li>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</li>
+          </ul>
         </div>
       </div>
     </div>
