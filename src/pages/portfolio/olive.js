@@ -240,19 +240,14 @@ const OlivePage = () => (
           <h1>{"Wireframes & Prototypes"}</h1>
           <p>{"After creating the functionality of the onboarding and core features, I translated my low-fidelity wireframes into mid-fidelity wireframes using Figma. The goal of these mid-fidelity prototypes was to convey the function and specifics of the user interface so that I could get feedback from potential users on pain points and goal completion."}</p>
           <p>
-            {"Olive's "}
-            <a href="https://www.figma.com/proto/pA4ZILmvYD4vmiINe0Vl8j/Olive-Mental-Health-App?node-id=101%3A2643&scaling=min-zoom&page-id=101%3A1191&starting-point-node-id=101%3A2643">
-              mobile prototype
-            </a>
-            {" and "}
-            <a href="https://www.figma.com/proto/pA4ZILmvYD4vmiINe0Vl8j/Olive-Mental-Health-App?node-id=101%3A13933&scaling=scale-down-width&page-id=101%3A1192&starting-point-node-id=101%3A14472">
-              desktop prototype
-            </a>
-            {" that were used in usability testing."}
+            {"Olive's mobile prototype and desktop prototype that were used in usability testing."}
           </p>
-        </div>
-        <div style={{display: "flex", flex: "50%", justifyContent: "center"}}>
-          <img style={{width: "80%", objectFit: "scale-down", transform: "rotate(10deg)"}} src={wireframePrototypeImage}></img>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <iframe width="800" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fnode-id%3D161%253A6915%26scaling%3Dscale-down%26page-id%3D161%253A6769%26starting-point-node-id%3D161%253A6915" allowfullscreen></iframe>
+          </div>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <iframe width="800" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fnode-id%3D300%253A23366%26scaling%3Dscale-down%26page-id%3D300%253A11155%26starting-point-node-id%3D300%253A23366" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <div style={{display: "flex"}}>
@@ -298,18 +293,18 @@ const OlivePage = () => (
       <div className={flexColumns}>
         <div>
           <p><b>Learnability Results</b></p>
-          <p>The success rate for this app was very high since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
+          <p>The <b>success rate</b> for this app was <b>very high</b> since almost all of the time participants were able to accomplish the basic tasks and understand the functionality of the app very easily. Only a few were unsure for a few seconds before getting themselves back on track with no prompting.
           </p>
         </div>
         <div>
           <p><b>Efficiency Results</b></p>
           <p>
-            {"On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants' comments on the onboarding process made the onboarding process something I want to re-work in order to ensure efficient use of the app and enjoyability."}
+            {"On desktop, onboarding took on average 6:40 minutes, and on mobile onboarding took 7:60 minutes. The time taken as well as the participants' comments on the"} <b>{"onboarding process made the onboarding process something I want to re-work"}</b> {"in order to ensure efficient use of the app and enjoyability."}
           </p>
         </div>
         <div>
           <p><b>Satisfaction Results</b></p>
-          <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this feature should be re-designed to be more satisfying for the users.
+          <p>When we look at the satisfaction rating for tracking, the average satisfaction for desktop was a 5.2/7 and for mobile was 5.8/7. These being the lowest scores coupled with comments from participants suggested this <b>tracking feature should be re-designed to be more satisfying for the users</b>.
           </p>
         </div>
       </div>
@@ -375,7 +370,7 @@ const OlivePage = () => (
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
-        <a href={"https://www.figma.com/proto/LapnRo5ANl4E46FZQWuIqZ/Olive-Final?node-id=1%3A5709&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A5709"}><img style={{width: "30vw"}} src={iphoneWelcomeImage}></img></a>
+        <iframe width="800" height="450" title="final mobile prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLapnRo5ANl4E46FZQWuIqZ%2FOlive-Final%3Fnode-id%3D1%253A5709%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A5709" allowfullscreen></iframe>
       </div>
       <h1>Retrospective</h1>
       <p>{"My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically."}</p>

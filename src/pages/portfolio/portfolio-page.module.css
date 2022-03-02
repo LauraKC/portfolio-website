@@ -39,9 +39,24 @@
   font-size: var(--portfolio-p-font-size);
 }
 
-.content-container a {
+.content-container a:link {
   color: black;
   text-decoration: underline;
+}
+
+.content-container a:visited {
+  color: var(--dark-purple);
+  text-decoration: underline;
+}
+
+.content-container a:hover {
+  color: var(--dash-purple);
+  text-decoration: underline;
+}
+
+.content-container a:active {
+  color: var(--dash-purple);
+  text-decoration: none;
 }
 
 .content-container h1 {
