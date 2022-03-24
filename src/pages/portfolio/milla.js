@@ -79,13 +79,17 @@ const MillaPage = () => (
               <li>UX Designer</li>
             </ul>
             <h2 style={{paddingBottom: "1vw"}}>Tools</h2>
-            <ul className={noBulletList}>
+            <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
               <li>{"Pen & Paper"}</li>
               <li>Marvel</li>
             </ul>
+            <h2 style={{paddingBottom: "1vw"}}>Duration</h2>
+            <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
+              <li>{"1 month"}</li>
+            </ul>
           </div>
           <div style={{flex: "50%"}}>
-            <h2 style={{paddingBottom: "1vw"}}>Methods</h2>
+            <h2 style={{paddingBottom: "1vw"}}>What I did</h2>
             <ul className={noBulletList}>
               <li>Competitive Analysis</li>
               <li>User Interviews</li>
