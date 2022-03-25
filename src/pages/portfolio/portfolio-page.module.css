@@ -31,7 +31,6 @@
   margin-top: 10vw;
 }
 
-
 .content-container ol,
 .content-container p {
   font-family: var(--theme-p-font-family);
@@ -120,6 +119,20 @@
   transform: translateX(20%);
 }
 
+.dialoguecontainer {
+  display: flex;
+  align-items:center;
+  justify-content:left;
+}
+
+.dialogueimage {
+  flex-basis: 10%;
+}
+
+.dialoguetext {
+  font-size: var(--portfolio-p-font-size);
+  padding-left: 2vw;
+}
 
 @media (orientation:landscape) {
   .flex-columns {

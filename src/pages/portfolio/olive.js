@@ -236,25 +236,25 @@ const OlivePage = () => (
       <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing">Card Sorting</a>  (PDF) exercise.</p>
       <img width="100%" src={sitemapImage}></img>
       <div style={{display: "flex"}}>
-        <div style={{flex: "50%"}}>
+        <div style={{flex: "25%"}}>
           <h1>{"Wireframes & Prototypes"}</h1>
           <p>{"After creating the functionality of the onboarding and core features, I translated my low-fidelity wireframes into mid-fidelity wireframes using Figma. The goal of these mid-fidelity prototypes was to convey the function and specifics of the user interface so that I could get feedback from potential users on pain points and goal completion."}</p>
           <p>
             {"Olive's mobile prototype and desktop prototype that were used in usability testing."}
           </p>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="800" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fnode-id%3D161%253A6915%26scaling%3Dscale-down%26page-id%3D161%253A6769%26starting-point-node-id%3D161%253A6915" allowfullscreen></iframe>
+            <iframe width="100%" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D161%253A6915%26page-id%3D161%253A6769%26scaling%3Dcontain%26starting-point-node-id%3D161%253A6915" allowfullscreen></iframe>
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="800" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fnode-id%3D300%253A23366%26scaling%3Dscale-down%26page-id%3D300%253A11155%26starting-point-node-id%3D300%253A23366" allowfullscreen></iframe>
+            <iframe width="100%" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D300%253A23366%26page-id%3D300%253A11155%26scaling%3Dcontain%26starting-point-node-id%3D300%253A23366" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div style={{display: "flex"}}>
         <div style={{flex: "50%"}}>
-          <img style={{width: "70%"}} src={usabilityParticipantsImage} ></img>
+          <img style={{width: "70%", marginTop: "10%"}} src={usabilityParticipantsImage} ></img>
         </div>
-        <div style={{flex: "50%"}}>
+        <div style={{flex: "50%", marginTop: "5%"}}>
           <h1>Usability Test Plan</h1>
           <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
           <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
@@ -262,7 +262,6 @@ const OlivePage = () => (
           <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing">Usability Test Script</a> (PDF).</p>
         </div>
       </div>
-
       <h1>Affinity Map</h1>
       <p>{"After conducting user interviews, I went through the responses and noted anything regarding participants' thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights."}</p>
       <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map</a> (PDF).</p>
@@ -382,22 +381,16 @@ const OlivePage = () => (
       <p>{"This led me to believe a scheduling function to schedule time for their mental health could be a helpful solution to motivate the user to do some mental health activities that would improve their mental health. However, most people already have calendars and to-do lists and they don't need yet another place to check what they are supposed to do today. In fact, having this extra schedule could create even more anxiety for them. So I decided I would create structure through notifications and reminders that would be sent at certain times in the day but would also allow for flexibility."}</p>
       <p>{"As a result, I am proud of the app's serene look and feel, as well as the dashboard's supportive and motivational nature. I chose to make the users' mental health goal the most prominent item on the dashboard so that they would feel motivated to keep improving their mental health one day at a time."}</p>
       <p><b>{"Moving forward"}</b>{", I'd like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive."}</p>
-      <div style={{display: "flex"}}>
-        <div style={{flex: "50%"}}>
-          <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
-        </div>
-        <div style={{flex: "50%"}}>
-          <h1>What I learned from this project</h1>
-          <ul>
-            <li>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</li>
-            <li>It is super important to be really prepared when doing usability testing.</li>
-            <li>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</li>
-            <li>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</li>
-            <li>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</li>
-            <li>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</li>
-          </ul>
-        </div>
-      </div>
+      <h1>What I learned from this project</h1>
+        <ul style={{fontSize: "2vw"}}>
+          <li>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</li>
+          <li>It is super important to be really prepared when doing usability testing.</li>
+          <li>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</li>
+          <li>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</li>
+          <li>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</li>
+          <li>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</li>
+        </ul>
+        <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
     </div>
   </div>
 )

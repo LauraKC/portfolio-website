@@ -5,6 +5,7 @@ import Layout from "../../components/layout"
 import iphoneImage from  "../../images/olive/iphone-welcome.png"
 import millaiphoneImage from  "../../images/milla/milla_convo_screen.png"
 import treeImage from  "../../images/olive/tree.svg"
+import alexa from  "../../images/sage/alexa_cutout.png"
 import ContactMe from "../../components/contact-me"
 import {
   projectContentContainer,
@@ -15,6 +16,7 @@ import {
   projectButtonComingsoon,
   oliveIphoneImage,
   oliveTreeImage,
+  projectButtonSage,
 } from "./index.module.css"
 
 
@@ -28,6 +30,7 @@ const PortfolioPage = () => (
       <div className={projectButtonsContainer} style={{paddingBottom: "50px"}}>
         <OilveCard/>
         <MillaCard/>
+        <SageCard/>
         <ComingSoonCard/>
       </div>
       <ContactMe />
@@ -53,6 +56,16 @@ const MillaCard = () => (
   >
     <h1>MILLA</h1>
     <img height="60%" src={millaiphoneImage}/>
+  </Link>
+)
+
+const SageCard = () => (
+  <Link
+    to='/portfolio/sage'
+    className={classNames(projectButton, projectButtonSage)}
+  >
+    <h1>Sage</h1>
+    <img height="60%" src={alexa}/>
   </Link>
 )
 
