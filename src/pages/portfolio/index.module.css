@@ -55,7 +55,13 @@
   color: white;
 }
 
+.project-button-sage {
+  background-color: #9F9296;
+}
 
+.project-button-sage h1, .project-button-sage h2 {
+  color: white;
+}
 
 @media (orientation:landscape) {
   .project-button {
