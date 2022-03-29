@@ -23,7 +23,7 @@ import {
 const PortfolioPage = () => (
   <Layout pageContentClassName={"hello"}>
     <div className={projectContentContainer}>
-      <h1>
+      <h1 style={{paddingBottom: "10%"}}>
         <span className='purple-underline'>P</span>ortfolio
       </h1>
 

@@ -18,14 +18,14 @@ const imageContainerStyle = {
 
 const ContactMe = () => (
   <div style={containerStyle}>
-    <h2>{"Let's Connect"}</h2>
-    <p>Get in touch for opportunities or just say hi!</p>
+    <h2 style={{paddingTop: "10%"}}>{"Let's Connect"}</h2>
+    <p>I'd love to hear from you!</p>
     <div style={imageContainerStyle}>
       <a href={myLinkedin} target="_blank">
-        <img src={LinkedInButtonPhoto} />
+        <img style={{width: "70%"}} src={LinkedInButtonPhoto} />
       </a>
       <a href={"mailto:" + myEmail} target="_blank">
-        <img src={EmailButtonPhoto} />
+        <img style={{width: "70%"}} src={EmailButtonPhoto} />
       </a>
     </div>
   </div>
