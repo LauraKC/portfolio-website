@@ -23,6 +23,7 @@ const Nav = () => {
       <NavLink path="/portfolio">Portfolio</NavLink>
       <NavLink path="/about">About</NavLink>
       <NavLink path="/contact">Contact</NavLink>
+      <NavLink path="/resume">Résumé</NavLink>
     </nav>
   )
 }

@@ -152,11 +152,11 @@ const OlivePage = () => (
       </ul>
       <br/>
       <p>
-        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing">competitive analysis
+        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing" target="_blank">competitive analysis
         </a> (PDF).
       </p>
       <h1>User Interviews</h1>
-      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing">User Research Analysis</a> (PDF).</p>
+      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing" target="_blank">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing" target="_blank">User Research Analysis</a> (PDF).</p>
       <p><b>Top Insights from my User Research:</b></p>
       <ul className={bulletList}>
         <li>{"Personalization is key when it comes to mental health because everyone's mental health needs are unique."}</li>
@@ -233,7 +233,7 @@ const OlivePage = () => (
       <p>
         {"I used Draw.io to create a sitemap in order to provide a view of Olive's information architecture to better understand the navigation and features of the app."}
       </p>
-      <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing">Card Sorting</a>  (PDF) exercise.</p>
+      <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing" target="_blank">Card Sorting</a>  (PDF) exercise.</p>
       <img width="100%" src={sitemapImage}></img>
       <div style={{display: "flex"}}>
         <div style={{flex: "25%"}}>
@@ -257,14 +257,14 @@ const OlivePage = () => (
         <div style={{flex: "50%", marginTop: "5%"}}>
           <h1>Usability Test Plan</h1>
           <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
-          <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+          <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing" target="_blank">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
           <h1>Usability Test Script</h1>
-          <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing">Usability Test Script</a> (PDF).</p>
+          <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing" target="_blank">Usability Test Script</a> (PDF).</p>
         </div>
       </div>
       <h1>Affinity Map</h1>
       <p>{"After conducting user interviews, I went through the responses and noted anything regarding participants' thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights."}</p>
-      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing">Affinity Map</a> (PDF).</p>
+      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing" target="_blank">Affinity Map</a> (PDF).</p>
       <Quote
         text="I prefer this app over anything else I've tried."
         author="Participant 4"
@@ -362,10 +362,10 @@ const OlivePage = () => (
       <Quote text="I'm unsure what 'Education' means." author="Participant 5" />
       <h1>Design Language System</h1>
       <p>{"I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene."}</p>
-      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing">Design Language System</a> (PDF).</p>
+      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing" target="_blank">Design Language System</a> (PDF).</p>
       <h1>Peer Review</h1>
       <p>{"I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn't missing anything."}</p>
-      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing">Peer Feedback</a> (PDF) I received.</p>
+      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing" target="_blank">Peer Feedback</a> (PDF) I received.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>

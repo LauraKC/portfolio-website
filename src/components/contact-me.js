@@ -13,7 +13,7 @@ const containerStyle = {
 const imageContainerStyle = {
   display: "flex",
   justifyContent: "space-around",
-  width: "50%",
+  width: "20%",
 }
 
 const ContactMe = () => (
@@ -21,14 +21,11 @@ const ContactMe = () => (
     <h2>{"Let's Connect"}</h2>
     <p>Get in touch for opportunities or just say hi!</p>
     <div style={imageContainerStyle}>
-      <a href={myLinkedin}>
+      <a href={myLinkedin} target="_blank">
         <img src={LinkedInButtonPhoto} />
       </a>
-      <a href={"mailto:" + myEmail}>
+      <a href={"mailto:" + myEmail} target="_blank">
         <img src={EmailButtonPhoto} />
-      </a>
-      <a href={myResume}>
-        <img src={ResumeButtonPhoto} />
       </a>
     </div>
   </div>
