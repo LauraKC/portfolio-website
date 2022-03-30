@@ -7,6 +7,7 @@ import millaiphoneImage from  "../../images/milla/milla_convo_screen.png"
 import treeImage from  "../../images/olive/tree.svg"
 import alexa from  "../../images/sage/alexa_cutout.png"
 import ContactMe from "../../components/contact-me"
+import ComingsoonImage from  "../../images/comingsoon_image.png"
 import {
   projectContentContainer,
   projectButtonsContainer,
@@ -44,8 +45,7 @@ const OilveCard = () => (
     className={classNames(projectButton, projectButtonOlive)}
   >
     <h1>Olive</h1>
-    <img className={oliveIphoneImage} height="60%" src={iphoneImage}/>
-    <img className={oliveTreeImage} height="60%" src={treeImage}/>
+    <img height="60%" src={iphoneImage}/>
   </Link>
 )
 
@@ -72,6 +72,7 @@ const SageCard = () => (
 const ComingSoonCard = () => (
   <Link className={classNames(projectButton, projectButtonComingsoon)}>
     <h1>Coming Soon</h1>
+    <img height="60%" src={ComingsoonImage}/>
   </Link>
 )
 
