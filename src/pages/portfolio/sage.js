@@ -149,7 +149,7 @@ const SagePage = () => (
               <li>Use the recipe while cooking.</li>
             </ol>
             <p>
-                Review all <a href="https://drive.google.com/file/d/1oUaAXiklwgk8KckYyWMZRc5GYXykthFW/view?usp=sharing">User Stories</a> (PDF).
+                Review all <a href="https://drive.google.com/file/d/1oUaAXiklwgk8KckYyWMZRc5GYXykthFW/view?usp=sharing" target="_blank">User Stories</a> (PDF).
             </p>
         </div>
       <Quote
@@ -167,7 +167,7 @@ const SagePage = () => (
           I identified the user stories that I thought were the most compelling, gave the best idea of what the app will do, had the richest back and forths, covered the most common errors I thought my users might encounter, and highlighted the key functionalities of the skill, and wrote sample dialogues for each.
         </p>
         <p>
-            Review all <a href="https://drive.google.com/file/d/1ZVikmcDkLB9_CW99ef9TzOd1osDxcixM/view?usp=sharing">Sample Dialogues</a> (PDF).
+            Review all <a href="https://drive.google.com/file/d/1ZVikmcDkLB9_CW99ef9TzOd1osDxcixM/view?usp=sharing" target="_blank">Sample Dialogues</a> (PDF).
         </p>
         <p>
             <b>User Story #1</b>
@@ -307,7 +307,7 @@ const SagePage = () => (
         <img width="100%" src={sagesitemap}></img>
         <h1>User Flows</h1>
         <p>These flows were created to make sure I was understanding the full interactions between my users and the Sage app. These flows also helped me to understand the features and how the system would parse out information. The main user flows I focused on were the system suggesting a recipe, the cooking process and how the user would make a substitution as these are key features for someone with dietary restrictions.</p>
-        <p>Review all <a href="https://drive.google.com/file/d/1cBbQY-4sXqLL4fO5WG61knjoCQIf7uTx/view?usp=sharing">User Flows</a>.</p>
+        <p>Review all <a href="https://drive.google.com/file/d/1cBbQY-4sXqLL4fO5WG61knjoCQIf7uTx/view?usp=sharing" target="_blank">User Flows</a>.</p>
 
       <UserFlow
         number="1: System Suggests a Recipe Intent"
@@ -323,7 +323,7 @@ const SagePage = () => (
       />
       <h1>Scripts</h1>
       <p>Using my sample dialogues and user flows I created scripts that included utterances, prompts and sample phrases of my core features to get a more complete view of my application.</p>
-      <p>Review full <a href="https://docs.google.com/spreadsheets/d/1BsxGleNy8y6PTJ1B4zuizQcoStGhM3Uo6Avzfw5SJZU/edit?usp=sharing">Script</a> (Spreadsheet).</p>
+      <p>Review full <a href="https://docs.google.com/spreadsheets/d/1BsxGleNy8y6PTJ1B4zuizQcoStGhM3Uo6Avzfw5SJZU/edit?usp=sharing" target="_blank">Script</a> (Spreadsheet).</p>
       <div style={{display: "flex", marginTop: "5%"}}>
         <div style={{flex: "50%"}}>
           <img style={{width: "50%", marginTop: "20%", transform: "translateX(40%)"}} src={sageprototype} />
@@ -341,10 +341,10 @@ const SagePage = () => (
           <p>
               At this point in the design process, I was ready to validate my designs through testing my prototypes to collect feedback, and iterate on my designs.
           </p>
-          <p>Read the full <a href="https://drive.google.com/file/d/1luTA-i8BLe3spN43zd85kbzzBKffMqv9/view?usp=sharing">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+          <p>Read the full <a href="https://drive.google.com/file/d/1luTA-i8BLe3spN43zd85kbzzBKffMqv9/view?usp=sharing" target="_blank">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
           <h1>Usability Test Script</h1>
           <p>
-              Read full <a href="https://drive.google.com/file/d/1G8uytYYoM9lLifoGClRKvF3OD97S86Fs/view?usp=sharing">Usability Test Script</a> (PDF).
+              Read full <a href="https://drive.google.com/file/d/1G8uytYYoM9lLifoGClRKvF3OD97S86Fs/view?usp=sharing" target="_blank">Usability Test Script</a> (PDF).
           </p>
         </div>
         <div style={{flex: "50%"}}>

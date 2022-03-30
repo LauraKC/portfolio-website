@@ -23,7 +23,7 @@ const Layout = ({location, children}) => (
 const NameBanner = () => (
   <div className={nameBanner}>
     <Link to="/contact"><h2>{"Let's talk"}</h2></Link>
-    <h2>{"Laura Cutler"}</h2>
+    <Link to="/about"><h2>{"Laura Cutler"}</h2></Link>
   </div>
 )
 

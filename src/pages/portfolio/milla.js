@@ -139,9 +139,9 @@ const MillaPage = () => (
         <li>Not a lot of apps allow for the user to be immersed in the language.</li>
       </ul>
       <p>
-        Read the full <a href="https://drive.google.com/file/d/1iKaMlSIUKE6QL5bVjf-TkTCk6UC-VIkI/view?usp=sharing">Competitive Analysis</a>(PDF).</p>
+        Read the full <a href="https://drive.google.com/file/d/1iKaMlSIUKE6QL5bVjf-TkTCk6UC-VIkI/view?usp=sharing" target="_blank">Competitive Analysis</a>(PDF).</p>
       <h1>User Interviews</h1>
-      <p>Read full <a href="https://drive.google.com/file/d/14yg-2-FO-7VL4wyd1VFpZ2A_OyY64TD8/view?usp=sharing">User Interview Process and Analysis</a>(PDF).</p>
+      <p>Read full <a href="https://drive.google.com/file/d/14yg-2-FO-7VL4wyd1VFpZ2A_OyY64TD8/view?usp=sharing" target="_blank">User Interview Process and Analysis</a>(PDF).</p>
       <p><b>Top Insights from my User Interviews:</b></p>
       <ul className={bulletList}>
         <li>Users feel they learn languages faster when they are immersed</li>
@@ -241,7 +241,7 @@ const MillaPage = () => (
       <img className="image-right" width="50%" src={iteration2} />
       <h1>{"Usability Test Plan & Script"}</h1>
       <p>To test the MILLA prototype I created a usability test plan that asked 4 users that were either currently expats or frequent travellers to complete the following 4 direct tasks.</p>
-      <p>Read the full <a href="https://drive.google.com/file/d/1UibnHX7BjybTPz-591oKU-_B0CfJTGu9/view?usp=sharing">Usability Test Plan</a>(PDF) which includes scope, schedule, metrics, script, and participant notes.</p>
+      <p>Read the full <a href="https://drive.google.com/file/d/1UibnHX7BjybTPz-591oKU-_B0CfJTGu9/view?usp=sharing" target="_blank">Usability Test Plan</a>(PDF) which includes scope, schedule, metrics, script, and participant notes.</p>
       <h1>Usability Test Report</h1>
       <p>{"I created a usability test report using the Jakob Nielsen's rating scale:"}</p>
       <p>{"0 = I don't agree that this is a usability problem at all"}</p>
@@ -336,7 +336,7 @@ const MillaPage = () => (
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
-        <a href={"https://marvelapp.com/prototype/14e28chj/screen/78699185"}><img style={{width: "30vw"}} src={prototype}></img></a>
+        <a href={"https://marvelapp.com/prototype/14e28chj/screen/78699185"} target="_blank"><img style={{width: "30vw"}} src={prototype}></img></a>
       </div>
       <h1>Summary</h1>
       <p>{"MILLA solves the problem of 'how might we design a mobile app that empowers people to learn new vocabulary' by providing travellers and expats with a way to be immersed in a new language and gain exposure to the language. Through exploring their surroundings, listening to various audio clips and completing many different types of language lessons."}</p>

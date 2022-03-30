@@ -11,10 +11,7 @@ I'm a Canadian UX designer, who recently made the change from Marketing into Use
 
 const AboutPage = () => (
   <Layout>
-    <h1 style={{paddingBottom: "10px"}}>
-      About<br/>
-      <Ws/><Ws/><Ws/><span className="purple-underline">M</span>e
-    </h1>
+    <h1 style={{paddingBottom: "10%"}}><span className="purple-underline">A</span>bout Me</h1>
     <div>
       <div style={{
         marginBottom: "50px",
