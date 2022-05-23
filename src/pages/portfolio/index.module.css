@@ -9,7 +9,7 @@
 
 
 .project-buttons-container {
-  padding: 50px;
+  padding: 50px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -62,14 +62,17 @@
   color: white;
 }
 
+.project-button {
+  width: 300px;
+  height: 300px;
+}
+
+.project-button h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
 @media (orientation:landscape) {
-  .project-button {
-    width: 40vh;
-    height: 40vh;
-  }
-  .project-button h1 {
-    font-size: 6vh;
-  }
   .project-buttons-container {
     flex-direction: row;
     gap: 20px;
@@ -77,14 +80,6 @@
 }
 
 @media (orientation:portrait) {
-  .project-button {
-    width: 40vw;
-    height: 40vw;
-    max-height: 40vw;
-  }
-  .project-button h1 {
-    font-size: 6vw;
-  }
   .project-buttons-container {
     flex-direction: column;
     gap: 20px

@@ -4,7 +4,7 @@
 .quote-container::before {
   content: "“";
   font-family: "Cooper Black";
-  font-size: 4vw;
+  font-size: 2rem;
   position: relative;
   left: -3%
 }
@@ -12,7 +12,7 @@
   content: "”";
   font-family: "Cooper Black";
   position: relative;
-  font-size: 4vw;
+  font-size: 2rem;
   top: -80%;
   left: 103%;
 }

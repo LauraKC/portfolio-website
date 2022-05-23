@@ -11,14 +11,14 @@
   right: 10%;
   top: 15%;
   background-color: var(--yellow);
-  width: 20vw;
-  height: 20vw;
-  line-height: 20vw;
+  width: min(20vw, 250px);
+  height: min(20vw, 250px);
+  line-height: min(20vw, 250px);
   border-radius: 100%;
   text-align: center;
   font-family: Cooper Black;
   color: var(--navy-text);
-  font-size: 3.7vw;
+  font-size: min(3.5vw, 40px);
 
   animation-name: fly-in-and-spin;
   animation-duration: 2s;

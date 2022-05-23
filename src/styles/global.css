@@ -21,15 +21,15 @@
   --theme-nav-link-active-color: white;
 
   /* font sizes */
-  --nav-link-font-size: 1.3vw;
-  --h1-font-size: 7vw;
-  --h2-font-size: 3vw;
-  --h3-font-size: 2vw;
-  --p-font-size: 1.5vw;
-  --portfolio-h1-font-size: 3.5vw;
-  --portfolio-h2-font-size: 2vw;
-  --portfolio-p-font-size: 2vw;
-  --back-button-size: 4vw;
+  --nav-link-font-size: 1rem;
+  --h1-font-size: 3rem;
+  --h2-font-size: 1.7rem;
+  --h3-font-size: 1rem;
+  --p-font-size: 0.8rem;
+  --portfolio-h1-font-size: 2rem;
+  --portfolio-h2-font-size: 1.2rem;
+  --portfolio-p-font-size: 0.8rem;
+  --back-button-size: 3rem;
 }
 
 @media screen and (max-width: 700px) {
@@ -49,6 +49,7 @@
 html, body {
   margin: 0;
   font-family: Graphik;
+  font-size: calc(0.75em + 0.8vw);
   height: 100%;
   width: 100%;
 }

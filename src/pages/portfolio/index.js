@@ -4,38 +4,32 @@ import React from "react"
 import Layout from "../../components/layout"
 import iphoneImage from  "../../images/olive/iphone-welcome.png"
 import millaiphoneImage from  "../../images/milla/milla_convo_screen.png"
-import treeImage from  "../../images/olive/tree.svg"
 import alexa from  "../../images/sage/alexa_cutout.png"
 import ContactMe from "../../components/contact-me"
 import ComingsoonImage from  "../../images/comingsoon_image.png"
 import {
-  projectContentContainer,
   projectButtonsContainer,
   projectButton,
   projectButtonOlive,
   projectButtonMilla,
   projectButtonComingsoon,
-  oliveIphoneImage,
-  oliveTreeImage,
   projectButtonSage,
 } from "./index.module.css"
 
 
 const PortfolioPage = () => (
-  <Layout pageContentClassName={"hello"}>
-    <div className={projectContentContainer}>
-      <h1 style={{paddingBottom: "10%"}}>
-        <span className='purple-underline'>P</span>ortfolio
-      </h1>
+  <Layout>
+    <h1>
+      <span className='purple-underline'>P</span>ortfolio
+    </h1>
 
-      <div className={projectButtonsContainer} style={{paddingBottom: "50px"}}>
-        <OilveCard/>
-        <MillaCard/>
-        <SageCard/>
-        <ComingSoonCard/>
-      </div>
-      <ContactMe />
+    <div className={projectButtonsContainer}>
+      <OilveCard/>
+      <MillaCard/>
+      <SageCard/>
+      <ComingSoonCard/>
     </div>
+    <ContactMe />
   </Layout>
 )
 
