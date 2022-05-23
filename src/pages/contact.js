@@ -3,10 +3,11 @@ import Layout from "../components/layout"
 import { contactDetails, emailLink } from "./contact.module.css"
 import ContactMe from "../components/contact-me"
 import { myEmail } from "../constants"
+import PageTitle from "../components/page-title"
 
 const ContactPage = () => (
   <Layout>
-    <h1 style={{paddingBottom: "10%"}}><span className="purple-underline">C</span>ontact Me</h1>
+    <PageTitle><span className="purple-underline">C</span>ontact Me</PageTitle>
     <div className={contactDetails}>
       <h3>How can I help?</h3>
       <p>

@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import ProfilePhoto from "../images/profile.jpg"
 import AerialPhoto from "../images/aerial.png"
 import ContactMe from "../components/contact-me"
+import PageTitle from "../components/page-title"
 
 const message1 = `
 I'm a Canadian UX designer, who recently made the change from Marketing into User Experience.
@@ -11,7 +12,7 @@ I'm a Canadian UX designer, who recently made the change from Marketing into Use
 
 const AboutPage = () => (
   <Layout>
-    <h1 style={{paddingBottom: "10%"}}><span className="purple-underline">A</span>bout Me</h1>
+    <PageTitle><span className="purple-underline">A</span>bout Me</PageTitle>
     <div>
       <div style={{
         marginBottom: "50px",
@@ -51,10 +52,5 @@ const AboutPage = () => (
     </div>
   </Layout>
 )
-
-
-
-const Ws = () => <span style={{"white-space": "pre-wrap"}}>{" "}</span>
-
 
 export default AboutPage

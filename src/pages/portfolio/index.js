@@ -15,13 +15,14 @@ import {
   projectButtonComingsoon,
   projectButtonSage,
 } from "./index.module.css"
+import PageTitle from "../../components/page-title"
 
 
 const PortfolioPage = () => (
   <Layout>
-    <h1>
+    <PageTitle>
       <span className='purple-underline'>P</span>ortfolio
-    </h1>
+    </PageTitle>
 
     <div className={projectButtonsContainer}>
       <OilveCard/>
