@@ -5,7 +5,7 @@ import ContactMe from "../components/contact-me"
 
 const ResumePage = () => (
   <Layout>
-    <h1 style={{paddingBottom: "10%"}}><span className="purple-underline">M</span>y Résumé</h1>
+    <h1 style={{paddingBottom: "10%"}}><span className="purple-underline">M</span>y Resumé</h1>
         <a href="https://drive.google.com/file/d/19TSFBef6bJgdVQ2hlApsL86fjYxDxXa5/view?usp=sharing" target="_blank">
           <img
             style={{
