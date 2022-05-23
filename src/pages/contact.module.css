@@ -5,3 +5,12 @@
   justify-content: space-around;
   height: 65vh;
 }
+
+.email-link {
+  color: var(--dark-purple);
+  text-decoration: underline;
+}
+
+.email-link:hover {
+  color: var(--dash-purple);
+}

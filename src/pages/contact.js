@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { contactDetails } from "./contact.module.css"
+import { contactDetails, emailLink } from "./contact.module.css"
 import ContactMe from "../components/contact-me"
 import { myEmail } from "../constants"
 
@@ -12,7 +12,7 @@ const ContactPage = () => (
       <p>
         {"I'm happy to connect. Whether to chat about design, AR/VR, tea, dogs, or about more serious topics. I am available for full-time UX and VUI design and research opportunities."}
       </p>
-      <p>Shoot me an email at: <a href={"mailto:" + myEmail} target="_blank">laura.cutler.ux@gmail.com</a>.</p>
+      <p>Shoot me an email at: <a className={emailLink} href={"mailto:" + myEmail}>{myEmail}</a>.</p>
       <ContactMe />
     </div>
   </Layout>
