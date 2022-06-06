@@ -121,7 +121,7 @@ const SagePage = () => (
       </div>
       <h1>The Problem Statement</h1>
           <p>
-            Individuals with dietary restrictions <b>need ways</b> to find and cook a variety of helpful recipes <b>because</b> it can be hard to find dietary alternatives.
+            Individuals with dietary restrictions <b>need ways</b> to find and cook a variety of recipes <b>because</b> it can be hard to find recipes that fit with their dietary restrictions.
           </p>
       <h1>Proto-Persona</h1>
       <p>
