@@ -110,10 +110,6 @@ const MillaPage = () => (
           <p>
              To create a mobile app based on the brief provided by CareerFoundry.
           </p>
-          <h1>The Problem Statement</h1>
-          <p>
-            {"The problem provided by CareerFoundry was 'How might we design a mobile app that empowers people to learn new vocabulary?'"}
-          </p>
         </div>
       </div>
       <h1>Understanding the Problem</h1>
@@ -196,9 +192,6 @@ const MillaPage = () => (
       <h1>Hypothesis Statement</h1>
       <p><b>{"We believe that by"}</b>{" having an audio focused language app that is personalized for the user, "}<b>{"for Jesse"}</b>{", we will achieve having improvement of Jesse's comprehension of the target language and progression through the app. Thus achieving 20% more engagement and use of the app."}</p>
       <p>And of course <b>Jesse will accomplish</b> his goal of being able to have a conversation with a local when he is in the Netherlands.</p>
-      <h1>The Problem Statement</h1>
-      <p>Jesse <b>needs a way</b> to be immersed in the language <b>because</b> constant exposure to the language is the most effective way to learn.</p>
-      <p><b>We will know this to be true when</b> Jesse is able to respond immediately to conversational questions asked in the target language.</p>
       <h1>User Stories</h1>
       <p><b>As</b> Jesse (a soon to be expat), <b>I want</b> to engage with lots of examples of complex language <b>so that</b> I can understand the use of complex language. (i.e. homophones)</p>
       <p><b>As</b> Jesse (a soon to be expat), <b>I want</b> the ability to converse with native speakers <b>so that</b> I can become comfortable speaking the target language.</p>
