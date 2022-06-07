@@ -16,7 +16,6 @@ import userFlowImage1 from "../../images/olive/olive-userflow1.svg"
 import userFlowImage2 from "../../images/olive/olive-userflow2.svg"
 import userFlowImage3 from "../../images/olive/olive-userflow3.svg"
 import sitemapImage from "../../images/olive/olive-sitemap.svg"
-import wireframePrototypeImage from "../../images/olive/wireframe-prototype.png"
 import usabilityParticipantsImage from "../../images/olive/usability-participants.png"
 import rainbowSpreadsheetImage from "../../images/olive/rainbow-spreadsheet.png"
 import metricsResultsImage from "../../images/olive/metrics-results.png"
@@ -152,11 +151,11 @@ const OlivePage = () => (
       </ul>
       <br/>
       <p>
-        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing" target="_blank">competitive analysis
+        Read the full <a href="https://drive.google.com/file/d/1kEx6ZdTHJUiDNFbfFFB_SOju5rP4A-Im/view?usp=sharing" target="_blank" rel="noreferrer">competitive analysis
         </a> (PDF).
       </p>
       <h1>User Interviews</h1>
-      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing" target="_blank">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing" target="_blank">User Research Analysis</a> (PDF).</p>
+      <p>Read <a href="https://drive.google.com/file/d/1uG45B9rKF1kVoPZZnqyPsocWscaXg7iK/view?usp=sharing" target="_blank" rel="noreferrer">Interview Script</a> {"(PDF) // Read full"} <a href="https://drive.google.com/file/d/15oSYpYfQ-UsTzS1kF8cwTzjyFZqkhdSG/view?usp=sharing" target="_blank" rel="noreferrer">User Research Analysis</a> (PDF).</p>
       <p><b>Top Insights from my User Research:</b></p>
       <ul className={bulletList}>
         <li>{"Personalization is key when it comes to mental health because everyone's mental health needs are unique."}</li>
@@ -233,7 +232,7 @@ const OlivePage = () => (
       <p>
         {"I used Draw.io to create a sitemap in order to provide a view of Olive's information architecture to better understand the navigation and features of the app."}
       </p>
-      <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing" target="_blank">Card Sorting</a>  (PDF) exercise.</p>
+      <p>View full <a href="https://drive.google.com/file/d/1sSfLls05AhvzMkQIR6d0FqRGdpipWTcN/view?usp=sharing" target="_blank" rel="noreferrer">Card Sorting</a>  (PDF) exercise.</p>
       <img width="100%" src={sitemapImage}></img>
       <div style={{display: "flex"}}>
         <div style={{flex: "25%"}}>
@@ -243,10 +242,10 @@ const OlivePage = () => (
             {"Olive's mobile prototype and desktop prototype that were used in usability testing."}
           </p>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="100%" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D161%253A6915%26page-id%3D161%253A6769%26scaling%3Dcontain%26starting-point-node-id%3D161%253A6915" allowfullscreen></iframe>
+            <iframe width="100%" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D161%253A6915%26page-id%3D161%253A6769%26scaling%3Dcontain%26starting-point-node-id%3D161%253A6915" allowFullScreen></iframe>
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="100%" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D300%253A23366%26page-id%3D300%253A11155%26scaling%3Dcontain%26starting-point-node-id%3D300%253A23366" allowfullscreen></iframe>
+            <iframe width="100%" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D300%253A23366%26page-id%3D300%253A11155%26scaling%3Dcontain%26starting-point-node-id%3D300%253A23366" allowFullScreen></iframe>
           </div>
         </div>
       </div>
@@ -257,14 +256,14 @@ const OlivePage = () => (
         <div style={{flex: "50%", marginTop: "5%"}}>
           <h1>Usability Test Plan</h1>
           <p>At this point in the design process, I was ready to validate my designs through testing my prototypes with real users, collecting feedback, and iterating on my designs.</p>
-          <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing" target="_blank">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+          <p>Read the full <a href="https://drive.google.com/file/d/1QJcLUgVObO3WWq5woI9aG9jz_HtWv6wN/view?usp=sharing" target="_blank" rel="noreferrer">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
           <h1>Usability Test Script</h1>
-          <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing" target="_blank">Usability Test Script</a> (PDF).</p>
+          <p>Read full <a href="https://drive.google.com/file/d/16csUQCM7ISbVWyqOFbWOJ6y2V-WtWJOD/view?usp=sharing" target="_blank" rel="noreferrer">Usability Test Script</a> (PDF).</p>
         </div>
       </div>
       <h1>Affinity Map</h1>
       <p>{"After conducting user interviews, I went through the responses and noted anything regarding participants' thoughts, feelings, behaviours, positive and negative quotes, and errors. Once I was finished organizing my notes according to the participant's responses (each colour of sticky note represents a different user) I created an affinity map with clusters of similar insights."}</p>
-      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing" target="_blank">Affinity Map</a> (PDF).</p>
+      <p>Review the full <a href="https://drive.google.com/file/d/1-cdfTsnoQKG4kkXt4kS5obpjDRT7oaPa/view?usp=sharing" target="_blank" rel="noreferrer">Affinity Map</a> (PDF).</p>
       <Quote
         text="I prefer this app over anything else I've tried."
         author="Participant 4"
@@ -362,14 +361,14 @@ const OlivePage = () => (
       <Quote text="I'm unsure what 'Education' means." author="Participant 5" />
       <h1>Design Language System</h1>
       <p>{"I created a design language system for Olive to ensure consistency throughout the application. I feel like I could have included even more detail but as it is I was able to create a number of re-usable components and rules that allowed me to make Olive more cohesive while enhancing the app's values of being healthy, supportive, and serene."}</p>
-      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing" target="_blank">Design Language System</a> (PDF).</p>
+      <p>View full <a href="https://drive.google.com/file/d/1_y8FZVXoe-zcZiEEFKEROh60uIkqXKFe/view?usp=sharing" target="_blank" rel="noreferrer">Design Language System</a> (PDF).</p>
       <h1>Peer Review</h1>
       <p>{"I conducted a peer review with my fellow Career Foundry peers to get some outside eyes on my work so that I can make sure I wasn't missing anything."}</p>
-      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing" target="_blank">Peer Feedback</a> (PDF) I received.</p>
+      <p>View all the great <a href="https://drive.google.com/file/d/1kxa3_rajfl8HY6kMa8MuuO6ShBF3Pee6/view?usp=sharing" target="_blank" rel="noreferrer">Peer Feedback</a> (PDF) I received.</p>
       <h1>Final Prototype</h1>
       <p>Having gone through a few more design iterations I came up with my final design prototype.</p>
       <div style={{display: "flex", justifyContent: "center"}}>
-        <iframe width="800" height="450" title="final mobile prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLapnRo5ANl4E46FZQWuIqZ%2FOlive-Final%3Fnode-id%3D1%253A5709%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A5709" allowfullscreen></iframe>
+        <iframe width="800" height="450" title="final mobile prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLapnRo5ANl4E46FZQWuIqZ%2FOlive-Final%3Fnode-id%3D1%253A5709%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A5709" allowFullScreen></iframe>
       </div>
       <h1>Retrospective</h1>
       <p>{"My original intention was to design a mental health and wellness web application that was motivational and easy to use while providing individuals who what to improve their mental health with a variety of tools/resources that would help them specifically."}</p>
@@ -382,15 +381,15 @@ const OlivePage = () => (
       <p>{"As a result, I am proud of the app's serene look and feel, as well as the dashboard's supportive and motivational nature. I chose to make the users' mental health goal the most prominent item on the dashboard so that they would feel motivated to keep improving their mental health one day at a time."}</p>
       <p><b>{"Moving forward"}</b>{", I'd like to approach more projects with an honest look into my assumptions about the target audience. By writing down all my assumptions I found it easier to challenge them during user interviews and testing to ensure that I am designing for the user v.s. creating a design based on my own assumptions. In the case of Olive, I found that some of my assumptions (such as how having the motivation to improve ones mental health can be difficult) were true to the audience while others (such as providing all the information the audience could want on the dashboard screen - this was proven to be too overwhelming) were aspects I was glad to understand better so that I could improve on the user's experience of Olive."}</p>
       <h1>What I learned from this project</h1>
-        <ul style={{fontSize: "2vw"}}>
-          <li>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</li>
-          <li>It is super important to be really prepared when doing usability testing.</li>
-          <li>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</li>
-          <li>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</li>
-          <li>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</li>
-          <li>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</li>
-        </ul>
-        <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
+      <ul>
+        <li>If terms for the card sort are ambiguous it would be best to do a hybrid card sort to better understand what terms should be used and what the navigation should be.</li>
+        <li>It is super important to be really prepared when doing usability testing.</li>
+        <li>Being able to obtain multiple metrics from usability tests can be really helpful in analyzing the usability of the product.</li>
+        <li>I found that I really enjoyed creating affinity maps and discovering what similar (and opposite) things users felt about the product.</li>
+        <li>I found that iteration can come from lots of different places, not just usability testing. I also had some big iterations after peer feedback and creating my design system.</li>
+        <li>There are lots of different types of solutions that can be implemented but I had to keep reminding myself to come back to what is the most effective for the user.</li>
+      </ul>
+      <img style={{objectFit: "cover", objectPosition: "58% 50%"}} width="100%" height="95%" src={parkImage}></img>
     </div>
   </div>
 )

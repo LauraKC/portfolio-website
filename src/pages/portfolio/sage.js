@@ -24,11 +24,9 @@ import {
   pageContainer,
   contentContainer,
   goalSection,
-  bulletList,
   noBulletList,
   quote1,
   quote2,
-  flexColumns,
   dialoguecontainer,
   dialogueimage,
   dialoguetext,
@@ -77,9 +75,9 @@ const SagePage = () => (
           <div style={{flex: "50%"}}>
             <h2 style={{paddingBottom: "1vw"}}>My Role</h2>
             <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
-                <li>VUI Designer</li>
-                <li>UX Researcher</li>
-                <li>UX Designer</li>
+              <li>VUI Designer</li>
+              <li>UX Researcher</li>
+              <li>UX Designer</li>
             </ul>
             <h2 style={{paddingBottom: "1vw"}}>Tools</h2>
             <ul className={noBulletList} style={{paddingBottom: "2vw"}}>
@@ -120,38 +118,38 @@ const SagePage = () => (
         </div>
       </div>
       <h1>The Problem Statement</h1>
-          <p>
+      <p>
             Individuals with dietary restrictions <b>need ways</b> to find and cook a variety of recipes <b>because</b> it can be hard to find recipes that fit with their dietary restrictions.
-          </p>
+      </p>
       <h1>Proto-Persona</h1>
       <p>
       I created a proto-persona to align my assumptions about users. Since, dietary restrictions affect the individual experiencing these restrictions as well as their eating companions, I created a proto-persona that embodies this dynamic and the issues they both may have.
       </p>
-        <div style={{flex: "50%"}}>
-          <img style={{width: "100%"}} src={sageprotopersona} />
-        </div>
-        <h1>System Persona</h1>
-        <p>
+      <div style={{flex: "50%"}}>
+        <img style={{width: "100%"}} src={sageprotopersona} />
+      </div>
+      <h1>System Persona</h1>
+      <p>
             To ensure a consistant and trustworthy experience, I created a system persona. Sage is firstly very knowledgable and professional about dietary friendly recipes but she also needed to be friendly and feel more like a coach in your corner than an instructional robotic assistant.
-        </p>
-        <div style={{flex: "50%"}}>
-          <img style={{width: "100%"}} src={sagesystempersona} />
-        </div>
-        <div>
+      </p>
+      <div style={{flex: "50%"}}>
+        <img style={{width: "100%"}} src={sagesystempersona} />
+      </div>
+      <div>
         <h1>User Stories</h1>
         <p>
             I wrote several users stories for the below high-level functional requirements (based on the brief provided by Career Foundry) as well as a few others that I thought my proto-persons would want.
         </p>
-            <ol>
-              <li>Providing recipes for breakfast, lunch, dinner and snacks.</li>
-              <li>Allow the user to choose their preferred meal.</li>
-              <li>Provide an adequate number of meal choices for the user to get value from the app.</li>
-              <li>Use the recipe while cooking.</li>
-            </ol>
-            <p>
-                Review all <a href="https://drive.google.com/file/d/1oUaAXiklwgk8KckYyWMZRc5GYXykthFW/view?usp=sharing" target="_blank">User Stories</a> (PDF).
-            </p>
-        </div>
+        <ol>
+          <li>Providing recipes for breakfast, lunch, dinner and snacks.</li>
+          <li>Allow the user to choose their preferred meal.</li>
+          <li>Provide an adequate number of meal choices for the user to get value from the app.</li>
+          <li>Use the recipe while cooking.</li>
+        </ol>
+        <p>
+                Review all <a href="https://drive.google.com/file/d/1oUaAXiklwgk8KckYyWMZRc5GYXykthFW/view?usp=sharing" target="_blank" rel="noreferrer">User Stories</a> (PDF).
+        </p>
+      </div>
       <Quote
         text="As Taylor, I want meal suggestions that work with my dietary restrictions, so that I can make quick meals that make me feel good."
         author="User Story 1"
@@ -163,151 +161,151 @@ const SagePage = () => (
         className={quote2}
       />
       <h1>Sample Dialogues</h1>
-        <p>
+      <p>
           I identified the user stories that I thought were the most compelling, gave the best idea of what the app will do, had the richest back and forths, covered the most common errors I thought my users might encounter, and highlighted the key functionalities of the skill, and wrote sample dialogues for each.
-        </p>
-        <p>
-            Review all <a href="https://drive.google.com/file/d/1ZVikmcDkLB9_CW99ef9TzOd1osDxcixM/view?usp=sharing" target="_blank">Sample Dialogues</a> (PDF).
-        </p>
-        <p>
-            <b>User Story #1</b>
-        </p>
-        <p>
+      </p>
+      <p>
+            Review all <a href="https://drive.google.com/file/d/1ZVikmcDkLB9_CW99ef9TzOd1osDxcixM/view?usp=sharing" target="_blank" rel="noreferrer">Sample Dialogues</a> (PDF).
+      </p>
+      <p>
+        <b>User Story #1</b>
+      </p>
+      <p>
             As Taylor, <b>I want</b> meal suggestions that work with my dietary restrictions, <b>so that</b> I can make quick meals that make me feel good.
-        </p>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p><b>Taylor:</b> Alexa, open Sage Recipes.</p>
-            </div>
+      </p>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p><b>System:</b> {"Hi, welcome to Sage Recipes. I can help you whip up a delicious meal based on your dietary restrictions. Just say what lactose-free meal should I have for lunch? Or find me gluten-free dinner recipes? Now, what can I help you with?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p><b>Taylor:</b> Alexa, open Sage Recipes.</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>What lactose-free meal should I have for lunch?</p>
-                <p><i>(Alt 1): Suggest a lactose-free lunch recipe.</i></p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"I found a recipe for turkey sandwich or vegan pasta salad. Would you like to pick one of these?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p><b>System:</b> {"Hi, welcome to Sage Recipes. I can help you whip up a delicious meal based on your dietary restrictions. Just say what lactose-free meal should I have for lunch? Or find me gluten-free dinner recipes? Now, what can I help you with?"}</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>Yes, the turkey sandwich.</p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"Okay, this will take around 15 minutes. Do you want to continue?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p>What lactose-free meal should I have for lunch?</p>
+          <p><i>(Alt 1): Suggest a lactose-free lunch recipe.</i></p>
         </div>
-        <p>
-            <b>User Story #2</b>
-        </p>
-        <p>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"I found a recipe for turkey sandwich or vegan pasta salad. Would you like to pick one of these?"}</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>Yes, the turkey sandwich.</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"Okay, this will take around 15 minutes. Do you want to continue?"}</p>
+        </div>
+      </div>
+      <p>
+        <b>User Story #2</b>
+      </p>
+      <p>
             As Taylor, <b>I want</b> to be able to make substitutions during the recipe, <b>so that</b> I can have a variety of recipes that don't hurt my body or that fit the ingredients I have at home.
-        </p>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p><b>Taylor:</b> Alexa, open Sage Recipes.</p>
-            </div>
+      </p>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p><b>System:</b> {"Hi, welcome back to Sage Recipes. Did you know, that I can help you meal prep for the week? Just say help me meal prep. What would you like to do today?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p><b>Taylor:</b> Alexa, open Sage Recipes.</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>I want to cook creamy mushroom stroganoff.</p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"Great! Let's get started. You will need: cashews, water, mushrooms, vegan butter, yellow onion, sea salt, black pepper, garlic, thyme, cornstarch, dijon mustard, and noodles. Would you like to start cooking?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p><b>System:</b> {"Hi, welcome back to Sage Recipes. Did you know, that I can help you meal prep for the week? Just say help me meal prep. What would you like to do today?"}</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"What is a substitute for yellow onion?"}</p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"You can substitute yellow onion for white onion, shallots, or leaks. Would you like to choose one of these substitutes?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p>I want to cook creamy mushroom stroganoff.</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"Shallots."}</p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={sageprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"Great, I have replaced yellow onion with shallots in creamy mushroom stroganoff recipe. Do you want to start cooking? Or make another substitution?"}</p>
-            </div>
+        <div className={dialoguetext}>
+          <p>{"Great! Let's get started. You will need: cashews, water, mushrooms, vegan butter, yellow onion, sea salt, black pepper, garlic, thyme, cornstarch, dijon mustard, and noodles. Would you like to start cooking?"}</p>
         </div>
-        <div className={dialoguecontainer}>
-            <div className={dialogueimage}>
-                <img src={taylorprofile} />
-            </div>
-            <div className={dialoguetext}>
-                <p>{"Let's get cooking!"}</p>
-            </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
         </div>
-        <h1>Sitemap</h1>
-        <p>I used Draw.io to create a sitemap in order to provide a view of Sage's information architecture and to better understand the navigation and features of the app.</p>
-        <img width="100%" src={sagesitemap}></img>
-        <h1>User Flows</h1>
-        <p>These flows were created to make sure I was understanding the full interactions between my users and the Sage app. These flows also helped me to understand the features and how the system would parse out information. The main user flows I focused on were the system suggesting a recipe, the cooking process and how the user would make a substitution as these are key features for someone with dietary restrictions.</p>
-        <p>Review all <a href="https://drive.google.com/file/d/1cBbQY-4sXqLL4fO5WG61knjoCQIf7uTx/view?usp=sharing" target="_blank">User Flows</a>.</p>
+        <div className={dialoguetext}>
+          <p>{"What is a substitute for yellow onion?"}</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"You can substitute yellow onion for white onion, shallots, or leaks. Would you like to choose one of these substitutes?"}</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"Shallots."}</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={sageprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"Great, I have replaced yellow onion with shallots in creamy mushroom stroganoff recipe. Do you want to start cooking? Or make another substitution?"}</p>
+        </div>
+      </div>
+      <div className={dialoguecontainer}>
+        <div className={dialogueimage}>
+          <img src={taylorprofile} />
+        </div>
+        <div className={dialoguetext}>
+          <p>{"Let's get cooking!"}</p>
+        </div>
+      </div>
+      <h1>Sitemap</h1>
+      <p>I used Draw.io to create a sitemap in order to provide a view of Sage's information architecture and to better understand the navigation and features of the app.</p>
+      <img width="100%" src={sagesitemap}></img>
+      <h1>User Flows</h1>
+      <p>These flows were created to make sure I was understanding the full interactions between my users and the Sage app. These flows also helped me to understand the features and how the system would parse out information. The main user flows I focused on were the system suggesting a recipe, the cooking process and how the user would make a substitution as these are key features for someone with dietary restrictions.</p>
+      <p>Review all <a href="https://drive.google.com/file/d/1cBbQY-4sXqLL4fO5WG61knjoCQIf7uTx/view?usp=sharing" target="_blank" rel="noreferrer">User Flows</a>.</p>
 
       <UserFlow
         number="1: System Suggests a Recipe Intent"
@@ -323,7 +321,7 @@ const SagePage = () => (
       />
       <h1>Scripts</h1>
       <p>Using my sample dialogues and user flows I created scripts that included utterances, prompts and sample phrases of my core features to get a more complete view of my application.</p>
-      <p>Review full <a href="https://docs.google.com/spreadsheets/d/1BsxGleNy8y6PTJ1B4zuizQcoStGhM3Uo6Avzfw5SJZU/edit?usp=sharing" target="_blank">Script</a> (Spreadsheet).</p>
+      <p>Review full <a href="https://docs.google.com/spreadsheets/d/1BsxGleNy8y6PTJ1B4zuizQcoStGhM3Uo6Avzfw5SJZU/edit?usp=sharing" target="_blank" rel="noreferrer">Script</a> (Spreadsheet).</p>
       <div style={{display: "flex", marginTop: "5%"}}>
         <div style={{flex: "50%"}}>
           <img style={{width: "50%", marginTop: "20%", transform: "translateX(40%)"}} src={sageprototype} />
@@ -331,7 +329,7 @@ const SagePage = () => (
         <div style={{flex: "50%"}}>
           <h1>Prototype</h1>
           <p>
-              {"After creating figuring out lots of utterences, prompts and slots for my core features, I translated my scripts into low-fidelity prototypes. I started on the Alexa Developer portal, but realized I had some coding issues with the features I needed to test so I turned to Voice Flow which was a more visual medium where I could create a working prototype to test with my usability test participants. The goal of this lo-fidelity prototype was to convey the function and responses of the voice assistant so that I could get feedback from potential users on pain points and goal completion."}
+            {"After creating figuring out lots of utterences, prompts and slots for my core features, I translated my scripts into low-fidelity prototypes. I started on the Alexa Developer portal, but realized I had some coding issues with the features I needed to test so I turned to Voice Flow which was a more visual medium where I could create a working prototype to test with my usability test participants. The goal of this lo-fidelity prototype was to convey the function and responses of the voice assistant so that I could get feedback from potential users on pain points and goal completion."}
           </p>
         </div>
       </div>
@@ -341,10 +339,10 @@ const SagePage = () => (
           <p>
               At this point in the design process, I was ready to validate my designs through testing my prototypes to collect feedback, and iterate on my designs.
           </p>
-          <p>Read the full <a href="https://drive.google.com/file/d/1luTA-i8BLe3spN43zd85kbzzBKffMqv9/view?usp=sharing" target="_blank">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
+          <p>Read the full <a href="https://drive.google.com/file/d/1luTA-i8BLe3spN43zd85kbzzBKffMqv9/view?usp=sharing" target="_blank" rel="noreferrer">Usability Test Plan</a> (PDF) which includes goals, test objectives, methods, participants, and metrics.</p>
           <h1>Usability Test Script</h1>
           <p>
-              Read full <a href="https://drive.google.com/file/d/1G8uytYYoM9lLifoGClRKvF3OD97S86Fs/view?usp=sharing" target="_blank">Usability Test Script</a> (PDF).
+              Read full <a href="https://drive.google.com/file/d/1G8uytYYoM9lLifoGClRKvF3OD97S86Fs/view?usp=sharing" target="_blank" rel="noreferrer">Usability Test Script</a> (PDF).
           </p>
         </div>
         <div style={{flex: "50%"}}>
@@ -419,12 +417,12 @@ const SagePage = () => (
         author="Katey (29)"
       />
       <p><b>The usability tests also confirmed the following:</b></p>
-        <ul style={{fontSize: "2vw"}}>
-          <li>That users should be able to search for recipes based on what's in their fridge, based on their dietary restrictions, and based on the time they have to cook.</li>
-          <li>That the system should suggest 3 recipes at a time.</li>
-          <li>That the grocery list feature should allow for users to add their most bought or 'common' items' to their latest grocery lists.</li>
-          <li>That advanced users should get a new fact about the app and what it can do each time it opens.</li>
-        </ul>
+      <ul>
+        <li>That users should be able to search for recipes based on what's in their fridge, based on their dietary restrictions, and based on the time they have to cook.</li>
+        <li>That the system should suggest 3 recipes at a time.</li>
+        <li>That the grocery list feature should allow for users to add their most bought or 'common' items' to their latest grocery lists.</li>
+        <li>That advanced users should get a new fact about the app and what it can do each time it opens.</li>
+      </ul>
       <h1>Summary</h1>
       <p>{"I feel that I was able to create a nutritional and cooking voice application that solves the problem 'making a meal can be difficult in today's busy world' by providing those with dietary restrictions a way to quickly and easily search for recipes without having to be concerned that their search results will show them recipes they can't eat."}</p>
       <p>{"In my next iterations I would like to first do more lo-fi testing with a new script that adjusts the system persona to be more a coach voice than an instructional robotic voice. Once I am confident that the persona is enjoyable for users to interact with I would want to build out a multimodal high-fidelity prototype so that I can do more testing with visuals and the speech that would go along with the visuals."}</p>
