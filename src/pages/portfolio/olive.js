@@ -242,10 +242,10 @@ const OlivePage = () => (
             {"Olive's mobile prototype and desktop prototype that were used in usability testing."}
           </p>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="100%" height="450;" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D161%253A6915%26page-id%3D161%253A6769%26scaling%3Dcontain%26starting-point-node-id%3D161%253A6915" allowFullScreen></iframe>
+            <iframe width="100%" height="750px" title="Olive's mobile prototype used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D161%253A6915%26page-id%3D161%253A6769%26scaling%3Dcontain%26starting-point-node-id%3D161%253A6915" allowFullScreen></iframe>
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <iframe width="100%" height="450;" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D300%253A23366%26page-id%3D300%253A11155%26scaling%3Dcontain%26starting-point-node-id%3D300%253A23366" allowFullScreen></iframe>
+            <iframe width="100%" height="750px" title="Olive's desktop prototype that was used in usability testing." src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaOcln9QRVV7i6DWEQnYvdd%2FOlive-Research%3Fembed_host%3Dshare%26kind%3D%26node-id%3D300%253A23366%26page-id%3D300%253A11155%26scaling%3Dcontain%26starting-point-node-id%3D300%253A23366" allowFullScreen></iframe>
           </div>
         </div>
       </div>
